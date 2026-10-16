@@ -854,5 +854,2283 @@
         "url": "https://www.deezer.com/album/957691371"
       }
     ]
+  },
+  "0sh7pj0XwBBauPKHKUhbp2": {
+    "id": "0sh7pj0XwBBauPKHKUhbp2",
+    "name": "Vds1961",
+    "url": "https://open.spotify.com/intl-fr/artist/0sh7pj0XwBBauPKHKUhbp2",
+    "uri": "spotify:artist:0sh7pj0XwBBauPKHKUhbp2",
+    "monthly_listeners": 19612293,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/0sh7pj0XwBBauPKHKUhbp2"
+    },
+    "first_seen": "2026-09-06T19:24:43",
+    "last_seen": "2026-09-06T19:24:43",
+    "deezer_id": 393255801,
+    "deezer_name": "Vds1961",
+    "releases_2026": [
+      {
+        "name": "CAPITALE DU CRIME",
+        "type": "album",
+        "release_date": "2026-08-23",
+        "url": "https://www.deezer.com/album/1074016042"
+      },
+      {
+        "name": "FREESTYLE LIBERTA #1",
+        "type": "album",
+        "release_date": "2026-07-15",
+        "url": "https://www.deezer.com/album/1030349252"
+      },
+      {
+        "name": "FREESTYLE LIBERTA #2",
+        "type": "album",
+        "release_date": "2026-07-15",
+        "url": "https://www.deezer.com/album/1030806922"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 2,
+      "french_tracks": 0,
+      "ratio": 0.0,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "FREESTYLE LIBERTA #1",
+          "french": false
+        },
+        {
+          "title": "FREESTYLE LIBERTA #2",
+          "french": false
+        }
+      ]
+    }
+  },
+  "7IlRNXHjoOCgEAWN5qYksg": {
+    "id": "7IlRNXHjoOCgEAWN5qYksg",
+    "name": "Aya Nakamura",
+    "url": "https://open.spotify.com/intl-fr/artist/7IlRNXHjoOCgEAWN5qYksg",
+    "uri": "spotify:artist:7IlRNXHjoOCgEAWN5qYksg",
+    "monthly_listeners": 16515287,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/7IlRNXHjoOCgEAWN5qYksg"
+    },
+    "first_seen": "2026-10-01T12:32:31+00:00",
+    "last_seen": "2026-10-01T12:32:31+00:00",
+    "deezer_id": 8909272,
+    "deezer_name": "Aya Nakamura",
+    "releases_2026": [
+      {
+        "name": "Destinée Supremacy",
+        "type": "album",
+        "release_date": "2026-06-01",
+        "url": "https://www.deezer.com/album/992523681"
+      },
+      {
+        "name": "Destinée Supremacy",
+        "type": "album",
+        "release_date": "2026-05-30",
+        "url": "https://www.deezer.com/album/993057681"
+      },
+      {
+        "name": "Chippie",
+        "type": "album",
+        "release_date": "2026-05-29",
+        "url": "https://www.deezer.com/album/992523491"
+      },
+      {
+        "name": "Sexy Nana",
+        "type": "album",
+        "release_date": "2026-05-07",
+        "url": "https://www.deezer.com/album/973081821"
+      },
+      {
+        "name": "J'PENSE À TOI",
+        "type": "album",
+        "release_date": "2026-03-26",
+        "url": "https://www.deezer.com/album/939098351"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 60,
+      "french_tracks": 26,
+      "ratio": 0.433,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "Copines",
+          "french": false
+        },
+        {
+          "title": "La pétasse",
+          "french": true
+        },
+        {
+          "title": "Sans moi",
+          "french": true
+        },
+        {
+          "title": "Pookie",
+          "french": false
+        },
+        {
+          "title": "Pookie (feat. Capo Plaza) (Remix)",
+          "french": false
+        },
+        {
+          "title": "Comportement",
+          "french": false
+        },
+        {
+          "title": "Chaleur",
+          "french": true
+        },
+        {
+          "title": "J'PENSE À TOI",
+          "french": false
+        },
+        {
+          "title": "Dégaine (feat. Damso)",
+          "french": true
+        },
+        {
+          "title": "No Stress",
+          "french": false
+        },
+        {
+          "title": "La dot",
+          "french": false
+        },
+        {
+          "title": "Soirée parisienne (feat. Jizo Djohn.P)",
+          "french": true
+        },
+        {
+          "title": "Chouchou",
+          "french": false
+        },
+        {
+          "title": "Réponds",
+          "french": true
+        },
+        {
+          "title": "Cadeau (feat. Tiakola)",
+          "french": false
+        },
+        {
+          "title": "La machine",
+          "french": false
+        },
+        {
+          "title": "Baby Boy",
+          "french": false
+        },
+        {
+          "title": "Debout",
+          "french": false
+        },
+        {
+          "title": "Fly",
+          "french": false
+        },
+        {
+          "title": "Sucette (feat. Niska)",
+          "french": false
+        },
+        {
+          "title": "Hot",
+          "french": false
+        },
+        {
+          "title": "T'as peur",
+          "french": true
+        },
+        {
+          "title": "Bueno",
+          "french": false
+        },
+        {
+          "title": "10 sur 10 (feat. Aya Nakamura)",
+          "french": true
+        },
+        {
+          "title": "Obsession",
+          "french": true
+        },
+        {
+          "title": "Brisé",
+          "french": true
+        },
+        {
+          "title": "Haut niveau",
+          "french": true
+        },
+        {
+          "title": "Anesthésie",
+          "french": true
+        },
+        {
+          "title": "Gangster",
+          "french": false
+        },
+        {
+          "title": "Ça blesse",
+          "french": false
+        },
+        {
+          "title": "Pompom",
+          "french": false
+        },
+        {
+          "title": "Avec classe (feat. Aya Nakamura & Trinix)",
+          "french": true
+        },
+        {
+          "title": "Préféré (feat. OBOY)",
+          "french": true
+        },
+        {
+          "title": "Dans la peau",
+          "french": true
+        },
+        {
+          "title": "Chérie",
+          "french": true
+        },
+        {
+          "title": "Kouma - A COLORS SHOW",
+          "french": false
+        },
+        {
+          "title": "Chippie",
+          "french": false
+        },
+        {
+          "title": "Bisous",
+          "french": true
+        },
+        {
+          "title": "Alien",
+          "french": false
+        },
+        {
+          "title": "Débrancher",
+          "french": false
+        },
+        {
+          "title": "Fuego (feat. Dadju)",
+          "french": false
+        },
+        {
+          "title": "Super héros (feat. Gradur)",
+          "french": true
+        },
+        {
+          "title": "Sucette (feat. Niska) (Remix)",
+          "french": false
+        },
+        {
+          "title": "Carnet d’adresses",
+          "french": true
+        },
+        {
+          "title": "Oumou Sangaré",
+          "french": true
+        },
+        {
+          "title": "SMS",
+          "french": false
+        },
+        {
+          "title": "Le passé",
+          "french": true
+        },
+        {
+          "title": "Dans ma bulle",
+          "french": false
+        },
+        {
+          "title": "VIP",
+          "french": false
+        },
+        {
+          "title": "Coller",
+          "french": false
+        },
+        {
+          "title": "Je n'ai pas besoin de toi",
+          "french": true
+        },
+        {
+          "title": "Whine Up",
+          "french": false
+        },
+        {
+          "title": "Tous les jours",
+          "french": true
+        },
+        {
+          "title": "Il veut",
+          "french": true
+        },
+        {
+          "title": "Ça fait mal",
+          "french": true
+        },
+        {
+          "title": "Beleck",
+          "french": false
+        },
+        {
+          "title": "Idiot",
+          "french": false
+        },
+        {
+          "title": "Chacun (feat. Kim)",
+          "french": false
+        },
+        {
+          "title": "Corazon",
+          "french": false
+        },
+        {
+          "title": "Méchante",
+          "french": true
+        }
+      ]
+    }
+  },
+  "7zAAwgV5Wqmvpb4GzvlRkP": {
+    "id": "7zAAwgV5Wqmvpb4GzvlRkP",
+    "name": "Jazzy",
+    "url": "https://open.spotify.com/intl-fr/artist/7zAAwgV5Wqmvpb4GzvlRkP",
+    "uri": "spotify:artist:7zAAwgV5Wqmvpb4GzvlRkP",
+    "monthly_listeners": 10183241,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/7zAAwgV5Wqmvpb4GzvlRkP"
+    },
+    "first_seen": "2026-09-22T19:23:37+00:00",
+    "last_seen": "2026-09-22T19:23:37+00:00",
+    "deezer_id": 403794272,
+    "deezer_name": "Jazzy",
+    "releases_2026": [
+      {
+        "name": "TERROR",
+        "type": "album",
+        "release_date": "2026-09-17",
+        "url": "https://www.deezer.com/album/1069600471"
+      },
+      {
+        "name": "GENREBENDER",
+        "type": "album",
+        "release_date": "2026-05-29",
+        "url": "https://www.deezer.com/album/987900841"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 4,
+      "french_tracks": 0,
+      "ratio": 0.0,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "CRACK!",
+          "french": false
+        },
+        {
+          "title": "FILTH",
+          "french": false
+        },
+        {
+          "title": "HIT THE FLOOR",
+          "french": false
+        },
+        {
+          "title": "GENREBENDER",
+          "french": false
+        }
+      ]
+    }
+  },
+  "5uz3A9dQWLIDwivWHlq2mc": {
+    "id": "5uz3A9dQWLIDwivWHlq2mc",
+    "name": "Sigma 999",
+    "url": "https://open.spotify.com/intl-fr/artist/5uz3A9dQWLIDwivWHlq2mc",
+    "uri": "spotify:artist:5uz3A9dQWLIDwivWHlq2mc",
+    "monthly_listeners": 9991848,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/5uz3A9dQWLIDwivWHlq2mc"
+    },
+    "first_seen": "2026-09-06T14:49:46",
+    "last_seen": "2026-09-06T14:49:46",
+    "deezer_id": 111863892,
+    "deezer_name": "Sigma 999",
+    "releases_2026": [
+      {
+        "name": "Dans Le Vide",
+        "type": "album",
+        "release_date": "2026-06-06",
+        "url": "https://www.deezer.com/album/995660371"
+      },
+      {
+        "name": "Dans L'V.I.P",
+        "type": "album",
+        "release_date": "2026-09-18",
+        "url": "https://www.deezer.com/album/1081884112"
+      },
+      {
+        "name": "Encore Une Nuit",
+        "type": "album",
+        "release_date": "2026-09-04",
+        "url": "https://www.deezer.com/album/1065731061"
+      },
+      {
+        "name": "Ma Vie",
+        "type": "album",
+        "release_date": "2026-09-04",
+        "url": "https://www.deezer.com/album/1066181991"
+      },
+      {
+        "name": "Mieux (feat. 4V)",
+        "type": "album",
+        "release_date": "2026-02-14",
+        "url": "https://www.deezer.com/album/916939371"
+      }
+    ]
+  },
+  "7zuxA81uVy6kiHGyPlJlGH": {
+    "id": "7zuxA81uVy6kiHGyPlJlGH",
+    "name": "LB974",
+    "url": "https://open.spotify.com/intl-fr/artist/7zuxA81uVy6kiHGyPlJlGH",
+    "uri": "spotify:artist:7zuxA81uVy6kiHGyPlJlGH",
+    "monthly_listeners": 9741995,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/7zuxA81uVy6kiHGyPlJlGH"
+    },
+    "first_seen": "2026-09-20T12:34:32+00:00",
+    "last_seen": "2026-09-20T12:34:32+00:00",
+    "deezer_id": 355423362,
+    "deezer_name": "LB974",
+    "releases_2026": [
+      {
+        "name": "GIRL/EVE",
+        "type": "album",
+        "release_date": "2026-10-02",
+        "url": "https://www.deezer.com/album/1105954012"
+      },
+      {
+        "name": "VUCA",
+        "type": "album",
+        "release_date": "2026-07-10",
+        "url": "https://www.deezer.com/album/1014254611"
+      },
+      {
+        "name": "FRENZY CHOKO",
+        "type": "album",
+        "release_date": "2026-06-05",
+        "url": "https://www.deezer.com/album/992863221"
+      },
+      {
+        "name": "PERDANT (feat. Albrey Beats)",
+        "type": "album",
+        "release_date": "2026-05-22",
+        "url": "https://www.deezer.com/album/986631681"
+      },
+      {
+        "name": "PIRE ESPÈCE",
+        "type": "album",
+        "release_date": "2026-02-27",
+        "url": "https://www.deezer.com/album/915306521"
+      }
+    ]
+  },
+  "2bHWbDN72wdIF0Y48669zg": {
+    "id": "2bHWbDN72wdIF0Y48669zg",
+    "name": "DJ Goja",
+    "url": "https://open.spotify.com/intl-fr/artist/2bHWbDN72wdIF0Y48669zg",
+    "uri": "spotify:artist:2bHWbDN72wdIF0Y48669zg",
+    "monthly_listeners": 9616793,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/2bHWbDN72wdIF0Y48669zg"
+    },
+    "first_seen": "2026-10-03T02:01:02+00:00",
+    "last_seen": "2026-10-03T02:01:02+00:00",
+    "deezer_id": 11209960,
+    "deezer_name": "DJ Goja",
+    "releases_2026": [
+      {
+        "name": "Mi Chico (Remixes)",
+        "type": "album",
+        "release_date": "2026-09-18",
+        "url": "https://www.deezer.com/album/1080336742"
+      },
+      {
+        "name": "Mi Chico (Slowed & Sped Up Versions)",
+        "type": "album",
+        "release_date": "2026-06-24",
+        "url": "https://www.deezer.com/album/1031596082"
+      },
+      {
+        "name": "Mi Chico (BL3SS Remix)",
+        "type": "album",
+        "release_date": "2026-09-18",
+        "url": "https://www.deezer.com/album/1080327122"
+      },
+      {
+        "name": "Mi Chico (Crazy Cousinz Remix)",
+        "type": "album",
+        "release_date": "2026-09-18",
+        "url": "https://www.deezer.com/album/1080327952"
+      },
+      {
+        "name": "Kontrolümü Kaybediyorum",
+        "type": "album",
+        "release_date": "2026-07-17",
+        "url": "https://www.deezer.com/album/1032089602"
+      },
+      {
+        "name": "Mi Chico (Official - Jason Derulo x Melody)",
+        "type": "album",
+        "release_date": "2026-06-26",
+        "url": "https://www.deezer.com/album/1002711711"
+      },
+      {
+        "name": "Mi Chico",
+        "type": "album",
+        "release_date": "2026-03-27",
+        "url": "https://www.deezer.com/album/954063601"
+      },
+      {
+        "name": "Like A G6",
+        "type": "album",
+        "release_date": "2026-03-13",
+        "url": "https://www.deezer.com/album/874959262"
+      },
+      {
+        "name": "Lux In Me",
+        "type": "album",
+        "release_date": "2026-02-27",
+        "url": "https://www.deezer.com/album/915201191"
+      },
+      {
+        "name": "Coco Jamboo",
+        "type": "album",
+        "release_date": "2026-02-13",
+        "url": "https://www.deezer.com/album/874961032"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 18,
+      "french_tracks": 0,
+      "ratio": 0.0,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "Stronger",
+          "french": false
+        },
+        {
+          "title": "Therefore I Am (Cover)",
+          "french": false
+        },
+        {
+          "title": "So Crazy",
+          "french": false
+        },
+        {
+          "title": "Back in Time",
+          "french": false
+        },
+        {
+          "title": "Vertigo",
+          "french": false
+        },
+        {
+          "title": "At My Worst",
+          "french": false
+        },
+        {
+          "title": "Ancient",
+          "french": false
+        },
+        {
+          "title": "The World Is Divine",
+          "french": false
+        },
+        {
+          "title": "Tonight",
+          "french": false
+        },
+        {
+          "title": "Breathe",
+          "french": false
+        },
+        {
+          "title": "Wilderness",
+          "french": false
+        },
+        {
+          "title": "Candy Shop",
+          "french": false
+        },
+        {
+          "title": "Sound Of Forest",
+          "french": false
+        },
+        {
+          "title": "Deep In Love",
+          "french": false
+        },
+        {
+          "title": "Let Me Break Free",
+          "french": false
+        },
+        {
+          "title": "Leyla",
+          "french": false
+        },
+        {
+          "title": "Feel",
+          "french": false
+        },
+        {
+          "title": "Unbroken",
+          "french": false
+        }
+      ]
+    }
+  },
+  "4AKwRarlmsUlLjIwt38NLw": {
+    "id": "4AKwRarlmsUlLjIwt38NLw",
+    "name": "Ofenbach",
+    "url": "https://open.spotify.com/intl-fr/artist/4AKwRarlmsUlLjIwt38NLw",
+    "uri": "spotify:artist:4AKwRarlmsUlLjIwt38NLw",
+    "monthly_listeners": 8882564,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/4AKwRarlmsUlLjIwt38NLw"
+    },
+    "first_seen": "2026-10-02T19:04:43+00:00",
+    "last_seen": "2026-10-02T19:04:43+00:00",
+    "deezer_id": 6032634,
+    "deezer_name": "Ofenbach",
+    "releases_2026": [
+      {
+        "name": "CLONED VOL.1",
+        "type": "album",
+        "release_date": "2026-02-20",
+        "url": "https://www.deezer.com/album/891259632"
+      },
+      {
+        "name": "Four To The Floor (Cloned Version)",
+        "type": "album",
+        "release_date": "2026-10-16",
+        "url": "https://www.deezer.com/album/1114034062"
+      },
+      {
+        "name": "Overdrive (feat. Norma Jean Martine) (Cloned Version)",
+        "type": "album",
+        "release_date": "2026-10-02",
+        "url": "https://www.deezer.com/album/1112282042"
+      },
+      {
+        "name": "Four To The Floor (Extended Version)",
+        "type": "album",
+        "release_date": "2026-05-28",
+        "url": "https://www.deezer.com/album/1025926722"
+      },
+      {
+        "name": "Four To The Floor",
+        "type": "album",
+        "release_date": "2026-05-28",
+        "url": "https://www.deezer.com/album/1109298432"
+      },
+      {
+        "name": "CYNICAL",
+        "type": "album",
+        "release_date": "2026-03-06",
+        "url": "https://www.deezer.com/album/921026361"
+      },
+      {
+        "name": "Human (feat. Haywood) [Six Invitational 2026 Anthem]",
+        "type": "album",
+        "release_date": "2026-01-26",
+        "url": "https://www.deezer.com/album/902766672"
+      },
+      {
+        "name": "Miles Away",
+        "type": "album",
+        "release_date": "2026-01-16",
+        "url": "https://www.deezer.com/album/895787892"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 66,
+      "french_tracks": 1,
+      "ratio": 0.015,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "Four To The Floor",
+          "french": false
+        },
+        {
+          "title": "Be Mine",
+          "french": false
+        },
+        {
+          "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine)",
+          "french": false
+        },
+        {
+          "title": "Hurricane",
+          "french": false
+        },
+        {
+          "title": "Overdrive (feat. Norma Jean Martine)",
+          "french": false
+        },
+        {
+          "title": "Miles Away",
+          "french": false
+        },
+        {
+          "title": "Wasted Love (feat. Lagique)",
+          "french": false
+        },
+        {
+          "title": "Overdrive (feat. Norma Jean Martine) (Acoustic Version)",
+          "french": false
+        },
+        {
+          "title": "Call Me Papi (feat. Dawty Music)",
+          "french": false
+        },
+        {
+          "title": "Rock It",
+          "french": false
+        },
+        {
+          "title": "Error 303",
+          "french": false
+        },
+        {
+          "title": "Overdrive (feat. Norma Jean Martine) (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Dip It Low",
+          "french": false
+        },
+        {
+          "title": "Overdrive (feat. Norma Jean Martine) (Sped Up)",
+          "french": false
+        },
+        {
+          "title": "We Can Hide Out",
+          "french": false
+        },
+        {
+          "title": "Be Mine (Acoustic Version)",
+          "french": false
+        },
+        {
+          "title": "Overdrive (feat. Norma Jean Martine) (Cloned Version)",
+          "french": false
+        },
+        {
+          "title": "Love Me Now (feat. FAST BOY)",
+          "french": false
+        },
+        {
+          "title": "What I Want",
+          "french": false
+        },
+        {
+          "title": "Overdrive (feat. Norma Jean Martine) (Midnight Version)",
+          "french": false
+        },
+        {
+          "title": "Be Mine (Stone Van Brooken Remix; Radio Edit)",
+          "french": false
+        },
+        {
+          "title": "Need You The Most",
+          "french": false
+        },
+        {
+          "title": "Over You (feat. Justin Jesso)",
+          "french": false
+        },
+        {
+          "title": "Miles Away (Extended)",
+          "french": false
+        },
+        {
+          "title": "Multiplication",
+          "french": false
+        },
+        {
+          "title": "Can’t Forget You (feat. James Blunt)",
+          "french": false
+        },
+        {
+          "title": "Hurricane (Extended Version)",
+          "french": false
+        },
+        {
+          "title": "CYNICAL",
+          "french": false
+        },
+        {
+          "title": "On The Floor",
+          "french": false
+        },
+        {
+          "title": "Wicked Game - Souvenirs d'été (feat. Bergmann)",
+          "french": true
+        },
+        {
+          "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine) (Robin Schulz Remix)",
+          "french": false
+        },
+        {
+          "title": "Be Mine (Cloned Version)",
+          "french": false
+        },
+        {
+          "title": "You Don't Know Me (feat. Brodie Barclay)",
+          "french": false
+        },
+        {
+          "title": "Call Me Papi (feat. Dawty Music) (Extended Version)",
+          "french": false
+        },
+        {
+          "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine) (Acoustic)",
+          "french": false
+        },
+        {
+          "title": "I Got Burned (feat. Tim Rogers)",
+          "french": false
+        },
+        {
+          "title": "We Can Hide Out (Mozambo Remix)",
+          "french": false
+        },
+        {
+          "title": "Call Me Papi (feat. Dawty Music) (Damien N-Drix Remix)",
+          "french": false
+        },
+        {
+          "title": "On My Shoulders",
+          "french": false
+        },
+        {
+          "title": "Rock It (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "I Ain't Got No Worries",
+          "french": false
+        },
+        {
+          "title": "Factory",
+          "french": false
+        },
+        {
+          "title": "Around The Fire (EigenARTig x Yako Remix)",
+          "french": false
+        },
+        {
+          "title": "You Should Be With Me",
+          "french": false
+        },
+        {
+          "title": "Be Mine (Agrume Remix)",
+          "french": false
+        },
+        {
+          "title": "Be Mine (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Four To The Floor (Extended Version)",
+          "french": false
+        },
+        {
+          "title": "Anamorphobia",
+          "french": false
+        },
+        {
+          "title": "Come to Me (Radio Edit)",
+          "french": false
+        },
+        {
+          "title": "Wasted Love (feat. Lagique) (Dubdogz & JØRD Remix)",
+          "french": false
+        },
+        {
+          "title": "Hurricane (Acoustic Version)",
+          "french": false
+        },
+        {
+          "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine) (Alle Farben Remix)",
+          "french": false
+        },
+        {
+          "title": "Wasted Love (feat. Lagique) (Acoustic)",
+          "french": false
+        },
+        {
+          "title": "Can’t Forget You (feat. James Blunt) (Acoustic)",
+          "french": false
+        },
+        {
+          "title": "Love Me Now (feat. FAST BOY) (LUM!X Remix)",
+          "french": false
+        },
+        {
+          "title": "Over You (feat. Justin Jesso) (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Rock It (Acoustic Version)",
+          "french": false
+        },
+        {
+          "title": "Love Me Now (feat. FAST BOY) (Acoustic)",
+          "french": false
+        },
+        {
+          "title": "Wasted Love (feat. Lagique) (James Hype Remix)",
+          "french": false
+        },
+        {
+          "title": "Call Me Papi (feat. Dawty Music) (FDVM Remix)",
+          "french": false
+        },
+        {
+          "title": "On The Floor (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Terrified (feat. Tyler Sjöström)",
+          "french": false
+        },
+        {
+          "title": "Hurricane (VIP Remix)",
+          "french": false
+        },
+        {
+          "title": "Can’t Forget You (feat. James Blunt) (slowed + reverb)",
+          "french": false
+        },
+        {
+          "title": "Starstruck (Ofenbach Remix)",
+          "french": false
+        },
+        {
+          "title": "Hurricane (LODATO Remix)",
+          "french": false
+        }
+      ]
+    }
+  },
+  "3vUMXQ9kPnZAQkMkZZ7Hfh": {
+    "id": "3vUMXQ9kPnZAQkMkZZ7Hfh",
+    "name": "Tiakola",
+    "url": "https://open.spotify.com/intl-fr/artist/3vUMXQ9kPnZAQkMkZZ7Hfh",
+    "uri": "spotify:artist:3vUMXQ9kPnZAQkMkZZ7Hfh",
+    "monthly_listeners": 8838619,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/3vUMXQ9kPnZAQkMkZZ7Hfh"
+    },
+    "first_seen": "2026-10-05T01:54:10+00:00",
+    "last_seen": "2026-10-05T01:54:10+00:00",
+    "deezer_id": 13918545,
+    "deezer_name": "Tiakola",
+    "releases_2026": [
+      {
+        "name": "WpointM",
+        "type": "album",
+        "release_date": "2026-09-25",
+        "url": "https://www.deezer.com/album/1103797432"
+      },
+      {
+        "name": "WpointM - 93120",
+        "type": "album",
+        "release_date": "2026-09-24",
+        "url": "https://www.deezer.com/album/1103118182"
+      },
+      {
+        "name": "Winter Melo Music",
+        "type": "album",
+        "release_date": "2026-09-23",
+        "url": "https://www.deezer.com/album/1103118272"
+      },
+      {
+        "name": "La vie d’un Homme",
+        "type": "album",
+        "release_date": "2026-09-23",
+        "url": "https://www.deezer.com/album/1103797162"
+      },
+      {
+        "name": "Jet Lag",
+        "type": "album",
+        "release_date": "2026-09-23",
+        "url": "https://www.deezer.com/album/1103797172"
+      },
+      {
+        "name": "Bottega",
+        "type": "album",
+        "release_date": "2026-09-23",
+        "url": "https://www.deezer.com/album/1103797182"
+      },
+      {
+        "name": "Vrai OG",
+        "type": "album",
+        "release_date": "2026-09-23",
+        "url": "https://www.deezer.com/album/1103797202"
+      },
+      {
+        "name": "La Nocturne",
+        "type": "album",
+        "release_date": "2026-09-23",
+        "url": "https://www.deezer.com/album/1103797232"
+      },
+      {
+        "name": "Best",
+        "type": "album",
+        "release_date": "2026-09-23",
+        "url": "https://www.deezer.com/album/1103797252"
+      },
+      {
+        "name": "WpointM",
+        "type": "album",
+        "release_date": "2026-09-23",
+        "url": "https://www.deezer.com/album/1109162202"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 58,
+      "french_tracks": 24,
+      "ratio": 0.414,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "La Nocturne",
+          "french": true
+        },
+        {
+          "title": "Jet Lag",
+          "french": true
+        },
+        {
+          "title": "Caméléon",
+          "french": true
+        },
+        {
+          "title": "Cœur De Pirate",
+          "french": true
+        },
+        {
+          "title": "Mélo Décalé",
+          "french": false
+        },
+        {
+          "title": "Mode de vie",
+          "french": false
+        },
+        {
+          "title": "Sans toi",
+          "french": true
+        },
+        {
+          "title": "LES DIAMANTS DE BOKASSA",
+          "french": false
+        },
+        {
+          "title": "Les misérables",
+          "french": true
+        },
+        {
+          "title": "Best",
+          "french": false
+        },
+        {
+          "title": "Cléopâtre",
+          "french": true
+        },
+        {
+          "title": "FLEURS (feat. Tiakola)",
+          "french": false
+        },
+        {
+          "title": "Coucher de soleil",
+          "french": false
+        },
+        {
+          "title": "La vie d’un Homme",
+          "french": true
+        },
+        {
+          "title": "Allo +33",
+          "french": false
+        },
+        {
+          "title": "Upa Solide",
+          "french": false
+        },
+        {
+          "title": "Winter Melo Music",
+          "french": false
+        },
+        {
+          "title": "MANON B",
+          "french": false
+        },
+        {
+          "title": "La clé",
+          "french": true
+        },
+        {
+          "title": "LA MELO EST DANS LA BOUNCE",
+          "french": false
+        },
+        {
+          "title": "LOCKED UP (feat. Tiakola)",
+          "french": false
+        },
+        {
+          "title": "NOTRE DAME",
+          "french": false
+        },
+        {
+          "title": "Mode AV (feat. Niska & Gazo)",
+          "french": false
+        },
+        {
+          "title": "CARTIER",
+          "french": false
+        },
+        {
+          "title": "Ronnie Kray",
+          "french": false
+        },
+        {
+          "title": "M3lo",
+          "french": false
+        },
+        {
+          "title": "CATIMINI",
+          "french": false
+        },
+        {
+          "title": "Étincelle (Maradona)",
+          "french": true
+        },
+        {
+          "title": "Seul ennemi",
+          "french": true
+        },
+        {
+          "title": "Mardi gras",
+          "french": false
+        },
+        {
+          "title": "Riri / No camera",
+          "french": false
+        },
+        {
+          "title": "Miné sur Paname",
+          "french": true
+        },
+        {
+          "title": "P A S C O M M E Ç A",
+          "french": false
+        },
+        {
+          "title": "Crime ensoleillé",
+          "french": true
+        },
+        {
+          "title": "TOUTE LA JOURNÉE (feat. Tiakola)",
+          "french": false
+        },
+        {
+          "title": "BALLE DANS LE COEUR",
+          "french": false
+        },
+        {
+          "title": "Tout seul",
+          "french": true
+        },
+        {
+          "title": "Journée",
+          "french": true
+        },
+        {
+          "title": "STABILITÉ",
+          "french": false
+        },
+        {
+          "title": "GAÙCHO",
+          "french": false
+        },
+        {
+          "title": "Reste-là (feat. Tiakola)",
+          "french": true
+        },
+        {
+          "title": "T.I.A",
+          "french": false
+        },
+        {
+          "title": "Comme moi (feat. Tiakola)",
+          "french": true
+        },
+        {
+          "title": "CATIMINI",
+          "french": false
+        },
+        {
+          "title": "FORMIDABLE",
+          "french": false
+        },
+        {
+          "title": "Bonsoir Paris (Mama No Cry)",
+          "french": true
+        },
+        {
+          "title": "NOTRE DAME (feat. Angèle)",
+          "french": false
+        },
+        {
+          "title": "OUTRO",
+          "french": false
+        },
+        {
+          "title": "BEAUX GARÇONS",
+          "french": false
+        },
+        {
+          "title": "Pousse toi",
+          "french": true
+        },
+        {
+          "title": "Sombre mélodie",
+          "french": true
+        },
+        {
+          "title": "God Bless",
+          "french": false
+        },
+        {
+          "title": "Bob Marley",
+          "french": false
+        },
+        {
+          "title": "Sans nouvelle",
+          "french": true
+        },
+        {
+          "title": "RESTE-LÀ",
+          "french": false
+        },
+        {
+          "title": "Atasanté Part.2",
+          "french": true
+        },
+        {
+          "title": "Délire (feat. Tiakola)",
+          "french": true
+        },
+        {
+          "title": "Plus belle la vie, plus belle la mort",
+          "french": true
+        }
+      ]
+    }
+  },
+  "54BZYoQp8e6RUDxWAKVd7m": {
+    "id": "54BZYoQp8e6RUDxWAKVd7m",
+    "name": "FC88",
+    "url": "https://open.spotify.com/intl-fr/artist/54BZYoQp8e6RUDxWAKVd7m",
+    "uri": "spotify:artist:54BZYoQp8e6RUDxWAKVd7m",
+    "monthly_listeners": 8810547,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/54BZYoQp8e6RUDxWAKVd7m"
+    },
+    "first_seen": "2026-09-11T20:31:09",
+    "last_seen": "2026-09-11T20:31:09",
+    "deezer_id": 108201592,
+    "deezer_name": "Fc88",
+    "releases_2026": [
+      {
+        "name": "SUMMER IN LBV 2",
+        "type": "album",
+        "release_date": "2026-08-29",
+        "url": "https://www.deezer.com/album/1065795921"
+      },
+      {
+        "name": "PLAY ME SOME 88",
+        "type": "album",
+        "release_date": "2026-07-22",
+        "url": "https://www.deezer.com/album/1031647512"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 0,
+      "french_tracks": 0,
+      "ratio": 0,
+      "threshold": 0.6,
+      "reason": "Aucun titre analysable",
+      "tracks": []
+    }
+  },
+  "0Cs47vvRsPgEfliBU9KDiB": {
+    "id": "0Cs47vvRsPgEfliBU9KDiB",
+    "name": "D.O.D",
+    "url": "https://open.spotify.com/intl-fr/artist/0Cs47vvRsPgEfliBU9KDiB",
+    "uri": "spotify:artist:0Cs47vvRsPgEfliBU9KDiB",
+    "monthly_listeners": 8545526,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/0Cs47vvRsPgEfliBU9KDiB"
+    },
+    "first_seen": "2026-09-27T08:13:08+00:00",
+    "last_seen": "2026-09-27T08:13:08+00:00",
+    "deezer_id": 162668,
+    "deezer_name": "D.O.D",
+    "releases_2026": [
+      {
+        "name": "Everything, Briefly",
+        "type": "album",
+        "release_date": "2026-10-16",
+        "url": "https://www.deezer.com/album/1115109572"
+      },
+      {
+        "name": "Promise You",
+        "type": "album",
+        "release_date": "2026-10-16",
+        "url": "https://www.deezer.com/album/1114204262"
+      },
+      {
+        "name": "Blue Sky",
+        "type": "album",
+        "release_date": "2026-10-16",
+        "url": "https://www.deezer.com/album/1117018582"
+      },
+      {
+        "name": "Twice As Nice",
+        "type": "album",
+        "release_date": "2026-10-02",
+        "url": "https://www.deezer.com/album/1102014852"
+      },
+      {
+        "name": "I'll Be There",
+        "type": "album",
+        "release_date": "2026-09-18",
+        "url": "https://www.deezer.com/album/1074663872"
+      },
+      {
+        "name": "R U Mine",
+        "type": "album",
+        "release_date": "2026-08-28",
+        "url": "https://www.deezer.com/album/1054373012"
+      },
+      {
+        "name": "Careful",
+        "type": "album",
+        "release_date": "2026-07-31",
+        "url": "https://www.deezer.com/album/1034337642"
+      },
+      {
+        "name": "Closure (Friction Remix)",
+        "type": "album",
+        "release_date": "2026-07-08",
+        "url": "https://www.deezer.com/album/1008860151"
+      },
+      {
+        "name": "Closure (FEZZO Remix)",
+        "type": "album",
+        "release_date": "2026-07-03",
+        "url": "https://www.deezer.com/album/1014308041"
+      },
+      {
+        "name": "Feel For You",
+        "type": "album",
+        "release_date": "2026-06-19",
+        "url": "https://www.deezer.com/album/1001432241"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 63,
+      "french_tracks": 1,
+      "ratio": 0.016,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "Closure",
+          "french": false
+        },
+        {
+          "title": "Think About Us",
+          "french": false
+        },
+        {
+          "title": "Twice As Nice",
+          "french": false
+        },
+        {
+          "title": "Feel For You",
+          "french": false
+        },
+        {
+          "title": "R U Mine",
+          "french": false
+        },
+        {
+          "title": "Still Sleepless",
+          "french": false
+        },
+        {
+          "title": "Sweet Nothing (2025 Edit)",
+          "french": false
+        },
+        {
+          "title": "I'll Be There",
+          "french": false
+        },
+        {
+          "title": "The Days (D.O.D Remix)",
+          "french": false
+        },
+        {
+          "title": "Sleepless",
+          "french": false
+        },
+        {
+          "title": "So Much In Love (Sub Focus Remix)",
+          "french": false
+        },
+        {
+          "title": "Wrap Yourself Around Me",
+          "french": false
+        },
+        {
+          "title": "Think About Us (feat. Poppy Baskcomb) (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Every Step",
+          "french": false
+        },
+        {
+          "title": "So Much In Love",
+          "french": false
+        },
+        {
+          "title": "Confession",
+          "french": false
+        },
+        {
+          "title": "Feel The Passion",
+          "french": false
+        },
+        {
+          "title": "According To Me (La Cumbia Cienaguera)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You",
+          "french": false
+        },
+        {
+          "title": "Never Be Alone (D.O.D Remix)",
+          "french": false
+        },
+        {
+          "title": "Set Me Free",
+          "french": false
+        },
+        {
+          "title": "Think About Us (CYRIL Remix)",
+          "french": false
+        },
+        {
+          "title": "Reach For You",
+          "french": false
+        },
+        {
+          "title": "Need You Now",
+          "french": false
+        },
+        {
+          "title": "All Mine",
+          "french": false
+        },
+        {
+          "title": "Love Nor Money",
+          "french": false
+        },
+        {
+          "title": "Closure (Friction Remix)",
+          "french": false
+        },
+        {
+          "title": "Still Sleepless (Ekko & Sidetrack Remix)",
+          "french": false
+        },
+        {
+          "title": "By Now",
+          "french": false
+        },
+        {
+          "title": "Sleepless (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Think About Us (Hitty Remix)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You (Donk Edit)",
+          "french": false
+        },
+        {
+          "title": "Confession (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You (Donk Edit)",
+          "french": false
+        },
+        {
+          "title": "Isolate",
+          "french": false
+        },
+        {
+          "title": "Sunshine",
+          "french": false
+        },
+        {
+          "title": "Two Caps",
+          "french": false
+        },
+        {
+          "title": "Set Me Free (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Whistle (D.O.Donk Remix)",
+          "french": false
+        },
+        {
+          "title": "By Now (Mixed) (VIP Mix)",
+          "french": false
+        },
+        {
+          "title": "Think About Us (VIP Mix)",
+          "french": false
+        },
+        {
+          "title": "Love Nor Money (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "So Much In Love (Sub Focus Extended Remix)",
+          "french": false
+        },
+        {
+          "title": "So Much In Love - Sped Up",
+          "french": false
+        },
+        {
+          "title": "Think About Us (K Motionz Remix)",
+          "french": false
+        },
+        {
+          "title": "Think About Us (Lucas Estrada Remix)",
+          "french": false
+        },
+        {
+          "title": "Wrap Yourself Around Me (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Party All The Time (D.O.D Remix)",
+          "french": false
+        },
+        {
+          "title": "Closure (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "So Much In Love (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Every Step (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Push The Tempo (D.O.D Remix)",
+          "french": false
+        },
+        {
+          "title": "So Much In Love (Armin van Buuren Remix)",
+          "french": false
+        },
+        {
+          "title": "Higher",
+          "french": false
+        },
+        {
+          "title": "Love's Gonna Get You",
+          "french": true
+        },
+        {
+          "title": "6 In the Morning (feat. Nate Dogg) (D.O.D Remix)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You (Donk All Stars Mix)",
+          "french": false
+        },
+        {
+          "title": "By Now (ASOT 1171) [Tune Of The Week]",
+          "french": false
+        },
+        {
+          "title": "So Much In Love (Symmetrik Remix)",
+          "french": false
+        },
+        {
+          "title": "Morph",
+          "french": false
+        },
+        {
+          "title": "The Struggle",
+          "french": false
+        },
+        {
+          "title": "Still Sleepless (Ekko & Sidetrack Extended Remix)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You (All Stars MC Mix x Sluggy Beats)",
+          "french": false
+        }
+      ]
+    }
+  },
+  "6Te49r3A6f5BiIgBRxH7FH": {
+    "id": "6Te49r3A6f5BiIgBRxH7FH",
+    "name": "Ninho",
+    "url": "https://open.spotify.com/intl-fr/artist/6Te49r3A6f5BiIgBRxH7FH",
+    "uri": "spotify:artist:6Te49r3A6f5BiIgBRxH7FH",
+    "monthly_listeners": 8253166,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/6Te49r3A6f5BiIgBRxH7FH"
+    },
+    "first_seen": "2026-10-02T06:48:07+00:00",
+    "last_seen": "2026-10-02T06:48:07+00:00",
+    "deezer_id": 5542343,
+    "deezer_name": "Ninho",
+    "releases_2026": [
+      {
+        "name": "M.I.L.S 4",
+        "type": "album",
+        "release_date": "2026-01-09",
+        "url": "https://www.deezer.com/album/891336772"
+      },
+      {
+        "name": "M.I.L.S 4 (Bonus Version)",
+        "type": "album",
+        "release_date": "2026-01-16",
+        "url": "https://www.deezer.com/album/896765112"
+      },
+      {
+        "name": "BRACELET",
+        "type": "album",
+        "release_date": "2026-10-07",
+        "url": "https://www.deezer.com/album/1115925262"
+      },
+      {
+        "name": "ZODIAC",
+        "type": "album",
+        "release_date": "2026-09-03",
+        "url": "https://www.deezer.com/album/1065207261"
+      },
+      {
+        "name": "FBI",
+        "type": "album",
+        "release_date": "2026-07-10",
+        "url": "https://www.deezer.com/album/1019783771"
+      },
+      {
+        "name": "L.T.P",
+        "type": "album",
+        "release_date": "2026-06-25",
+        "url": "https://www.deezer.com/album/1006065451"
+      },
+      {
+        "name": "DUR",
+        "type": "album",
+        "release_date": "2026-06-25",
+        "url": "https://www.deezer.com/album/1006949691"
+      },
+      {
+        "name": "Rien à célébrer",
+        "type": "album",
+        "release_date": "2026-06-11",
+        "url": "https://www.deezer.com/album/983480431"
+      },
+      {
+        "name": "Un Peu Beaucoup",
+        "type": "album",
+        "release_date": "2026-05-21",
+        "url": "https://www.deezer.com/album/985540651"
+      },
+      {
+        "name": "Avion de chasse",
+        "type": "album",
+        "release_date": "2026-05-08",
+        "url": "https://www.deezer.com/album/975228161"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 72,
+      "french_tracks": 29,
+      "ratio": 0.403,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "BRACELET",
+          "french": false
+        },
+        {
+          "title": "Ciao",
+          "french": false
+        },
+        {
+          "title": "LES DIAMANTS DE BOKASSA",
+          "french": false
+        },
+        {
+          "title": "Bavard",
+          "french": false
+        },
+        {
+          "title": "Collabo",
+          "french": false
+        },
+        {
+          "title": "La vie qu'on mène",
+          "french": true
+        },
+        {
+          "title": "Sans peine",
+          "french": true
+        },
+        {
+          "title": "Lettre à une femme",
+          "french": true
+        },
+        {
+          "title": "Monotonie",
+          "french": false
+        },
+        {
+          "title": "Triple V",
+          "french": true
+        },
+        {
+          "title": "Jefe",
+          "french": false
+        },
+        {
+          "title": "Zipette",
+          "french": false
+        },
+        {
+          "title": "Dis-moi que tu m'aimes",
+          "french": true
+        },
+        {
+          "title": "No Life",
+          "french": false
+        },
+        {
+          "title": "Pourquoi",
+          "french": true
+        },
+        {
+          "title": "Elle m'a eu",
+          "french": true
+        },
+        {
+          "title": "Pour nous",
+          "french": true
+        },
+        {
+          "title": "Goutte d'eau",
+          "french": true
+        },
+        {
+          "title": "Etat des lieux (Part 1)",
+          "french": true
+        },
+        {
+          "title": "Eurostar (feat. Central Cee)",
+          "french": false
+        },
+        {
+          "title": "Maman ne le sait pas (feat. Niska)",
+          "french": true
+        },
+        {
+          "title": "Sourire",
+          "french": false
+        },
+        {
+          "title": "Millions",
+          "french": false
+        },
+        {
+          "title": "DICTIONNAIRES",
+          "french": false
+        },
+        {
+          "title": "Coco",
+          "french": false
+        },
+        {
+          "title": "Un Poco",
+          "french": false
+        },
+        {
+          "title": "Champion",
+          "french": false
+        },
+        {
+          "title": "SALE ÉTAT",
+          "french": true
+        },
+        {
+          "title": "VVS",
+          "french": false
+        },
+        {
+          "title": "AU 33ÈME",
+          "french": false
+        },
+        {
+          "title": "Requin",
+          "french": false
+        },
+        {
+          "title": "Dernier Etage",
+          "french": false
+        },
+        {
+          "title": "Vérité",
+          "french": true
+        },
+        {
+          "title": "C'est Fort",
+          "french": true
+        },
+        {
+          "title": "A découvert",
+          "french": true
+        },
+        {
+          "title": "Mon poto (Extrait de la BO de « En Passant Pécho »)",
+          "french": false
+        },
+        {
+          "title": "Malcolm",
+          "french": false
+        },
+        {
+          "title": "Avion de chasse",
+          "french": true
+        },
+        {
+          "title": "La Marseillaise",
+          "french": true
+        },
+        {
+          "title": "DES PIGES",
+          "french": false
+        },
+        {
+          "title": "SURVIE",
+          "french": false
+        },
+        {
+          "title": "Treillis",
+          "french": false
+        },
+        {
+          "title": "Sky Priority",
+          "french": false
+        },
+        {
+          "title": "Money (feat. Faouzia)",
+          "french": false
+        },
+        {
+          "title": "Arme de poing",
+          "french": true
+        },
+        {
+          "title": "Blue",
+          "french": true
+        },
+        {
+          "title": "Un Peu Beaucoup",
+          "french": true
+        },
+        {
+          "title": "Grand Paris",
+          "french": false
+        },
+        {
+          "title": "De l'autre côté (feat. Nekfeu)",
+          "french": true
+        },
+        {
+          "title": "Jusqu'à minuit (feat. JuL)",
+          "french": true
+        },
+        {
+          "title": "Fendi",
+          "french": false
+        },
+        {
+          "title": "5 bleus",
+          "french": true
+        },
+        {
+          "title": "La puerta",
+          "french": false
+        },
+        {
+          "title": "Carolina",
+          "french": false
+        },
+        {
+          "title": "Brouncha",
+          "french": false
+        },
+        {
+          "title": "Aïcha",
+          "french": false
+        },
+        {
+          "title": "Chacun son tour",
+          "french": true
+        },
+        {
+          "title": "Intro",
+          "french": false
+        },
+        {
+          "title": "La zone",
+          "french": false
+        },
+        {
+          "title": "J’AI PAS CHANGÉ",
+          "french": false
+        },
+        {
+          "title": "ZODIAC",
+          "french": false
+        },
+        {
+          "title": "En chien",
+          "french": false
+        },
+        {
+          "title": "Jeune Lossa",
+          "french": true
+        },
+        {
+          "title": "Laisse pas traîner ton fils (feat. Sofiane)",
+          "french": true
+        },
+        {
+          "title": "Outro",
+          "french": true
+        },
+        {
+          "title": "Promo (feat. Damso)",
+          "french": false
+        },
+        {
+          "title": "Tout ira mieux",
+          "french": true
+        },
+        {
+          "title": "Paris c'est magique",
+          "french": true
+        },
+        {
+          "title": "FBI",
+          "french": false
+        },
+        {
+          "title": "La vivance (feat. Koba LaD)",
+          "french": false
+        },
+        {
+          "title": "Every day (feat. Griff)",
+          "french": false
+        },
+        {
+          "title": "COMME ÇA",
+          "french": false
+        }
+      ]
+    }
+  },
+  "0NMrvg8MeJMc5ClJ5BydI7": {
+    "id": "0NMrvg8MeJMc5ClJ5BydI7",
+    "name": "Yan_75100",
+    "url": "https://open.spotify.com/intl-fr/artist/0NMrvg8MeJMc5ClJ5BydI7",
+    "uri": "spotify:artist:0NMrvg8MeJMc5ClJ5BydI7",
+    "monthly_listeners": 7510052,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/0NMrvg8MeJMc5ClJ5BydI7"
+    },
+    "first_seen": "2026-09-26T17:25:28+00:00",
+    "last_seen": "2026-09-26T17:25:28+00:00",
+    "deezer_id": 412359411,
+    "deezer_name": "Yan_75100",
+    "releases_2026": [
+      {
+        "name": "75100 È IL CAP",
+        "type": "album",
+        "release_date": "2026-09-04",
+        "url": "https://www.deezer.com/album/1067244441"
+      }
+    ]
+  },
+  "2TcGJdSOiOvITBzhvfX8XB": {
+    "id": "2TcGJdSOiOvITBzhvfX8XB",
+    "name": "Shouse",
+    "url": "https://open.spotify.com/intl-fr/artist/2TcGJdSOiOvITBzhvfX8XB",
+    "uri": "spotify:artist:2TcGJdSOiOvITBzhvfX8XB",
+    "monthly_listeners": 7291059,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/2TcGJdSOiOvITBzhvfX8XB"
+    },
+    "first_seen": "2026-09-21T23:49:22+00:00",
+    "last_seen": "2026-09-21T23:49:22+00:00",
+    "deezer_id": 5767206,
+    "deezer_name": "Shouse",
+    "releases_2026": [
+      {
+        "name": "Call My Name (ARYMÉ Remix)",
+        "type": "album",
+        "release_date": "2026-02-13",
+        "url": "https://www.deezer.com/album/907315022"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 34,
+      "french_tracks": 4,
+      "ratio": 0.118,
+      "threshold": 0.6,
+      "tracks": [
+        {
+          "title": "Love Tonight (Edit)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You (Edit)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You",
+          "french": false
+        },
+        {
+          "title": "Love Tonight",
+          "french": false
+        },
+        {
+          "title": "Call My Name",
+          "french": false
+        },
+        {
+          "title": "Call My Name (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Love Tonight (Robin Schulz Remix)",
+          "french": false
+        },
+        {
+          "title": "Never Let You Go",
+          "french": false
+        },
+        {
+          "title": "Live Without Love",
+          "french": false
+        },
+        {
+          "title": "Love Tonight (David Guetta Remix)",
+          "french": false
+        },
+        {
+          "title": "Only You",
+          "french": false
+        },
+        {
+          "title": "Call My Name (ARYMÉ Remix)",
+          "french": false
+        },
+        {
+          "title": "(still) WON'T4GETU",
+          "french": false
+        },
+        {
+          "title": "Without You",
+          "french": false
+        },
+        {
+          "title": "Live Without Love (Armin van Buuren Remix Edit)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You (Felix Jaehn Remix Edit)",
+          "french": false
+        },
+        {
+          "title": "Won't Forget You (Kungs Remix Edit)",
+          "french": false
+        },
+        {
+          "title": "Wherever You Are",
+          "french": false
+        },
+        {
+          "title": "Into It",
+          "french": false
+        },
+        {
+          "title": "Live Without Love (David Guetta Remix - Edit)",
+          "french": false
+        },
+        {
+          "title": "Your Love (feat. House Gospel Choir) (Coco & Breezy Remix)",
+          "french": true
+        },
+        {
+          "title": "Your Love (feat. House Gospel Choir)",
+          "french": true
+        },
+        {
+          "title": "Chains (Extended Mix)",
+          "french": false
+        },
+        {
+          "title": "Without You (feat. Rachel)",
+          "french": false
+        },
+        {
+          "title": "Tonic (Edit)",
+          "french": false
+        },
+        {
+          "title": "Tonic",
+          "french": false
+        },
+        {
+          "title": "Your Love (feat. House Gospel Choir) (Edit)",
+          "french": true
+        },
+        {
+          "title": "I Believe In Us",
+          "french": false
+        },
+        {
+          "title": "Chains",
+          "french": false
+        },
+        {
+          "title": "Love Tonight (Oliver Huntemann Remix Edit)",
+          "french": false
+        },
+        {
+          "title": "Into It",
+          "french": false
+        },
+        {
+          "title": "Whisper",
+          "french": false
+        },
+        {
+          "title": "Your Love (feat. House Gospel Choir) (Helsloot Remix)",
+          "french": true
+        },
+        {
+          "title": "Love Tonight (Oliver Huntemann Dub)",
+          "french": false
+        }
+      ]
+    }
+  },
+  "4s2X6WgaH6Hb0yVF7s1JIk": {
+    "id": "4s2X6WgaH6Hb0yVF7s1JIk",
+    "name": "KARLITO727",
+    "url": "https://open.spotify.com/intl-fr/artist/4s2X6WgaH6Hb0yVF7s1JIk",
+    "uri": "spotify:artist:4s2X6WgaH6Hb0yVF7s1JIk",
+    "monthly_listeners": 7271284,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/4s2X6WgaH6Hb0yVF7s1JIk"
+    },
+    "first_seen": "2026-09-06T15:09:35",
+    "last_seen": "2026-09-06T15:09:35",
+    "deezer_id": 383303821,
+    "deezer_name": "KARLITO727",
+    "releases_2026": [
+      {
+        "name": "IL A L’ARGENT",
+        "type": "album",
+        "release_date": "2026-08-14",
+        "url": "https://www.deezer.com/album/1054001512"
+      },
+      {
+        "name": "COMMENT?",
+        "type": "album",
+        "release_date": "2026-06-26",
+        "url": "https://www.deezer.com/album/1013629801"
+      }
+    ],
+    "french_check": {
+      "analyzed_tracks": 0,
+      "french_tracks": 0,
+      "ratio": 0,
+      "threshold": 0.6,
+      "reason": "Aucun titre analysable",
+      "tracks": []
+    }
   }
 }

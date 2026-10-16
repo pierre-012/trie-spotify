@@ -29,6 +29,72 @@
       "deezer_name": "G1O 24040",
       "deezer_id": 193082117,
       "reason": "Aucune sortie album ou single en 2026"
+    },
+    "6xkNjwIRwqWMSw8ARQcppe": {
+      "name": "Gutta192",
+      "deezer_name": "Gutta192",
+      "deezer_id": 121930752,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "6xXjN9YzdRX0ixShs9BHAv": {
+      "name": "Projet 1411",
+      "deezer_name": "Projet 1411",
+      "deezer_id": 13518501,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "5Pb27ujIyYb33zBqVysBkj": {
+      "name": "RÜFÜS DU SOL",
+      "deezer_name": "RÜFÜS DU SOL",
+      "deezer_id": 5571502,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "3IW7ScrzXmPvZhB27hmfgy": {
+      "name": "Jul",
+      "deezer_name": "Jul",
+      "deezer_id": 150896122,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "6TXEZxaMX6lVnaLrFU2v0a": {
+      "name": "KAMÉ974",
+      "deezer_name": "KAMÉ974",
+      "deezer_id": 181795707,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "5sm0jQ1mq0dusiLtDJ2b4R": {
+      "name": "Eric Prydz",
+      "deezer_name": "Eric Prydz",
+      "deezer_id": 30,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "6V3F8MZrOKdT9fU686ybE9": {
+      "name": "Mark Morrison",
+      "deezer_name": "Mark Morrison",
+      "deezer_id": 6466,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "1CeayTtgPwEaoZxxO1K1JO": {
+      "name": "FLACO7805",
+      "deezer_name": "FLACO7805",
+      "deezer_id": 249216362,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "3DCWeG2J1fZeu0Oe6i5Q6m": {
+      "name": "PLK",
+      "deezer_name": "PLK",
+      "deezer_id": 15138795,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "3PpJbrAbphauEun8Xf9tD2": {
+      "name": "Theodora",
+      "deezer_name": "Theodora",
+      "deezer_id": 98978172,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "5gqmbbfjcikQBzPB5Hv13I": {
+      "name": "Gazo",
+      "deezer_name": "Gazo",
+      "deezer_id": 223390285,
+      "reason": "Aucune sortie album ou single en 2026"
     }
   },
   "not_french": {
@@ -63,6 +129,1672 @@
         "language": "en",
         "french_markers": 0,
         "source": "LRCLIB"
+      }
+    },
+    "0sh7pj0XwBBauPKHKUhbp2": {
+      "name": "Vds1961",
+      "deezer_name": "Vds1961",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 2,
+        "french_tracks": 0,
+        "ratio": 0.0,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "FREESTYLE LIBERTA #1",
+            "french": false
+          },
+          {
+            "title": "FREESTYLE LIBERTA #2",
+            "french": false
+          }
+        ]
+      }
+    },
+    "7IlRNXHjoOCgEAWN5qYksg": {
+      "name": "Aya Nakamura",
+      "deezer_name": "Aya Nakamura",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 60,
+        "french_tracks": 26,
+        "ratio": 0.433,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "Copines",
+            "french": false
+          },
+          {
+            "title": "La pétasse",
+            "french": true
+          },
+          {
+            "title": "Sans moi",
+            "french": true
+          },
+          {
+            "title": "Pookie",
+            "french": false
+          },
+          {
+            "title": "Pookie (feat. Capo Plaza) (Remix)",
+            "french": false
+          },
+          {
+            "title": "Comportement",
+            "french": false
+          },
+          {
+            "title": "Chaleur",
+            "french": true
+          },
+          {
+            "title": "J'PENSE À TOI",
+            "french": false
+          },
+          {
+            "title": "Dégaine (feat. Damso)",
+            "french": true
+          },
+          {
+            "title": "No Stress",
+            "french": false
+          },
+          {
+            "title": "La dot",
+            "french": false
+          },
+          {
+            "title": "Soirée parisienne (feat. Jizo Djohn.P)",
+            "french": true
+          },
+          {
+            "title": "Chouchou",
+            "french": false
+          },
+          {
+            "title": "Réponds",
+            "french": true
+          },
+          {
+            "title": "Cadeau (feat. Tiakola)",
+            "french": false
+          },
+          {
+            "title": "La machine",
+            "french": false
+          },
+          {
+            "title": "Baby Boy",
+            "french": false
+          },
+          {
+            "title": "Debout",
+            "french": false
+          },
+          {
+            "title": "Fly",
+            "french": false
+          },
+          {
+            "title": "Sucette (feat. Niska)",
+            "french": false
+          },
+          {
+            "title": "Hot",
+            "french": false
+          },
+          {
+            "title": "T'as peur",
+            "french": true
+          },
+          {
+            "title": "Bueno",
+            "french": false
+          },
+          {
+            "title": "10 sur 10 (feat. Aya Nakamura)",
+            "french": true
+          },
+          {
+            "title": "Obsession",
+            "french": true
+          },
+          {
+            "title": "Brisé",
+            "french": true
+          },
+          {
+            "title": "Haut niveau",
+            "french": true
+          },
+          {
+            "title": "Anesthésie",
+            "french": true
+          },
+          {
+            "title": "Gangster",
+            "french": false
+          },
+          {
+            "title": "Ça blesse",
+            "french": false
+          },
+          {
+            "title": "Pompom",
+            "french": false
+          },
+          {
+            "title": "Avec classe (feat. Aya Nakamura & Trinix)",
+            "french": true
+          },
+          {
+            "title": "Préféré (feat. OBOY)",
+            "french": true
+          },
+          {
+            "title": "Dans la peau",
+            "french": true
+          },
+          {
+            "title": "Chérie",
+            "french": true
+          },
+          {
+            "title": "Kouma - A COLORS SHOW",
+            "french": false
+          },
+          {
+            "title": "Chippie",
+            "french": false
+          },
+          {
+            "title": "Bisous",
+            "french": true
+          },
+          {
+            "title": "Alien",
+            "french": false
+          },
+          {
+            "title": "Débrancher",
+            "french": false
+          },
+          {
+            "title": "Fuego (feat. Dadju)",
+            "french": false
+          },
+          {
+            "title": "Super héros (feat. Gradur)",
+            "french": true
+          },
+          {
+            "title": "Sucette (feat. Niska) (Remix)",
+            "french": false
+          },
+          {
+            "title": "Carnet d’adresses",
+            "french": true
+          },
+          {
+            "title": "Oumou Sangaré",
+            "french": true
+          },
+          {
+            "title": "SMS",
+            "french": false
+          },
+          {
+            "title": "Le passé",
+            "french": true
+          },
+          {
+            "title": "Dans ma bulle",
+            "french": false
+          },
+          {
+            "title": "VIP",
+            "french": false
+          },
+          {
+            "title": "Coller",
+            "french": false
+          },
+          {
+            "title": "Je n'ai pas besoin de toi",
+            "french": true
+          },
+          {
+            "title": "Whine Up",
+            "french": false
+          },
+          {
+            "title": "Tous les jours",
+            "french": true
+          },
+          {
+            "title": "Il veut",
+            "french": true
+          },
+          {
+            "title": "Ça fait mal",
+            "french": true
+          },
+          {
+            "title": "Beleck",
+            "french": false
+          },
+          {
+            "title": "Idiot",
+            "french": false
+          },
+          {
+            "title": "Chacun (feat. Kim)",
+            "french": false
+          },
+          {
+            "title": "Corazon",
+            "french": false
+          },
+          {
+            "title": "Méchante",
+            "french": true
+          }
+        ]
+      }
+    },
+    "7zAAwgV5Wqmvpb4GzvlRkP": {
+      "name": "Jazzy",
+      "deezer_name": "Jazzy",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 4,
+        "french_tracks": 0,
+        "ratio": 0.0,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "CRACK!",
+            "french": false
+          },
+          {
+            "title": "FILTH",
+            "french": false
+          },
+          {
+            "title": "HIT THE FLOOR",
+            "french": false
+          },
+          {
+            "title": "GENREBENDER",
+            "french": false
+          }
+        ]
+      }
+    },
+    "5uz3A9dQWLIDwivWHlq2mc": {
+      "name": "Sigma 999",
+      "deezer_name": "Sigma 999",
+      "reason": "Aucun titre trouvé sur Deezer"
+    },
+    "7zuxA81uVy6kiHGyPlJlGH": {
+      "name": "LB974",
+      "deezer_name": "LB974",
+      "reason": "Aucun titre trouvé sur Deezer"
+    },
+    "2bHWbDN72wdIF0Y48669zg": {
+      "name": "DJ Goja",
+      "deezer_name": "DJ Goja",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 18,
+        "french_tracks": 0,
+        "ratio": 0.0,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "Stronger",
+            "french": false
+          },
+          {
+            "title": "Therefore I Am (Cover)",
+            "french": false
+          },
+          {
+            "title": "So Crazy",
+            "french": false
+          },
+          {
+            "title": "Back in Time",
+            "french": false
+          },
+          {
+            "title": "Vertigo",
+            "french": false
+          },
+          {
+            "title": "At My Worst",
+            "french": false
+          },
+          {
+            "title": "Ancient",
+            "french": false
+          },
+          {
+            "title": "The World Is Divine",
+            "french": false
+          },
+          {
+            "title": "Tonight",
+            "french": false
+          },
+          {
+            "title": "Breathe",
+            "french": false
+          },
+          {
+            "title": "Wilderness",
+            "french": false
+          },
+          {
+            "title": "Candy Shop",
+            "french": false
+          },
+          {
+            "title": "Sound Of Forest",
+            "french": false
+          },
+          {
+            "title": "Deep In Love",
+            "french": false
+          },
+          {
+            "title": "Let Me Break Free",
+            "french": false
+          },
+          {
+            "title": "Leyla",
+            "french": false
+          },
+          {
+            "title": "Feel",
+            "french": false
+          },
+          {
+            "title": "Unbroken",
+            "french": false
+          }
+        ]
+      }
+    },
+    "4AKwRarlmsUlLjIwt38NLw": {
+      "name": "Ofenbach",
+      "deezer_name": "Ofenbach",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 66,
+        "french_tracks": 1,
+        "ratio": 0.015,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "Four To The Floor",
+            "french": false
+          },
+          {
+            "title": "Be Mine",
+            "french": false
+          },
+          {
+            "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine)",
+            "french": false
+          },
+          {
+            "title": "Hurricane",
+            "french": false
+          },
+          {
+            "title": "Overdrive (feat. Norma Jean Martine)",
+            "french": false
+          },
+          {
+            "title": "Miles Away",
+            "french": false
+          },
+          {
+            "title": "Wasted Love (feat. Lagique)",
+            "french": false
+          },
+          {
+            "title": "Overdrive (feat. Norma Jean Martine) (Acoustic Version)",
+            "french": false
+          },
+          {
+            "title": "Call Me Papi (feat. Dawty Music)",
+            "french": false
+          },
+          {
+            "title": "Rock It",
+            "french": false
+          },
+          {
+            "title": "Error 303",
+            "french": false
+          },
+          {
+            "title": "Overdrive (feat. Norma Jean Martine) (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Dip It Low",
+            "french": false
+          },
+          {
+            "title": "Overdrive (feat. Norma Jean Martine) (Sped Up)",
+            "french": false
+          },
+          {
+            "title": "We Can Hide Out",
+            "french": false
+          },
+          {
+            "title": "Be Mine (Acoustic Version)",
+            "french": false
+          },
+          {
+            "title": "Overdrive (feat. Norma Jean Martine) (Cloned Version)",
+            "french": false
+          },
+          {
+            "title": "Love Me Now (feat. FAST BOY)",
+            "french": false
+          },
+          {
+            "title": "What I Want",
+            "french": false
+          },
+          {
+            "title": "Overdrive (feat. Norma Jean Martine) (Midnight Version)",
+            "french": false
+          },
+          {
+            "title": "Be Mine (Stone Van Brooken Remix; Radio Edit)",
+            "french": false
+          },
+          {
+            "title": "Need You The Most",
+            "french": false
+          },
+          {
+            "title": "Over You (feat. Justin Jesso)",
+            "french": false
+          },
+          {
+            "title": "Miles Away (Extended)",
+            "french": false
+          },
+          {
+            "title": "Multiplication",
+            "french": false
+          },
+          {
+            "title": "Can’t Forget You (feat. James Blunt)",
+            "french": false
+          },
+          {
+            "title": "Hurricane (Extended Version)",
+            "french": false
+          },
+          {
+            "title": "CYNICAL",
+            "french": false
+          },
+          {
+            "title": "On The Floor",
+            "french": false
+          },
+          {
+            "title": "Wicked Game - Souvenirs d'été (feat. Bergmann)",
+            "french": true
+          },
+          {
+            "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine) (Robin Schulz Remix)",
+            "french": false
+          },
+          {
+            "title": "Be Mine (Cloned Version)",
+            "french": false
+          },
+          {
+            "title": "You Don't Know Me (feat. Brodie Barclay)",
+            "french": false
+          },
+          {
+            "title": "Call Me Papi (feat. Dawty Music) (Extended Version)",
+            "french": false
+          },
+          {
+            "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine) (Acoustic)",
+            "french": false
+          },
+          {
+            "title": "I Got Burned (feat. Tim Rogers)",
+            "french": false
+          },
+          {
+            "title": "We Can Hide Out (Mozambo Remix)",
+            "french": false
+          },
+          {
+            "title": "Call Me Papi (feat. Dawty Music) (Damien N-Drix Remix)",
+            "french": false
+          },
+          {
+            "title": "On My Shoulders",
+            "french": false
+          },
+          {
+            "title": "Rock It (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "I Ain't Got No Worries",
+            "french": false
+          },
+          {
+            "title": "Factory",
+            "french": false
+          },
+          {
+            "title": "Around The Fire (EigenARTig x Yako Remix)",
+            "french": false
+          },
+          {
+            "title": "You Should Be With Me",
+            "french": false
+          },
+          {
+            "title": "Be Mine (Agrume Remix)",
+            "french": false
+          },
+          {
+            "title": "Be Mine (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Four To The Floor (Extended Version)",
+            "french": false
+          },
+          {
+            "title": "Anamorphobia",
+            "french": false
+          },
+          {
+            "title": "Come to Me (Radio Edit)",
+            "french": false
+          },
+          {
+            "title": "Wasted Love (feat. Lagique) (Dubdogz & JØRD Remix)",
+            "french": false
+          },
+          {
+            "title": "Hurricane (Acoustic Version)",
+            "french": false
+          },
+          {
+            "title": "Head Shoulders Knees & Toes (feat. Norma Jean Martine) (Alle Farben Remix)",
+            "french": false
+          },
+          {
+            "title": "Wasted Love (feat. Lagique) (Acoustic)",
+            "french": false
+          },
+          {
+            "title": "Can’t Forget You (feat. James Blunt) (Acoustic)",
+            "french": false
+          },
+          {
+            "title": "Love Me Now (feat. FAST BOY) (LUM!X Remix)",
+            "french": false
+          },
+          {
+            "title": "Over You (feat. Justin Jesso) (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Rock It (Acoustic Version)",
+            "french": false
+          },
+          {
+            "title": "Love Me Now (feat. FAST BOY) (Acoustic)",
+            "french": false
+          },
+          {
+            "title": "Wasted Love (feat. Lagique) (James Hype Remix)",
+            "french": false
+          },
+          {
+            "title": "Call Me Papi (feat. Dawty Music) (FDVM Remix)",
+            "french": false
+          },
+          {
+            "title": "On The Floor (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Terrified (feat. Tyler Sjöström)",
+            "french": false
+          },
+          {
+            "title": "Hurricane (VIP Remix)",
+            "french": false
+          },
+          {
+            "title": "Can’t Forget You (feat. James Blunt) (slowed + reverb)",
+            "french": false
+          },
+          {
+            "title": "Starstruck (Ofenbach Remix)",
+            "french": false
+          },
+          {
+            "title": "Hurricane (LODATO Remix)",
+            "french": false
+          }
+        ]
+      }
+    },
+    "3vUMXQ9kPnZAQkMkZZ7Hfh": {
+      "name": "Tiakola",
+      "deezer_name": "Tiakola",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 58,
+        "french_tracks": 24,
+        "ratio": 0.414,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "La Nocturne",
+            "french": true
+          },
+          {
+            "title": "Jet Lag",
+            "french": true
+          },
+          {
+            "title": "Caméléon",
+            "french": true
+          },
+          {
+            "title": "Cœur De Pirate",
+            "french": true
+          },
+          {
+            "title": "Mélo Décalé",
+            "french": false
+          },
+          {
+            "title": "Mode de vie",
+            "french": false
+          },
+          {
+            "title": "Sans toi",
+            "french": true
+          },
+          {
+            "title": "LES DIAMANTS DE BOKASSA",
+            "french": false
+          },
+          {
+            "title": "Les misérables",
+            "french": true
+          },
+          {
+            "title": "Best",
+            "french": false
+          },
+          {
+            "title": "Cléopâtre",
+            "french": true
+          },
+          {
+            "title": "FLEURS (feat. Tiakola)",
+            "french": false
+          },
+          {
+            "title": "Coucher de soleil",
+            "french": false
+          },
+          {
+            "title": "La vie d’un Homme",
+            "french": true
+          },
+          {
+            "title": "Allo +33",
+            "french": false
+          },
+          {
+            "title": "Upa Solide",
+            "french": false
+          },
+          {
+            "title": "Winter Melo Music",
+            "french": false
+          },
+          {
+            "title": "MANON B",
+            "french": false
+          },
+          {
+            "title": "La clé",
+            "french": true
+          },
+          {
+            "title": "LA MELO EST DANS LA BOUNCE",
+            "french": false
+          },
+          {
+            "title": "LOCKED UP (feat. Tiakola)",
+            "french": false
+          },
+          {
+            "title": "NOTRE DAME",
+            "french": false
+          },
+          {
+            "title": "Mode AV (feat. Niska & Gazo)",
+            "french": false
+          },
+          {
+            "title": "CARTIER",
+            "french": false
+          },
+          {
+            "title": "Ronnie Kray",
+            "french": false
+          },
+          {
+            "title": "M3lo",
+            "french": false
+          },
+          {
+            "title": "CATIMINI",
+            "french": false
+          },
+          {
+            "title": "Étincelle (Maradona)",
+            "french": true
+          },
+          {
+            "title": "Seul ennemi",
+            "french": true
+          },
+          {
+            "title": "Mardi gras",
+            "french": false
+          },
+          {
+            "title": "Riri / No camera",
+            "french": false
+          },
+          {
+            "title": "Miné sur Paname",
+            "french": true
+          },
+          {
+            "title": "P A S C O M M E Ç A",
+            "french": false
+          },
+          {
+            "title": "Crime ensoleillé",
+            "french": true
+          },
+          {
+            "title": "TOUTE LA JOURNÉE (feat. Tiakola)",
+            "french": false
+          },
+          {
+            "title": "BALLE DANS LE COEUR",
+            "french": false
+          },
+          {
+            "title": "Tout seul",
+            "french": true
+          },
+          {
+            "title": "Journée",
+            "french": true
+          },
+          {
+            "title": "STABILITÉ",
+            "french": false
+          },
+          {
+            "title": "GAÙCHO",
+            "french": false
+          },
+          {
+            "title": "Reste-là (feat. Tiakola)",
+            "french": true
+          },
+          {
+            "title": "T.I.A",
+            "french": false
+          },
+          {
+            "title": "Comme moi (feat. Tiakola)",
+            "french": true
+          },
+          {
+            "title": "CATIMINI",
+            "french": false
+          },
+          {
+            "title": "FORMIDABLE",
+            "french": false
+          },
+          {
+            "title": "Bonsoir Paris (Mama No Cry)",
+            "french": true
+          },
+          {
+            "title": "NOTRE DAME (feat. Angèle)",
+            "french": false
+          },
+          {
+            "title": "OUTRO",
+            "french": false
+          },
+          {
+            "title": "BEAUX GARÇONS",
+            "french": false
+          },
+          {
+            "title": "Pousse toi",
+            "french": true
+          },
+          {
+            "title": "Sombre mélodie",
+            "french": true
+          },
+          {
+            "title": "God Bless",
+            "french": false
+          },
+          {
+            "title": "Bob Marley",
+            "french": false
+          },
+          {
+            "title": "Sans nouvelle",
+            "french": true
+          },
+          {
+            "title": "RESTE-LÀ",
+            "french": false
+          },
+          {
+            "title": "Atasanté Part.2",
+            "french": true
+          },
+          {
+            "title": "Délire (feat. Tiakola)",
+            "french": true
+          },
+          {
+            "title": "Plus belle la vie, plus belle la mort",
+            "french": true
+          }
+        ]
+      }
+    },
+    "54BZYoQp8e6RUDxWAKVd7m": {
+      "name": "FC88",
+      "deezer_name": "Fc88",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 0,
+        "french_tracks": 0,
+        "ratio": 0,
+        "threshold": 0.6,
+        "reason": "Aucun titre analysable",
+        "tracks": []
+      }
+    },
+    "0Cs47vvRsPgEfliBU9KDiB": {
+      "name": "D.O.D",
+      "deezer_name": "D.O.D",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 63,
+        "french_tracks": 1,
+        "ratio": 0.016,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "Closure",
+            "french": false
+          },
+          {
+            "title": "Think About Us",
+            "french": false
+          },
+          {
+            "title": "Twice As Nice",
+            "french": false
+          },
+          {
+            "title": "Feel For You",
+            "french": false
+          },
+          {
+            "title": "R U Mine",
+            "french": false
+          },
+          {
+            "title": "Still Sleepless",
+            "french": false
+          },
+          {
+            "title": "Sweet Nothing (2025 Edit)",
+            "french": false
+          },
+          {
+            "title": "I'll Be There",
+            "french": false
+          },
+          {
+            "title": "The Days (D.O.D Remix)",
+            "french": false
+          },
+          {
+            "title": "Sleepless",
+            "french": false
+          },
+          {
+            "title": "So Much In Love (Sub Focus Remix)",
+            "french": false
+          },
+          {
+            "title": "Wrap Yourself Around Me",
+            "french": false
+          },
+          {
+            "title": "Think About Us (feat. Poppy Baskcomb) (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Every Step",
+            "french": false
+          },
+          {
+            "title": "So Much In Love",
+            "french": false
+          },
+          {
+            "title": "Confession",
+            "french": false
+          },
+          {
+            "title": "Feel The Passion",
+            "french": false
+          },
+          {
+            "title": "According To Me (La Cumbia Cienaguera)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You",
+            "french": false
+          },
+          {
+            "title": "Never Be Alone (D.O.D Remix)",
+            "french": false
+          },
+          {
+            "title": "Set Me Free",
+            "french": false
+          },
+          {
+            "title": "Think About Us (CYRIL Remix)",
+            "french": false
+          },
+          {
+            "title": "Reach For You",
+            "french": false
+          },
+          {
+            "title": "Need You Now",
+            "french": false
+          },
+          {
+            "title": "All Mine",
+            "french": false
+          },
+          {
+            "title": "Love Nor Money",
+            "french": false
+          },
+          {
+            "title": "Closure (Friction Remix)",
+            "french": false
+          },
+          {
+            "title": "Still Sleepless (Ekko & Sidetrack Remix)",
+            "french": false
+          },
+          {
+            "title": "By Now",
+            "french": false
+          },
+          {
+            "title": "Sleepless (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Think About Us (Hitty Remix)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You (Donk Edit)",
+            "french": false
+          },
+          {
+            "title": "Confession (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You (Donk Edit)",
+            "french": false
+          },
+          {
+            "title": "Isolate",
+            "french": false
+          },
+          {
+            "title": "Sunshine",
+            "french": false
+          },
+          {
+            "title": "Two Caps",
+            "french": false
+          },
+          {
+            "title": "Set Me Free (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Whistle (D.O.Donk Remix)",
+            "french": false
+          },
+          {
+            "title": "By Now (Mixed) (VIP Mix)",
+            "french": false
+          },
+          {
+            "title": "Think About Us (VIP Mix)",
+            "french": false
+          },
+          {
+            "title": "Love Nor Money (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "So Much In Love (Sub Focus Extended Remix)",
+            "french": false
+          },
+          {
+            "title": "So Much In Love - Sped Up",
+            "french": false
+          },
+          {
+            "title": "Think About Us (K Motionz Remix)",
+            "french": false
+          },
+          {
+            "title": "Think About Us (Lucas Estrada Remix)",
+            "french": false
+          },
+          {
+            "title": "Wrap Yourself Around Me (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Party All The Time (D.O.D Remix)",
+            "french": false
+          },
+          {
+            "title": "Closure (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "So Much In Love (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Every Step (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Push The Tempo (D.O.D Remix)",
+            "french": false
+          },
+          {
+            "title": "So Much In Love (Armin van Buuren Remix)",
+            "french": false
+          },
+          {
+            "title": "Higher",
+            "french": false
+          },
+          {
+            "title": "Love's Gonna Get You",
+            "french": true
+          },
+          {
+            "title": "6 In the Morning (feat. Nate Dogg) (D.O.D Remix)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You (Donk All Stars Mix)",
+            "french": false
+          },
+          {
+            "title": "By Now (ASOT 1171) [Tune Of The Week]",
+            "french": false
+          },
+          {
+            "title": "So Much In Love (Symmetrik Remix)",
+            "french": false
+          },
+          {
+            "title": "Morph",
+            "french": false
+          },
+          {
+            "title": "The Struggle",
+            "french": false
+          },
+          {
+            "title": "Still Sleepless (Ekko & Sidetrack Extended Remix)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You (All Stars MC Mix x Sluggy Beats)",
+            "french": false
+          }
+        ]
+      }
+    },
+    "6Te49r3A6f5BiIgBRxH7FH": {
+      "name": "Ninho",
+      "deezer_name": "Ninho",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 72,
+        "french_tracks": 29,
+        "ratio": 0.403,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "BRACELET",
+            "french": false
+          },
+          {
+            "title": "Ciao",
+            "french": false
+          },
+          {
+            "title": "LES DIAMANTS DE BOKASSA",
+            "french": false
+          },
+          {
+            "title": "Bavard",
+            "french": false
+          },
+          {
+            "title": "Collabo",
+            "french": false
+          },
+          {
+            "title": "La vie qu'on mène",
+            "french": true
+          },
+          {
+            "title": "Sans peine",
+            "french": true
+          },
+          {
+            "title": "Lettre à une femme",
+            "french": true
+          },
+          {
+            "title": "Monotonie",
+            "french": false
+          },
+          {
+            "title": "Triple V",
+            "french": true
+          },
+          {
+            "title": "Jefe",
+            "french": false
+          },
+          {
+            "title": "Zipette",
+            "french": false
+          },
+          {
+            "title": "Dis-moi que tu m'aimes",
+            "french": true
+          },
+          {
+            "title": "No Life",
+            "french": false
+          },
+          {
+            "title": "Pourquoi",
+            "french": true
+          },
+          {
+            "title": "Elle m'a eu",
+            "french": true
+          },
+          {
+            "title": "Pour nous",
+            "french": true
+          },
+          {
+            "title": "Goutte d'eau",
+            "french": true
+          },
+          {
+            "title": "Etat des lieux (Part 1)",
+            "french": true
+          },
+          {
+            "title": "Eurostar (feat. Central Cee)",
+            "french": false
+          },
+          {
+            "title": "Maman ne le sait pas (feat. Niska)",
+            "french": true
+          },
+          {
+            "title": "Sourire",
+            "french": false
+          },
+          {
+            "title": "Millions",
+            "french": false
+          },
+          {
+            "title": "DICTIONNAIRES",
+            "french": false
+          },
+          {
+            "title": "Coco",
+            "french": false
+          },
+          {
+            "title": "Un Poco",
+            "french": false
+          },
+          {
+            "title": "Champion",
+            "french": false
+          },
+          {
+            "title": "SALE ÉTAT",
+            "french": true
+          },
+          {
+            "title": "VVS",
+            "french": false
+          },
+          {
+            "title": "AU 33ÈME",
+            "french": false
+          },
+          {
+            "title": "Requin",
+            "french": false
+          },
+          {
+            "title": "Dernier Etage",
+            "french": false
+          },
+          {
+            "title": "Vérité",
+            "french": true
+          },
+          {
+            "title": "C'est Fort",
+            "french": true
+          },
+          {
+            "title": "A découvert",
+            "french": true
+          },
+          {
+            "title": "Mon poto (Extrait de la BO de « En Passant Pécho »)",
+            "french": false
+          },
+          {
+            "title": "Malcolm",
+            "french": false
+          },
+          {
+            "title": "Avion de chasse",
+            "french": true
+          },
+          {
+            "title": "La Marseillaise",
+            "french": true
+          },
+          {
+            "title": "DES PIGES",
+            "french": false
+          },
+          {
+            "title": "SURVIE",
+            "french": false
+          },
+          {
+            "title": "Treillis",
+            "french": false
+          },
+          {
+            "title": "Sky Priority",
+            "french": false
+          },
+          {
+            "title": "Money (feat. Faouzia)",
+            "french": false
+          },
+          {
+            "title": "Arme de poing",
+            "french": true
+          },
+          {
+            "title": "Blue",
+            "french": true
+          },
+          {
+            "title": "Un Peu Beaucoup",
+            "french": true
+          },
+          {
+            "title": "Grand Paris",
+            "french": false
+          },
+          {
+            "title": "De l'autre côté (feat. Nekfeu)",
+            "french": true
+          },
+          {
+            "title": "Jusqu'à minuit (feat. JuL)",
+            "french": true
+          },
+          {
+            "title": "Fendi",
+            "french": false
+          },
+          {
+            "title": "5 bleus",
+            "french": true
+          },
+          {
+            "title": "La puerta",
+            "french": false
+          },
+          {
+            "title": "Carolina",
+            "french": false
+          },
+          {
+            "title": "Brouncha",
+            "french": false
+          },
+          {
+            "title": "Aïcha",
+            "french": false
+          },
+          {
+            "title": "Chacun son tour",
+            "french": true
+          },
+          {
+            "title": "Intro",
+            "french": false
+          },
+          {
+            "title": "La zone",
+            "french": false
+          },
+          {
+            "title": "J’AI PAS CHANGÉ",
+            "french": false
+          },
+          {
+            "title": "ZODIAC",
+            "french": false
+          },
+          {
+            "title": "En chien",
+            "french": false
+          },
+          {
+            "title": "Jeune Lossa",
+            "french": true
+          },
+          {
+            "title": "Laisse pas traîner ton fils (feat. Sofiane)",
+            "french": true
+          },
+          {
+            "title": "Outro",
+            "french": true
+          },
+          {
+            "title": "Promo (feat. Damso)",
+            "french": false
+          },
+          {
+            "title": "Tout ira mieux",
+            "french": true
+          },
+          {
+            "title": "Paris c'est magique",
+            "french": true
+          },
+          {
+            "title": "FBI",
+            "french": false
+          },
+          {
+            "title": "La vivance (feat. Koba LaD)",
+            "french": false
+          },
+          {
+            "title": "Every day (feat. Griff)",
+            "french": false
+          },
+          {
+            "title": "COMME ÇA",
+            "french": false
+          }
+        ]
+      }
+    },
+    "0NMrvg8MeJMc5ClJ5BydI7": {
+      "name": "Yan_75100",
+      "deezer_name": "Yan_75100",
+      "reason": "Aucun titre trouvé sur Deezer"
+    },
+    "2TcGJdSOiOvITBzhvfX8XB": {
+      "name": "Shouse",
+      "deezer_name": "Shouse",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 34,
+        "french_tracks": 4,
+        "ratio": 0.118,
+        "threshold": 0.6,
+        "tracks": [
+          {
+            "title": "Love Tonight (Edit)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You (Edit)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You",
+            "french": false
+          },
+          {
+            "title": "Love Tonight",
+            "french": false
+          },
+          {
+            "title": "Call My Name",
+            "french": false
+          },
+          {
+            "title": "Call My Name (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Love Tonight (Robin Schulz Remix)",
+            "french": false
+          },
+          {
+            "title": "Never Let You Go",
+            "french": false
+          },
+          {
+            "title": "Live Without Love",
+            "french": false
+          },
+          {
+            "title": "Love Tonight (David Guetta Remix)",
+            "french": false
+          },
+          {
+            "title": "Only You",
+            "french": false
+          },
+          {
+            "title": "Call My Name (ARYMÉ Remix)",
+            "french": false
+          },
+          {
+            "title": "(still) WON'T4GETU",
+            "french": false
+          },
+          {
+            "title": "Without You",
+            "french": false
+          },
+          {
+            "title": "Live Without Love (Armin van Buuren Remix Edit)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You (Felix Jaehn Remix Edit)",
+            "french": false
+          },
+          {
+            "title": "Won't Forget You (Kungs Remix Edit)",
+            "french": false
+          },
+          {
+            "title": "Wherever You Are",
+            "french": false
+          },
+          {
+            "title": "Into It",
+            "french": false
+          },
+          {
+            "title": "Live Without Love (David Guetta Remix - Edit)",
+            "french": false
+          },
+          {
+            "title": "Your Love (feat. House Gospel Choir) (Coco & Breezy Remix)",
+            "french": true
+          },
+          {
+            "title": "Your Love (feat. House Gospel Choir)",
+            "french": true
+          },
+          {
+            "title": "Chains (Extended Mix)",
+            "french": false
+          },
+          {
+            "title": "Without You (feat. Rachel)",
+            "french": false
+          },
+          {
+            "title": "Tonic (Edit)",
+            "french": false
+          },
+          {
+            "title": "Tonic",
+            "french": false
+          },
+          {
+            "title": "Your Love (feat. House Gospel Choir) (Edit)",
+            "french": true
+          },
+          {
+            "title": "I Believe In Us",
+            "french": false
+          },
+          {
+            "title": "Chains",
+            "french": false
+          },
+          {
+            "title": "Love Tonight (Oliver Huntemann Remix Edit)",
+            "french": false
+          },
+          {
+            "title": "Into It",
+            "french": false
+          },
+          {
+            "title": "Whisper",
+            "french": false
+          },
+          {
+            "title": "Your Love (feat. House Gospel Choir) (Helsloot Remix)",
+            "french": true
+          },
+          {
+            "title": "Love Tonight (Oliver Huntemann Dub)",
+            "french": false
+          }
+        ]
+      }
+    },
+    "4s2X6WgaH6Hb0yVF7s1JIk": {
+      "name": "KARLITO727",
+      "deezer_name": "KARLITO727",
+      "reason": "Moins de 60 % des titres analysables sont français",
+      "details": {
+        "analyzed_tracks": 0,
+        "french_tracks": 0,
+        "ratio": 0,
+        "threshold": 0.6,
+        "reason": "Aucun titre analysable",
+        "tracks": []
       }
     }
   },
