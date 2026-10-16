@@ -30,7 +30,7 @@ LRCLIB_API = "https://lrclib.net/api/search"
 
 RELEASE_YEAR = 2026
 MIN_LISTENERS = int(os.getenv("MIN_MONTHLY_LISTENERS", "0"))
-MAX_ARTISTS = int(os.getenv("MAX_ARTISTS", "500"))
+MAX_ARTISTS = 25 #int(os.getenv("MAX_ARTISTS", "500"))
 
 FRENCH_MARKERS = re.compile(
     r"\b(je|tu|il|elle|nous|vous|ils|elles|mais|donc|alors|avec|sans|pour|dans|sur|"
