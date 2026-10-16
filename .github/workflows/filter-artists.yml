@@ -4,16 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       max_artists:
-        description: "Nombre maximum d'artistes à traiter lors de cette exécution (0 = tous)"
+        description: "Nombre maximum d'artistes à traiter (0 = tous)"
         required: false
-        default: "500"
+        default: "25"
       min_monthly_listeners:
         description: "Auditeurs mensuels minimum (0 = aucun filtre)"
         required: false
         default: "0"
-
-  schedule:
-    - cron: "0 3 * * 1"
 
 permissions:
   contents: write
@@ -21,38 +18,28 @@ permissions:
 jobs:
   filter:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 120
 
     steps:
-      - name: Récupérer le dépôt
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Installer Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
 
-      - name: Installer les dépendances
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Filtrer les artistes
         env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          MAX_ARTISTS: ${{ github.event.inputs.max_artists || '500' }}
+          MAX_ARTISTS: ${{ github.event.inputs.max_artists || '25' }}
           MIN_MONTHLY_LISTENERS: ${{ github.event.inputs.min_monthly_listeners || '0' }}
         run: python scripts/filter_artists.py
 
-      - name: Sauvegarder les résultats
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: artistes-filtres
-          path: |
-            output/artistes_actifs_2026.json
-            output/artistes_francophones_2026.json
-            output/rapport_exclusions.json
-            output/state.json
+          path: output/
           if-no-files-found: warn
 
       - name: Commit des résultats
