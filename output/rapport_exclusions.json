@@ -1,0 +1,169 @@
+{
+  "artist_not_found": {
+    "4EdmQkIvJ7QFseyc1wdgpz": {
+      "name": "60065",
+      "reason": "Artiste introuvable sur Deezer"
+    }
+  },
+  "inactive_2026": {
+    "74RRMZUBITXFy2nuO3593M": {
+      "name": "user445567894",
+      "deezer_name": "user445567894",
+      "deezer_id": 209521397,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "08RYVXl1k3fkuw9zusJexi": {
+      "name": "weeded / 2392799",
+      "deezer_name": "weeded / 2392799",
+      "deezer_id": 370485602,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "5crOTgkcDtgMTCoatASEBs": {
+      "name": "i300",
+      "deezer_name": "i300",
+      "deezer_id": 100864212,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "0j0GI5DcGD2NYv4ME0B4ZJ": {
+      "name": "G1O 24040",
+      "deezer_name": "G1O 24040",
+      "deezer_id": 193082117,
+      "reason": "Aucune sortie album ou single en 2026"
+    }
+  },
+  "not_french": {
+    "66CXWjxzNUsdJxJ2JdwvnR": {
+      "name": "Ariana Grande",
+      "deezer_name": "Ariana Grande",
+      "checked_track": "hate that i made you love me",
+      "reason": "Paroles principales non détectées comme françaises",
+      "details": {
+        "language": "en",
+        "french_markers": 0,
+        "source": "LRCLIB"
+      }
+    },
+    "7eKkW1zo5uzW8kUntiiBvz": {
+      "name": "Malcolm Todd",
+      "deezer_name": "Malcolm Todd",
+      "checked_track": "Earrings",
+      "reason": "Paroles principales non détectées comme françaises",
+      "details": {
+        "language": "en",
+        "french_markers": 0,
+        "source": "LRCLIB"
+      }
+    },
+    "2qanRMyA5bNuTvz1dK45OP": {
+      "name": "ADÉLA",
+      "deezer_name": "ADÉLA",
+      "checked_track": "Nicole Kidman",
+      "reason": "Paroles principales non détectées comme françaises",
+      "details": {
+        "language": "en",
+        "french_markers": 0,
+        "source": "LRCLIB"
+      }
+    }
+  },
+  "undetermined": {
+    "1KTwwFc5Zij0X8ixHNES1h": {
+      "name": "17128492",
+      "reason": "Aucun titre populaire trouvé pour vérifier la langue"
+    },
+    "470HipnVkCOYC7GhqHafEY": {
+      "name": "Andreas 3110",
+      "deezer_name": "Andreas 3110",
+      "checked_track": "Diverso",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "7lXpqiC2f8p6WrehRO2n26": {
+      "name": "QZWFH2664293",
+      "reason": "Aucun titre populaire trouvé pour vérifier la langue"
+    },
+    "46zFm5uJfn6QV0JGjuy9Tq": {
+      "name": "20225",
+      "deezer_name": "20225",
+      "checked_track": "C'EST POUR LES POTOS",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "6q02OCty2wYpEYoi9aGxPc": {
+      "name": "elyasbitume93200",
+      "reason": "Aucun titre populaire trouvé pour vérifier la langue"
+    },
+    "00gZ0K9lWxBtKir3FAK8hx": {
+      "name": "KTG 93",
+      "deezer_name": "KTG 93",
+      "checked_track": "GIGN",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "0xsC5eQvZXOqH2K6a2X7E2": {
+      "name": "L'Araignée 784",
+      "deezer_name": "L'Araignée 784",
+      "checked_track": "La Calle",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "28v7UgUJqHkwwpI6qniX12": {
+      "name": "eemi747474",
+      "reason": "Aucun titre populaire trouvé pour vérifier la langue"
+    },
+    "5hBifEgqrKaFjVytfjQd7u": {
+      "name": "TBR693.2",
+      "reason": "Aucun titre populaire trouvé pour vérifier la langue"
+    },
+    "50rmZcUokzp5TBC0n2ItX8": {
+      "name": "KBINE 454",
+      "deezer_name": "KBINE 454",
+      "checked_track": "Phénomène",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "7aATaf49VFhdsJGNYOnrqb": {
+      "name": "ENVŸ 444",
+      "deezer_name": "ENVŸ 444",
+      "checked_track": "PAS DEUX",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "0nbNJmY1G6HFgiqJpNP5Wf": {
+      "name": "VL400",
+      "deezer_name": "VL400",
+      "checked_track": "OTF (feat. VL400)",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "5izPNYLLC6rqWeDf2v71a6": {
+      "name": "gigi33978",
+      "deezer_name": "gigi33978",
+      "checked_track": "c abusé (feat. gigi33978)",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "7wfnxQNy0QLejA2mfh7F2m": {
+      "name": "FUNKY319",
+      "deezer_name": "FUNKY319",
+      "checked_track": "AU TEMPS POUR MOI",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "4t9UdNjvKfan9CrkU0xDHv": {
+      "name": "TETSUYA 241",
+      "reason": "Aucun titre populaire trouvé pour vérifier la langue"
+    },
+    "0qDozjJa92LebHDpLcd1Fg": {
+      "name": "Sinay 213",
+      "deezer_name": "Sinay 213",
+      "checked_track": "Ca S'paye",
+      "reason": "Langue non confirmée",
+      "details": null
+    },
+    "3RPHHNj0IBVtQyN30AgZJO": {
+      "name": "20100",
+      "reason": "Aucun titre populaire trouvé pour vérifier la langue"
+    }
+  }
+}
