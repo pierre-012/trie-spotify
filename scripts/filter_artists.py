@@ -30,13 +30,13 @@ LRCLIB_API = "https://lrclib.net/api/search"
 
 RELEASE_YEAR = 2026
 TRACK_LIMIT = 100
-LYRICS_CHECK_LIMIT = 5
+LYRICS_CHECK_LIMIT = 10
 
 STRONG_FRENCH_RATIO = 0.6
-BORDERLINE_FRENCH_RATIO = 0.3
+LYRICS_FRENCH_RATIO = 0.5
 
 MIN_LISTENERS = int(os.getenv("MIN_MONTHLY_LISTENERS", "0"))
-MAX_ARTISTS = int(os.getenv("MAX_ARTISTS", "25"))
+MAX_ARTISTS = int(os.getenv("MAX_ARTISTS", "100"))
 
 FRENCH_MARKERS = re.compile(
     r"\b(je|tu|il|elle|nous|vous|ils|elles|mais|donc|alors|avec|sans|pour|dans|sur|"
@@ -186,7 +186,48 @@ def get_artist_tracks(deezer_artist_id):
         params={"limit": TRACK_LIMIT},
     )
 
-    return data.get("data", [])
+    tracks = data.get("data", [])
+
+    if tracks:
+        print(f"    Titres populaires récupérés : {len(tracks)}")
+        return tracks
+
+    print("    Aucun titre populaire : fallback sur les albums")
+
+    albums_data = deezer_get(
+        f"{DEEZER_API}/artist/{deezer_artist_id}/albums",
+        params={"limit": 25, "index": 0},
+    )
+
+    albums = albums_data.get("data", [])
+    tracks = []
+
+    for album in albums:
+        album_id = album.get("id")
+
+        if not album_id:
+            continue
+
+        album_tracks_data = deezer_get(
+            f"{DEEZER_API}/album/{album_id}/tracks",
+            params={"limit": 100},
+        )
+
+        album_tracks = album_tracks_data.get("data", [])
+
+        for track in album_tracks:
+            track["album_title"] = album.get("title")
+            tracks.append(track)
+
+        if len(tracks) >= TRACK_LIMIT:
+            break
+
+        time.sleep(0.2)
+
+    tracks = tracks[:TRACK_LIMIT]
+
+    print(f"    Titres récupérés via albums : {len(tracks)}")
+    return tracks
 
 
 def is_french_title(track_name):
@@ -243,16 +284,7 @@ def analyze_titles(tracks):
         if verdict:
             french_count += 1
 
-    if analyzed_count == 0:
-        return "not_french", {
-            "analyzed_tracks": 0,
-            "french_tracks": 0,
-            "ratio": 0,
-            "reason": "Aucun titre analysable",
-            "tracks": [],
-        }
-
-    ratio = french_count / analyzed_count
+    ratio = french_count / analyzed_count if analyzed_count else 0
 
     details = {
         "analyzed_tracks": analyzed_count,
@@ -266,13 +298,7 @@ def analyze_titles(tracks):
         f"français : {french_count} | ratio : {ratio:.2f}"
     )
 
-    if ratio > STRONG_FRENCH_RATIO:
-        return "french", details
-
-    if ratio < BORDERLINE_FRENCH_RATIO:
-        return "not_french", details
-
-    return "borderline", details
+    return details
 
 
 def get_lyrics(track_name, artist_name):
@@ -330,7 +356,7 @@ def analyze_lyrics(lyrics):
         "source": "LRCLIB",
     }
 
-    if language == "fr" or french_score >= 4 or common_score >= 6:
+    if language == "fr" or french_score >= 3 or common_score >= 5:
         return "french", details
 
     return "not_french", details
@@ -338,10 +364,13 @@ def analyze_lyrics(lyrics):
 
 def confirm_french_with_lyrics(tracks, artist_name):
     checked_tracks = []
-    french_lyrics_count = 0
-    analyzed_lyrics_count = 0
+    french_count = 0
+    analyzed_count = 0
 
-    for track in tracks[:LYRICS_CHECK_LIMIT]:
+    for track in tracks:
+        if analyzed_count >= LYRICS_CHECK_LIMIT:
+            break
+
         title = track.get("title")
 
         if not title:
@@ -354,7 +383,7 @@ def confirm_french_with_lyrics(tracks, artist_name):
 
         verdict, details = analyze_lyrics(lyrics)
 
-        analyzed_lyrics_count += 1
+        analyzed_count += 1
         checked_tracks.append(
             {
                 "title": title,
@@ -364,19 +393,29 @@ def confirm_french_with_lyrics(tracks, artist_name):
         )
 
         if verdict == "french":
-            french_lyrics_count += 1
-            break
+            french_count += 1
 
         time.sleep(0.2)
 
+    ratio = french_count / analyzed_count if analyzed_count else 0
+
     details = {
-        "method": "title_ratio_plus_lyrics_confirmation",
+        "method": "lyrics_confirmation",
         "checked_tracks": checked_tracks,
-        "analyzed_lyrics": analyzed_lyrics_count,
-        "french_lyrics": french_lyrics_count,
+        "analyzed_lyrics": analyzed_count,
+        "french_lyrics": french_count,
+        "ratio": round(ratio, 3),
     }
 
-    if french_lyrics_count > 0:
+    print(
+        f"    Paroles analysées : {analyzed_count} | "
+        f"français : {french_count} | ratio : {ratio:.2f}"
+    )
+
+    if analyzed_count == 0:
+        return "not_french", details
+
+    if ratio > LYRICS_FRENCH_RATIO:
         return "french", details
 
     return "not_french", details
@@ -480,24 +519,43 @@ def main():
             continue
 
         if not tracks:
+            print("    Aucun titre récupérable, même via les albums")
+
             report["not_french"][artist_id] = {
                 "name": name,
                 "deezer_name": deezer_name,
+                "deezer_id": deezer_id,
                 "reason": "Aucun titre trouvé sur Deezer",
             }
             state["processed"][artist_id] = "not_french"
             continue
 
-        verdict, title_details = analyze_titles(tracks)
+        title_details = analyze_titles(tracks)
         artist_copy["title_check"] = title_details
 
-        if verdict == "borderline":
-            print("    Ratio intermédiaire : vérification des paroles")
+        title_ratio = title_details["ratio"]
+
+        if title_ratio > STRONG_FRENCH_RATIO:
+            verdict = "french"
+
+            artist_copy["french_check"] = {
+                "method": "track_titles",
+                **title_details,
+            }
+
+        else:
+            print("    Ratio insuffisant : vérification des paroles")
+
             verdict, lyrics_details = confirm_french_with_lyrics(
                 tracks,
                 deezer_name,
             )
-            artist_copy["lyrics_check"] = lyrics_details
+
+            artist_copy["french_check"] = {
+                "method": "lyrics_confirmation",
+                "title_check": title_details,
+                **lyrics_details,
+            }
 
         if verdict == "french":
             french_artists[artist_id] = artist_copy
@@ -509,8 +567,7 @@ def main():
                 "name": name,
                 "deezer_name": deezer_name,
                 "reason": "Francophonie non confirmée",
-                "title_check": title_details,
-                "lyrics_check": artist_copy.get("lyrics_check"),
+                "french_check": artist_copy.get("french_check"),
             }
             state["processed"][artist_id] = "not_french"
 
