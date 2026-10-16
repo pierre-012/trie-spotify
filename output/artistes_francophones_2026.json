@@ -7430,5 +7430,6366 @@
         }
       ]
     }
+  },
+  "5mmEMfYChd6MImBagU7zCs": {
+    "id": "5mmEMfYChd6MImBagU7zCs",
+    "name": "Bigflo & Oli",
+    "url": "https://open.spotify.com/intl-fr/artist/5mmEMfYChd6MImBagU7zCs",
+    "uri": "spotify:artist:5mmEMfYChd6MImBagU7zCs",
+    "monthly_listeners": 2342735,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/5mmEMfYChd6MImBagU7zCs"
+    },
+    "first_seen": "2026-10-07T01:59:27+00:00",
+    "last_seen": "2026-10-07T01:59:27+00:00",
+    "deezer_id": 5497121,
+    "deezer_name": "Bigflo & Oli",
+    "releases_2026": [
+      {
+        "name": "Karma",
+        "type": "album",
+        "release_date": "2026-03-12",
+        "url": "https://www.deezer.com/album/933704401"
+      },
+      {
+        "name": "Demain t'es ou (Remix)",
+        "type": "album",
+        "release_date": "2026-08-27",
+        "url": "https://www.deezer.com/album/1061829922"
+      },
+      {
+        "name": "Picasso",
+        "type": "album",
+        "release_date": "2026-08-06",
+        "url": "https://www.deezer.com/album/1042523622"
+      },
+      {
+        "name": "Picasso (Patomant Remix)",
+        "type": "album",
+        "release_date": "2026-07-30",
+        "url": "https://www.deezer.com/album/1040161992"
+      },
+      {
+        "name": "Picasso (session live & acoustique)",
+        "type": "album",
+        "release_date": "2026-07-01",
+        "url": "https://www.deezer.com/album/1017275011"
+      },
+      {
+        "name": "Focus",
+        "type": "album",
+        "release_date": "2026-03-05",
+        "url": "https://www.deezer.com/album/928298891"
+      },
+      {
+        "name": "Booskarma (1 son en 1 heure)",
+        "type": "album",
+        "release_date": "2026-02-26",
+        "url": "https://www.deezer.com/album/926212351"
+      },
+      {
+        "name": "44D",
+        "type": "album",
+        "release_date": "2026-02-19",
+        "url": "https://www.deezer.com/album/917933101"
+      },
+      {
+        "name": "Vendredi 13 Mars",
+        "type": "album",
+        "release_date": "2026-02-12",
+        "url": "https://www.deezer.com/album/915243161"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 85,
+      "french_tracks": 65,
+      "ratio": 0.765,
+      "tracks": [
+        {
+          "title": "Demain t'es ou (Remix)",
+          "french": true
+        },
+        {
+          "title": "Coup de vieux",
+          "french": true
+        },
+        {
+          "title": "Picasso",
+          "french": false
+        },
+        {
+          "title": "Dommage",
+          "french": false
+        },
+        {
+          "title": "Je suis",
+          "french": true
+        },
+        {
+          "title": "Dernière",
+          "french": true
+        },
+        {
+          "title": "Bienvenue chez moi",
+          "french": true
+        },
+        {
+          "title": "Family Business",
+          "french": false
+        },
+        {
+          "title": "Il faudrait",
+          "french": true
+        },
+        {
+          "title": "Pour un pote (Bande originale du film \"Brice 3\")",
+          "french": true
+        },
+        {
+          "title": "Minimum !",
+          "french": false
+        },
+        {
+          "title": "Les Dieux et les Rois",
+          "french": true
+        },
+        {
+          "title": "Personne",
+          "french": true
+        },
+        {
+          "title": "Vendredi 13 Mars",
+          "french": false
+        },
+        {
+          "title": "Monsieur Tout-le-monde",
+          "french": true
+        },
+        {
+          "title": "44D",
+          "french": false
+        },
+        {
+          "title": "Mexico en Janvier_freestyle 2025",
+          "french": false
+        },
+        {
+          "title": "Remontada",
+          "french": false
+        },
+        {
+          "title": "Sur la lune",
+          "french": true
+        },
+        {
+          "title": "Le goût du sel",
+          "french": true
+        },
+        {
+          "title": "Une belle chanson",
+          "french": true
+        },
+        {
+          "title": "C'est pas bien",
+          "french": true
+        },
+        {
+          "title": "L'hymne de nos campagnes 2019",
+          "french": true
+        },
+        {
+          "title": "La vie normale",
+          "french": true
+        },
+        {
+          "title": "Insolent 5",
+          "french": true
+        },
+        {
+          "title": "Le Retour du Texte",
+          "french": true
+        },
+        {
+          "title": "Insolent 4",
+          "french": true
+        },
+        {
+          "title": "Ça va beaucoup trop vite",
+          "french": true
+        },
+        {
+          "title": "Ici c’est Toulouse",
+          "french": true
+        },
+        {
+          "title": "Trust Myself",
+          "french": false
+        },
+        {
+          "title": "Trop tard",
+          "french": false
+        },
+        {
+          "title": "Sacré Bordel",
+          "french": true
+        },
+        {
+          "title": "Cadaqués en Novembre_freestyle 2025",
+          "french": true
+        },
+        {
+          "title": "Fan",
+          "french": false
+        },
+        {
+          "title": "Ça va trop vite",
+          "french": true
+        },
+        {
+          "title": "New York en Décembre_freestyle 2025",
+          "french": true
+        },
+        {
+          "title": "Mourir pour renaître",
+          "french": true
+        },
+        {
+          "title": "Rentrez chez vous",
+          "french": true
+        },
+        {
+          "title": "Tandem",
+          "french": false
+        },
+        {
+          "title": "Bons élèves",
+          "french": true
+        },
+        {
+          "title": "Autre part",
+          "french": true
+        },
+        {
+          "title": "Aujourd'hui",
+          "french": true
+        },
+        {
+          "title": "José et Amar",
+          "french": true
+        },
+        {
+          "title": "Tant pis ou tant mieux",
+          "french": true
+        },
+        {
+          "title": "Libre",
+          "french": false
+        },
+        {
+          "title": "La tempête",
+          "french": true
+        },
+        {
+          "title": "J'étais pas là",
+          "french": true
+        },
+        {
+          "title": "Alors alors",
+          "french": true
+        },
+        {
+          "title": "Londres en Mars_freestyle 2025",
+          "french": true
+        },
+        {
+          "title": "La vraie vie",
+          "french": true
+        },
+        {
+          "title": "Dans mon lit",
+          "french": true
+        },
+        {
+          "title": "Copier / Coller",
+          "french": false
+        },
+        {
+          "title": "Il est où ton frère ?",
+          "french": true
+        },
+        {
+          "title": "C'est que du rap",
+          "french": true
+        },
+        {
+          "title": "Picasso (version acoustique)",
+          "french": false
+        },
+        {
+          "title": "Du disque dur au disque d'or",
+          "french": true
+        },
+        {
+          "title": "Coup de Blues / Soleil",
+          "french": true
+        },
+        {
+          "title": "Dommage (Acoustic)",
+          "french": false
+        },
+        {
+          "title": "Super Héros",
+          "french": true
+        },
+        {
+          "title": "Le son préféré de mes potes",
+          "french": true
+        },
+        {
+          "title": "Les gens tristes",
+          "french": true
+        },
+        {
+          "title": "Début d'empire",
+          "french": true
+        },
+        {
+          "title": "La seule",
+          "french": true
+        },
+        {
+          "title": "Picasso (live session)",
+          "french": false
+        },
+        {
+          "title": "Au Revoir",
+          "french": true
+        },
+        {
+          "title": "Ils sont fous ces humains !",
+          "french": true
+        },
+        {
+          "title": "La vie d’après",
+          "french": true
+        },
+        {
+          "title": "Comme d'hab",
+          "french": true
+        },
+        {
+          "title": "Nous aussi",
+          "french": true
+        },
+        {
+          "title": "Sans Transition",
+          "french": true
+        },
+        {
+          "title": "Promesses",
+          "french": true
+        },
+        {
+          "title": "Insolent 2",
+          "french": true
+        },
+        {
+          "title": "Nous aussi 2",
+          "french": true
+        },
+        {
+          "title": "Trèfle",
+          "french": true
+        },
+        {
+          "title": "Picasso",
+          "french": false
+        },
+        {
+          "title": "Allez le stade toulousain",
+          "french": true
+        },
+        {
+          "title": "Sac à dos",
+          "french": true
+        },
+        {
+          "title": "Pas du même monde (feat. Bigflo & Oli)",
+          "french": true
+        },
+        {
+          "title": "Répondez-moi",
+          "french": true
+        },
+        {
+          "title": "Mexico en Janvier (Youssoupha Remix)",
+          "french": false
+        },
+        {
+          "title": "La vie de rêve",
+          "french": true
+        },
+        {
+          "title": "À mon retour",
+          "french": true
+        },
+        {
+          "title": "La cour des grands",
+          "french": true
+        },
+        {
+          "title": "Olivio",
+          "french": false
+        },
+        {
+          "title": "Insolent 3",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 85,
+      "french_tracks": 65,
+      "ratio": 0.765,
+      "tracks": [
+        {
+          "title": "Demain t'es ou (Remix)",
+          "french": true
+        },
+        {
+          "title": "Coup de vieux",
+          "french": true
+        },
+        {
+          "title": "Picasso",
+          "french": false
+        },
+        {
+          "title": "Dommage",
+          "french": false
+        },
+        {
+          "title": "Je suis",
+          "french": true
+        },
+        {
+          "title": "Dernière",
+          "french": true
+        },
+        {
+          "title": "Bienvenue chez moi",
+          "french": true
+        },
+        {
+          "title": "Family Business",
+          "french": false
+        },
+        {
+          "title": "Il faudrait",
+          "french": true
+        },
+        {
+          "title": "Pour un pote (Bande originale du film \"Brice 3\")",
+          "french": true
+        },
+        {
+          "title": "Minimum !",
+          "french": false
+        },
+        {
+          "title": "Les Dieux et les Rois",
+          "french": true
+        },
+        {
+          "title": "Personne",
+          "french": true
+        },
+        {
+          "title": "Vendredi 13 Mars",
+          "french": false
+        },
+        {
+          "title": "Monsieur Tout-le-monde",
+          "french": true
+        },
+        {
+          "title": "44D",
+          "french": false
+        },
+        {
+          "title": "Mexico en Janvier_freestyle 2025",
+          "french": false
+        },
+        {
+          "title": "Remontada",
+          "french": false
+        },
+        {
+          "title": "Sur la lune",
+          "french": true
+        },
+        {
+          "title": "Le goût du sel",
+          "french": true
+        },
+        {
+          "title": "Une belle chanson",
+          "french": true
+        },
+        {
+          "title": "C'est pas bien",
+          "french": true
+        },
+        {
+          "title": "L'hymne de nos campagnes 2019",
+          "french": true
+        },
+        {
+          "title": "La vie normale",
+          "french": true
+        },
+        {
+          "title": "Insolent 5",
+          "french": true
+        },
+        {
+          "title": "Le Retour du Texte",
+          "french": true
+        },
+        {
+          "title": "Insolent 4",
+          "french": true
+        },
+        {
+          "title": "Ça va beaucoup trop vite",
+          "french": true
+        },
+        {
+          "title": "Ici c’est Toulouse",
+          "french": true
+        },
+        {
+          "title": "Trust Myself",
+          "french": false
+        },
+        {
+          "title": "Trop tard",
+          "french": false
+        },
+        {
+          "title": "Sacré Bordel",
+          "french": true
+        },
+        {
+          "title": "Cadaqués en Novembre_freestyle 2025",
+          "french": true
+        },
+        {
+          "title": "Fan",
+          "french": false
+        },
+        {
+          "title": "Ça va trop vite",
+          "french": true
+        },
+        {
+          "title": "New York en Décembre_freestyle 2025",
+          "french": true
+        },
+        {
+          "title": "Mourir pour renaître",
+          "french": true
+        },
+        {
+          "title": "Rentrez chez vous",
+          "french": true
+        },
+        {
+          "title": "Tandem",
+          "french": false
+        },
+        {
+          "title": "Bons élèves",
+          "french": true
+        },
+        {
+          "title": "Autre part",
+          "french": true
+        },
+        {
+          "title": "Aujourd'hui",
+          "french": true
+        },
+        {
+          "title": "José et Amar",
+          "french": true
+        },
+        {
+          "title": "Tant pis ou tant mieux",
+          "french": true
+        },
+        {
+          "title": "Libre",
+          "french": false
+        },
+        {
+          "title": "La tempête",
+          "french": true
+        },
+        {
+          "title": "J'étais pas là",
+          "french": true
+        },
+        {
+          "title": "Alors alors",
+          "french": true
+        },
+        {
+          "title": "Londres en Mars_freestyle 2025",
+          "french": true
+        },
+        {
+          "title": "La vraie vie",
+          "french": true
+        },
+        {
+          "title": "Dans mon lit",
+          "french": true
+        },
+        {
+          "title": "Copier / Coller",
+          "french": false
+        },
+        {
+          "title": "Il est où ton frère ?",
+          "french": true
+        },
+        {
+          "title": "C'est que du rap",
+          "french": true
+        },
+        {
+          "title": "Picasso (version acoustique)",
+          "french": false
+        },
+        {
+          "title": "Du disque dur au disque d'or",
+          "french": true
+        },
+        {
+          "title": "Coup de Blues / Soleil",
+          "french": true
+        },
+        {
+          "title": "Dommage (Acoustic)",
+          "french": false
+        },
+        {
+          "title": "Super Héros",
+          "french": true
+        },
+        {
+          "title": "Le son préféré de mes potes",
+          "french": true
+        },
+        {
+          "title": "Les gens tristes",
+          "french": true
+        },
+        {
+          "title": "Début d'empire",
+          "french": true
+        },
+        {
+          "title": "La seule",
+          "french": true
+        },
+        {
+          "title": "Picasso (live session)",
+          "french": false
+        },
+        {
+          "title": "Au Revoir",
+          "french": true
+        },
+        {
+          "title": "Ils sont fous ces humains !",
+          "french": true
+        },
+        {
+          "title": "La vie d’après",
+          "french": true
+        },
+        {
+          "title": "Comme d'hab",
+          "french": true
+        },
+        {
+          "title": "Nous aussi",
+          "french": true
+        },
+        {
+          "title": "Sans Transition",
+          "french": true
+        },
+        {
+          "title": "Promesses",
+          "french": true
+        },
+        {
+          "title": "Insolent 2",
+          "french": true
+        },
+        {
+          "title": "Nous aussi 2",
+          "french": true
+        },
+        {
+          "title": "Trèfle",
+          "french": true
+        },
+        {
+          "title": "Picasso",
+          "french": false
+        },
+        {
+          "title": "Allez le stade toulousain",
+          "french": true
+        },
+        {
+          "title": "Sac à dos",
+          "french": true
+        },
+        {
+          "title": "Pas du même monde (feat. Bigflo & Oli)",
+          "french": true
+        },
+        {
+          "title": "Répondez-moi",
+          "french": true
+        },
+        {
+          "title": "Mexico en Janvier (Youssoupha Remix)",
+          "french": false
+        },
+        {
+          "title": "La vie de rêve",
+          "french": true
+        },
+        {
+          "title": "À mon retour",
+          "french": true
+        },
+        {
+          "title": "La cour des grands",
+          "french": true
+        },
+        {
+          "title": "Olivio",
+          "french": false
+        },
+        {
+          "title": "Insolent 3",
+          "french": true
+        }
+      ]
+    }
+  },
+  "7CW7QdOgRStOg7JktRuZ3E": {
+    "id": "7CW7QdOgRStOg7JktRuZ3E",
+    "name": "Imen Es",
+    "url": "https://open.spotify.com/intl-fr/artist/7CW7QdOgRStOg7JktRuZ3E",
+    "uri": "spotify:artist:7CW7QdOgRStOg7JktRuZ3E",
+    "monthly_listeners": 2297246,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/7CW7QdOgRStOg7JktRuZ3E"
+    },
+    "first_seen": "2026-10-02T06:40:28+00:00",
+    "last_seen": "2026-10-02T06:40:28+00:00",
+    "deezer_id": 49569672,
+    "deezer_name": "Imen Es",
+    "releases_2026": [
+      {
+        "name": "VII - Memories",
+        "type": "album",
+        "release_date": "2026-10-16",
+        "url": "https://www.deezer.com/album/1122178962"
+      },
+      {
+        "name": "DidiStone",
+        "type": "album",
+        "release_date": "2026-05-07",
+        "url": "https://www.deezer.com/album/976854241"
+      },
+      {
+        "name": "Tout se sait",
+        "type": "album",
+        "release_date": "2026-01-16",
+        "url": "https://www.deezer.com/album/892007512"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 45,
+      "french_tracks": 37,
+      "ratio": 0.822,
+      "tracks": [
+        {
+          "title": "Petit génie",
+          "french": true
+        },
+        {
+          "title": "1ère fois",
+          "french": true
+        },
+        {
+          "title": "Tout se sait",
+          "french": true
+        },
+        {
+          "title": "Jusqu'au bout",
+          "french": true
+        },
+        {
+          "title": "Attentat",
+          "french": false
+        },
+        {
+          "title": "J'ai fait semblant",
+          "french": true
+        },
+        {
+          "title": "Je sais",
+          "french": true
+        },
+        {
+          "title": "Fantôme",
+          "french": true
+        },
+        {
+          "title": "Le choix (feat. Imen Es)",
+          "french": true
+        },
+        {
+          "title": "Chelou",
+          "french": false
+        },
+        {
+          "title": "Lumière",
+          "french": true
+        },
+        {
+          "title": "Pervers narcissique",
+          "french": true
+        },
+        {
+          "title": "Essaie encore",
+          "french": true
+        },
+        {
+          "title": "Quitter",
+          "french": false
+        },
+        {
+          "title": "Piqué",
+          "french": true
+        },
+        {
+          "title": "Stop",
+          "french": false
+        },
+        {
+          "title": "Au début",
+          "french": true
+        },
+        {
+          "title": "Introspection",
+          "french": false
+        },
+        {
+          "title": "Derrière toi",
+          "french": true
+        },
+        {
+          "title": "Alors",
+          "french": true
+        },
+        {
+          "title": "Pour nous",
+          "french": true
+        },
+        {
+          "title": "Gangsta Love",
+          "french": false
+        },
+        {
+          "title": "Oui",
+          "french": true
+        },
+        {
+          "title": "Je t'aime en silence",
+          "french": true
+        },
+        {
+          "title": "MEA CULPA",
+          "french": false
+        },
+        {
+          "title": "La mort n'arrête pas l'amour",
+          "french": true
+        },
+        {
+          "title": "Fausse couche",
+          "french": true
+        },
+        {
+          "title": "Mille et une raison",
+          "french": true
+        },
+        {
+          "title": "Parler de nous",
+          "french": true
+        },
+        {
+          "title": "Bout de moi",
+          "french": true
+        },
+        {
+          "title": "Apaise ton coeur",
+          "french": true
+        },
+        {
+          "title": "Je t’aime n’est pas assez fort",
+          "french": true
+        },
+        {
+          "title": "Vie de rêve",
+          "french": true
+        },
+        {
+          "title": "PARANOÏAQUE",
+          "french": true
+        },
+        {
+          "title": "T'oublier",
+          "french": true
+        },
+        {
+          "title": "Petit coeur",
+          "french": true
+        },
+        {
+          "title": "Jolie bébé",
+          "french": true
+        },
+        {
+          "title": "Vendeur de rêve",
+          "french": true
+        },
+        {
+          "title": "Je ne m'y habitue pas",
+          "french": true
+        },
+        {
+          "title": "Il m'a jeté un sort",
+          "french": true
+        },
+        {
+          "title": "D'ennemi à bébé",
+          "french": true
+        },
+        {
+          "title": "Fausse soeur",
+          "french": true
+        },
+        {
+          "title": "Freedom",
+          "french": false
+        },
+        {
+          "title": "Mon bébé",
+          "french": true
+        },
+        {
+          "title": "Plus le même",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 45,
+      "french_tracks": 37,
+      "ratio": 0.822,
+      "tracks": [
+        {
+          "title": "Petit génie",
+          "french": true
+        },
+        {
+          "title": "1ère fois",
+          "french": true
+        },
+        {
+          "title": "Tout se sait",
+          "french": true
+        },
+        {
+          "title": "Jusqu'au bout",
+          "french": true
+        },
+        {
+          "title": "Attentat",
+          "french": false
+        },
+        {
+          "title": "J'ai fait semblant",
+          "french": true
+        },
+        {
+          "title": "Je sais",
+          "french": true
+        },
+        {
+          "title": "Fantôme",
+          "french": true
+        },
+        {
+          "title": "Le choix (feat. Imen Es)",
+          "french": true
+        },
+        {
+          "title": "Chelou",
+          "french": false
+        },
+        {
+          "title": "Lumière",
+          "french": true
+        },
+        {
+          "title": "Pervers narcissique",
+          "french": true
+        },
+        {
+          "title": "Essaie encore",
+          "french": true
+        },
+        {
+          "title": "Quitter",
+          "french": false
+        },
+        {
+          "title": "Piqué",
+          "french": true
+        },
+        {
+          "title": "Stop",
+          "french": false
+        },
+        {
+          "title": "Au début",
+          "french": true
+        },
+        {
+          "title": "Introspection",
+          "french": false
+        },
+        {
+          "title": "Derrière toi",
+          "french": true
+        },
+        {
+          "title": "Alors",
+          "french": true
+        },
+        {
+          "title": "Pour nous",
+          "french": true
+        },
+        {
+          "title": "Gangsta Love",
+          "french": false
+        },
+        {
+          "title": "Oui",
+          "french": true
+        },
+        {
+          "title": "Je t'aime en silence",
+          "french": true
+        },
+        {
+          "title": "MEA CULPA",
+          "french": false
+        },
+        {
+          "title": "La mort n'arrête pas l'amour",
+          "french": true
+        },
+        {
+          "title": "Fausse couche",
+          "french": true
+        },
+        {
+          "title": "Mille et une raison",
+          "french": true
+        },
+        {
+          "title": "Parler de nous",
+          "french": true
+        },
+        {
+          "title": "Bout de moi",
+          "french": true
+        },
+        {
+          "title": "Apaise ton coeur",
+          "french": true
+        },
+        {
+          "title": "Je t’aime n’est pas assez fort",
+          "french": true
+        },
+        {
+          "title": "Vie de rêve",
+          "french": true
+        },
+        {
+          "title": "PARANOÏAQUE",
+          "french": true
+        },
+        {
+          "title": "T'oublier",
+          "french": true
+        },
+        {
+          "title": "Petit coeur",
+          "french": true
+        },
+        {
+          "title": "Jolie bébé",
+          "french": true
+        },
+        {
+          "title": "Vendeur de rêve",
+          "french": true
+        },
+        {
+          "title": "Je ne m'y habitue pas",
+          "french": true
+        },
+        {
+          "title": "Il m'a jeté un sort",
+          "french": true
+        },
+        {
+          "title": "D'ennemi à bébé",
+          "french": true
+        },
+        {
+          "title": "Fausse soeur",
+          "french": true
+        },
+        {
+          "title": "Freedom",
+          "french": false
+        },
+        {
+          "title": "Mon bébé",
+          "french": true
+        },
+        {
+          "title": "Plus le même",
+          "french": true
+        }
+      ]
+    }
+  },
+  "3L774tiJRvPmAS90pOLB44": {
+    "id": "3L774tiJRvPmAS90pOLB44",
+    "name": "Rsko",
+    "url": "https://open.spotify.com/intl-fr/artist/3L774tiJRvPmAS90pOLB44",
+    "uri": "spotify:artist:3L774tiJRvPmAS90pOLB44",
+    "monthly_listeners": 2272035,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/3L774tiJRvPmAS90pOLB44"
+    },
+    "first_seen": "2026-10-05T00:33:12+00:00",
+    "last_seen": "2026-10-05T00:33:12+00:00",
+    "deezer_id": 9976422,
+    "deezer_name": "Rsko",
+    "releases_2026": [
+      {
+        "name": "À la base",
+        "type": "album",
+        "release_date": "2026-04-03",
+        "url": "https://www.deezer.com/album/947305601"
+      },
+      {
+        "name": "Emilie (feat. Rsko)",
+        "type": "album",
+        "release_date": "2026-03-12",
+        "url": "https://www.deezer.com/album/935860761"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 70,
+      "french_tracks": 44,
+      "ratio": 0.629,
+      "tracks": [
+        {
+          "title": "À la base",
+          "french": true
+        },
+        {
+          "title": "J'ai zayé",
+          "french": true
+        },
+        {
+          "title": "SINCÈRE",
+          "french": true
+        },
+        {
+          "title": "Sal Histoire",
+          "french": true
+        },
+        {
+          "title": "Pression",
+          "french": false
+        },
+        {
+          "title": "Derecha (feat. Timar)",
+          "french": false
+        },
+        {
+          "title": "Boussole",
+          "french": true
+        },
+        {
+          "title": "Mucho Cuir",
+          "french": false
+        },
+        {
+          "title": "Chaque jour",
+          "french": true
+        },
+        {
+          "title": "Location",
+          "french": false
+        },
+        {
+          "title": "La rue me rappelle",
+          "french": true
+        },
+        {
+          "title": "Palavé (feat. Tiakola)",
+          "french": true
+        },
+        {
+          "title": "Béton",
+          "french": true
+        },
+        {
+          "title": "Copa",
+          "french": false
+        },
+        {
+          "title": "Ennemi",
+          "french": false
+        },
+        {
+          "title": "Porsche",
+          "french": false
+        },
+        {
+          "title": "Comme ça",
+          "french": true
+        },
+        {
+          "title": "BANGER",
+          "french": false
+        },
+        {
+          "title": "Bosseur (feat. Tiakola)",
+          "french": true
+        },
+        {
+          "title": "Je Sais Pas",
+          "french": true
+        },
+        {
+          "title": "Oublier",
+          "french": true
+        },
+        {
+          "title": "God Bless",
+          "french": false
+        },
+        {
+          "title": "Remords",
+          "french": false
+        },
+        {
+          "title": "Meilleurs",
+          "french": true
+        },
+        {
+          "title": "Comment faire",
+          "french": true
+        },
+        {
+          "title": "ENCORE (feat. Rsko)",
+          "french": true
+        },
+        {
+          "title": "Contvct (feat. Aya Nakamura)",
+          "french": false
+        },
+        {
+          "title": "Itinéraire",
+          "french": true
+        },
+        {
+          "title": "Da Vinci",
+          "french": false
+        },
+        {
+          "title": "Memory",
+          "french": false
+        },
+        {
+          "title": "Toute l’année",
+          "french": true
+        },
+        {
+          "title": "H24 Dans L’tiekson (Dangereux)",
+          "french": true
+        },
+        {
+          "title": "Hit Machine",
+          "french": false
+        },
+        {
+          "title": "On le Fait",
+          "french": true
+        },
+        {
+          "title": "Yea Yea",
+          "french": false
+        },
+        {
+          "title": "Pour Toi",
+          "french": true
+        },
+        {
+          "title": "Passion",
+          "french": false
+        },
+        {
+          "title": "Bientôt",
+          "french": true
+        },
+        {
+          "title": "Le produit est bon",
+          "french": true
+        },
+        {
+          "title": "Paranoïa",
+          "french": true
+        },
+        {
+          "title": "Meilleurs (Afro Live Remix)",
+          "french": true
+        },
+        {
+          "title": "Mauvais Garçon",
+          "french": true
+        },
+        {
+          "title": "11h pétantes",
+          "french": true
+        },
+        {
+          "title": "Fin du mois",
+          "french": true
+        },
+        {
+          "title": "Ça va",
+          "french": true
+        },
+        {
+          "title": "Compète (feat. L2B Gang)",
+          "french": true
+        },
+        {
+          "title": "Peckham",
+          "french": false
+        },
+        {
+          "title": "Sal Mélodie",
+          "french": true
+        },
+        {
+          "title": "Contvct",
+          "french": false
+        },
+        {
+          "title": "Chez nous",
+          "french": true
+        },
+        {
+          "title": "Pour nous",
+          "french": true
+        },
+        {
+          "title": "Clio 2",
+          "french": false
+        },
+        {
+          "title": "10h Pétantes",
+          "french": true
+        },
+        {
+          "title": "Appât du gain",
+          "french": true
+        },
+        {
+          "title": "Mes Rêves",
+          "french": true
+        },
+        {
+          "title": "2, 3 idées",
+          "french": true
+        },
+        {
+          "title": "Intro 0.7",
+          "french": false
+        },
+        {
+          "title": "Frigo",
+          "french": false
+        },
+        {
+          "title": "Oublier (Acoustique)",
+          "french": true
+        },
+        {
+          "title": "Le Milieu",
+          "french": true
+        },
+        {
+          "title": "4 SAISONS",
+          "french": false
+        },
+        {
+          "title": "Routine",
+          "french": false
+        },
+        {
+          "title": "LMDB",
+          "french": true
+        },
+        {
+          "title": "Paro (Live Performance)",
+          "french": false
+        },
+        {
+          "title": "Allô, allô (feat. Chily)",
+          "french": true
+        },
+        {
+          "title": "12 coups",
+          "french": true
+        },
+        {
+          "title": "Problème",
+          "french": true
+        },
+        {
+          "title": "Repères",
+          "french": true
+        },
+        {
+          "title": "The Cage",
+          "french": false
+        },
+        {
+          "title": "Control (feat. Rsko) (Remix)",
+          "french": false
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 70,
+      "french_tracks": 44,
+      "ratio": 0.629,
+      "tracks": [
+        {
+          "title": "À la base",
+          "french": true
+        },
+        {
+          "title": "J'ai zayé",
+          "french": true
+        },
+        {
+          "title": "SINCÈRE",
+          "french": true
+        },
+        {
+          "title": "Sal Histoire",
+          "french": true
+        },
+        {
+          "title": "Pression",
+          "french": false
+        },
+        {
+          "title": "Derecha (feat. Timar)",
+          "french": false
+        },
+        {
+          "title": "Boussole",
+          "french": true
+        },
+        {
+          "title": "Mucho Cuir",
+          "french": false
+        },
+        {
+          "title": "Chaque jour",
+          "french": true
+        },
+        {
+          "title": "Location",
+          "french": false
+        },
+        {
+          "title": "La rue me rappelle",
+          "french": true
+        },
+        {
+          "title": "Palavé (feat. Tiakola)",
+          "french": true
+        },
+        {
+          "title": "Béton",
+          "french": true
+        },
+        {
+          "title": "Copa",
+          "french": false
+        },
+        {
+          "title": "Ennemi",
+          "french": false
+        },
+        {
+          "title": "Porsche",
+          "french": false
+        },
+        {
+          "title": "Comme ça",
+          "french": true
+        },
+        {
+          "title": "BANGER",
+          "french": false
+        },
+        {
+          "title": "Bosseur (feat. Tiakola)",
+          "french": true
+        },
+        {
+          "title": "Je Sais Pas",
+          "french": true
+        },
+        {
+          "title": "Oublier",
+          "french": true
+        },
+        {
+          "title": "God Bless",
+          "french": false
+        },
+        {
+          "title": "Remords",
+          "french": false
+        },
+        {
+          "title": "Meilleurs",
+          "french": true
+        },
+        {
+          "title": "Comment faire",
+          "french": true
+        },
+        {
+          "title": "ENCORE (feat. Rsko)",
+          "french": true
+        },
+        {
+          "title": "Contvct (feat. Aya Nakamura)",
+          "french": false
+        },
+        {
+          "title": "Itinéraire",
+          "french": true
+        },
+        {
+          "title": "Da Vinci",
+          "french": false
+        },
+        {
+          "title": "Memory",
+          "french": false
+        },
+        {
+          "title": "Toute l’année",
+          "french": true
+        },
+        {
+          "title": "H24 Dans L’tiekson (Dangereux)",
+          "french": true
+        },
+        {
+          "title": "Hit Machine",
+          "french": false
+        },
+        {
+          "title": "On le Fait",
+          "french": true
+        },
+        {
+          "title": "Yea Yea",
+          "french": false
+        },
+        {
+          "title": "Pour Toi",
+          "french": true
+        },
+        {
+          "title": "Passion",
+          "french": false
+        },
+        {
+          "title": "Bientôt",
+          "french": true
+        },
+        {
+          "title": "Le produit est bon",
+          "french": true
+        },
+        {
+          "title": "Paranoïa",
+          "french": true
+        },
+        {
+          "title": "Meilleurs (Afro Live Remix)",
+          "french": true
+        },
+        {
+          "title": "Mauvais Garçon",
+          "french": true
+        },
+        {
+          "title": "11h pétantes",
+          "french": true
+        },
+        {
+          "title": "Fin du mois",
+          "french": true
+        },
+        {
+          "title": "Ça va",
+          "french": true
+        },
+        {
+          "title": "Compète (feat. L2B Gang)",
+          "french": true
+        },
+        {
+          "title": "Peckham",
+          "french": false
+        },
+        {
+          "title": "Sal Mélodie",
+          "french": true
+        },
+        {
+          "title": "Contvct",
+          "french": false
+        },
+        {
+          "title": "Chez nous",
+          "french": true
+        },
+        {
+          "title": "Pour nous",
+          "french": true
+        },
+        {
+          "title": "Clio 2",
+          "french": false
+        },
+        {
+          "title": "10h Pétantes",
+          "french": true
+        },
+        {
+          "title": "Appât du gain",
+          "french": true
+        },
+        {
+          "title": "Mes Rêves",
+          "french": true
+        },
+        {
+          "title": "2, 3 idées",
+          "french": true
+        },
+        {
+          "title": "Intro 0.7",
+          "french": false
+        },
+        {
+          "title": "Frigo",
+          "french": false
+        },
+        {
+          "title": "Oublier (Acoustique)",
+          "french": true
+        },
+        {
+          "title": "Le Milieu",
+          "french": true
+        },
+        {
+          "title": "4 SAISONS",
+          "french": false
+        },
+        {
+          "title": "Routine",
+          "french": false
+        },
+        {
+          "title": "LMDB",
+          "french": true
+        },
+        {
+          "title": "Paro (Live Performance)",
+          "french": false
+        },
+        {
+          "title": "Allô, allô (feat. Chily)",
+          "french": true
+        },
+        {
+          "title": "12 coups",
+          "french": true
+        },
+        {
+          "title": "Problème",
+          "french": true
+        },
+        {
+          "title": "Repères",
+          "french": true
+        },
+        {
+          "title": "The Cage",
+          "french": false
+        },
+        {
+          "title": "Control (feat. Rsko) (Remix)",
+          "french": false
+        }
+      ]
+    }
+  },
+  "6FytX1Th9qaZdKaUyLcGXw": {
+    "id": "6FytX1Th9qaZdKaUyLcGXw",
+    "name": "Atlas225",
+    "url": "https://open.spotify.com/intl-fr/artist/6FytX1Th9qaZdKaUyLcGXw",
+    "uri": "spotify:artist:6FytX1Th9qaZdKaUyLcGXw",
+    "monthly_listeners": 2256281,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/6FytX1Th9qaZdKaUyLcGXw"
+    },
+    "first_seen": "2026-09-11T21:19:01",
+    "last_seen": "2026-09-11T21:19:01",
+    "deezer_id": 311229431,
+    "deezer_name": "Atlas225",
+    "releases_2026": [
+      {
+        "name": "OBSIDIAN",
+        "type": "album",
+        "release_date": "2026-08-28",
+        "url": "https://www.deezer.com/album/1031187432"
+      },
+      {
+        "name": "5h du mat",
+        "type": "album",
+        "release_date": "2026-07-31",
+        "url": "https://www.deezer.com/album/1031187532"
+      },
+      {
+        "name": "Payday",
+        "type": "album",
+        "release_date": "2026-07-03",
+        "url": "https://www.deezer.com/album/1004609301"
+      },
+      {
+        "name": "Visage",
+        "type": "album",
+        "release_date": "2026-05-22",
+        "url": "https://www.deezer.com/album/1001350731"
+      },
+      {
+        "name": "Sentiments",
+        "type": "album",
+        "release_date": "2026-10-09",
+        "url": "https://www.deezer.com/album/1100403572"
+      },
+      {
+        "name": "le bout du tunnel",
+        "type": "album",
+        "release_date": "2026-09-11",
+        "url": "https://www.deezer.com/album/1063474311"
+      },
+      {
+        "name": "Ensemble",
+        "type": "album",
+        "release_date": "2026-01-30",
+        "url": "https://www.deezer.com/album/863291762"
+      },
+      {
+        "name": "Sous la pluie",
+        "type": "album",
+        "release_date": "2026-01-16",
+        "url": "https://www.deezer.com/album/863297882"
+      },
+      {
+        "name": "Je t'ai cherché partout",
+        "type": "album",
+        "release_date": "2026-01-02",
+        "url": "https://www.deezer.com/album/863302962"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 35,
+      "french_tracks": 22,
+      "ratio": 0.629,
+      "tracks": [
+        {
+          "title": "Chrome",
+          "french": false
+        },
+        {
+          "title": "Passion",
+          "french": false
+        },
+        {
+          "title": "Furtif",
+          "french": false
+        },
+        {
+          "title": "Plus rien à faire",
+          "french": true
+        },
+        {
+          "title": "Payday",
+          "french": false
+        },
+        {
+          "title": "Ce monde de merde",
+          "french": true
+        },
+        {
+          "title": "C'est pas l'heure",
+          "french": true
+        },
+        {
+          "title": "Le froid",
+          "french": true
+        },
+        {
+          "title": "Payday",
+          "french": false
+        },
+        {
+          "title": "Ce monde de merde",
+          "french": true
+        },
+        {
+          "title": "C'est pas l'heure",
+          "french": true
+        },
+        {
+          "title": "Le froid",
+          "french": true
+        },
+        {
+          "title": ".36_FAÇONS",
+          "french": true
+        },
+        {
+          "title": ".DÉSERT",
+          "french": true
+        },
+        {
+          "title": ".SMS",
+          "french": false
+        },
+        {
+          "title": ".CHANSONS_SENTIMENTALES",
+          "french": false
+        },
+        {
+          "title": ".JE_LES_MÉPRISE_TOUS",
+          "french": true
+        },
+        {
+          "title": "Payday",
+          "french": false
+        },
+        {
+          "title": "Ce monde de merde",
+          "french": true
+        },
+        {
+          "title": "C'est pas l'heure",
+          "french": true
+        },
+        {
+          "title": "Le froid",
+          "french": true
+        },
+        {
+          "title": "Ce monde de merde",
+          "french": true
+        },
+        {
+          "title": "C'est pas l'heure",
+          "french": true
+        },
+        {
+          "title": "Le froid",
+          "french": true
+        },
+        {
+          "title": "_FORTERESSE",
+          "french": false
+        },
+        {
+          "title": "_S97",
+          "french": false
+        },
+        {
+          "title": "_MOI_ET_MA_HAINE",
+          "french": false
+        },
+        {
+          "title": "_OCTOBRE",
+          "french": false
+        },
+        {
+          "title": "le bout du tunnel",
+          "french": true
+        },
+        {
+          "title": "Ensemble",
+          "french": true
+        },
+        {
+          "title": "Sous la pluie",
+          "french": true
+        },
+        {
+          "title": "Je t'ai cherché partout",
+          "french": true
+        },
+        {
+          "title": "J'attends",
+          "french": false
+        },
+        {
+          "title": "Histoires",
+          "french": true
+        },
+        {
+          "title": "Jusqu'à décembre",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 35,
+      "french_tracks": 22,
+      "ratio": 0.629,
+      "tracks": [
+        {
+          "title": "Chrome",
+          "french": false
+        },
+        {
+          "title": "Passion",
+          "french": false
+        },
+        {
+          "title": "Furtif",
+          "french": false
+        },
+        {
+          "title": "Plus rien à faire",
+          "french": true
+        },
+        {
+          "title": "Payday",
+          "french": false
+        },
+        {
+          "title": "Ce monde de merde",
+          "french": true
+        },
+        {
+          "title": "C'est pas l'heure",
+          "french": true
+        },
+        {
+          "title": "Le froid",
+          "french": true
+        },
+        {
+          "title": "Payday",
+          "french": false
+        },
+        {
+          "title": "Ce monde de merde",
+          "french": true
+        },
+        {
+          "title": "C'est pas l'heure",
+          "french": true
+        },
+        {
+          "title": "Le froid",
+          "french": true
+        },
+        {
+          "title": ".36_FAÇONS",
+          "french": true
+        },
+        {
+          "title": ".DÉSERT",
+          "french": true
+        },
+        {
+          "title": ".SMS",
+          "french": false
+        },
+        {
+          "title": ".CHANSONS_SENTIMENTALES",
+          "french": false
+        },
+        {
+          "title": ".JE_LES_MÉPRISE_TOUS",
+          "french": true
+        },
+        {
+          "title": "Payday",
+          "french": false
+        },
+        {
+          "title": "Ce monde de merde",
+          "french": true
+        },
+        {
+          "title": "C'est pas l'heure",
+          "french": true
+        },
+        {
+          "title": "Le froid",
+          "french": true
+        },
+        {
+          "title": "Ce monde de merde",
+          "french": true
+        },
+        {
+          "title": "C'est pas l'heure",
+          "french": true
+        },
+        {
+          "title": "Le froid",
+          "french": true
+        },
+        {
+          "title": "_FORTERESSE",
+          "french": false
+        },
+        {
+          "title": "_S97",
+          "french": false
+        },
+        {
+          "title": "_MOI_ET_MA_HAINE",
+          "french": false
+        },
+        {
+          "title": "_OCTOBRE",
+          "french": false
+        },
+        {
+          "title": "le bout du tunnel",
+          "french": true
+        },
+        {
+          "title": "Ensemble",
+          "french": true
+        },
+        {
+          "title": "Sous la pluie",
+          "french": true
+        },
+        {
+          "title": "Je t'ai cherché partout",
+          "french": true
+        },
+        {
+          "title": "J'attends",
+          "french": false
+        },
+        {
+          "title": "Histoires",
+          "french": true
+        },
+        {
+          "title": "Jusqu'à décembre",
+          "french": true
+        }
+      ]
+    }
+  },
+  "4BUeuxQIWI69tEYuvzbv6D": {
+    "id": "4BUeuxQIWI69tEYuvzbv6D",
+    "name": "Timar",
+    "url": "https://open.spotify.com/intl-fr/artist/4BUeuxQIWI69tEYuvzbv6D",
+    "uri": "spotify:artist:4BUeuxQIWI69tEYuvzbv6D",
+    "monthly_listeners": 2058121,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/4BUeuxQIWI69tEYuvzbv6D"
+    },
+    "first_seen": "2026-10-01T15:46:35+00:00",
+    "last_seen": "2026-10-01T15:46:35+00:00",
+    "deezer_id": 6354270,
+    "deezer_name": "Timar",
+    "releases_2026": [
+      {
+        "name": "REQUIEM : MIEUX QU'HIER",
+        "type": "album",
+        "release_date": "2026-04-02",
+        "url": "https://www.deezer.com/album/948336071"
+      },
+      {
+        "name": "FRENCH CONNEXION, Pt.3",
+        "type": "album",
+        "release_date": "2026-10-01",
+        "url": "https://www.deezer.com/album/1103950022"
+      },
+      {
+        "name": "No System (GRM x Yard)",
+        "type": "album",
+        "release_date": "2026-08-27",
+        "url": "https://www.deezer.com/album/1059729692"
+      },
+      {
+        "name": "Blood",
+        "type": "album",
+        "release_date": "2026-07-24",
+        "url": "https://www.deezer.com/album/1033541542"
+      },
+      {
+        "name": "GROSEILLE",
+        "type": "album",
+        "release_date": "2026-07-02",
+        "url": "https://www.deezer.com/album/1015050771"
+      },
+      {
+        "name": "Bracelet",
+        "type": "album",
+        "release_date": "2026-06-25",
+        "url": "https://www.deezer.com/album/1003481621"
+      },
+      {
+        "name": "Rentre dans le Cercle - Timar",
+        "type": "album",
+        "release_date": "2026-05-07",
+        "url": "https://www.deezer.com/album/976305381"
+      },
+      {
+        "name": "Besoin de temps",
+        "type": "album",
+        "release_date": "2026-04-28",
+        "url": "https://www.deezer.com/album/968646801"
+      },
+      {
+        "name": "Lettre d'un banlieusard",
+        "type": "album",
+        "release_date": "2026-04-23",
+        "url": "https://www.deezer.com/album/961172891"
+      },
+      {
+        "name": "BOHÈME",
+        "type": "album",
+        "release_date": "2026-03-25",
+        "url": "https://www.deezer.com/album/942706961"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 37,
+      "french_tracks": 18,
+      "ratio": 0.486,
+      "tracks": [
+        {
+          "title": "SIERRA LEONE",
+          "french": false
+        },
+        {
+          "title": "Déluge",
+          "french": true
+        },
+        {
+          "title": "VENDETTA",
+          "french": false
+        },
+        {
+          "title": "FDT",
+          "french": false
+        },
+        {
+          "title": "BROSKI",
+          "french": false
+        },
+        {
+          "title": "J'SAIS PAS (feat. Timar)",
+          "french": false
+        },
+        {
+          "title": "BOHÈME",
+          "french": true
+        },
+        {
+          "title": "GROSEILLE",
+          "french": false
+        },
+        {
+          "title": "FINESSE",
+          "french": false
+        },
+        {
+          "title": "MAKING OFF",
+          "french": false
+        },
+        {
+          "title": "FAMILY",
+          "french": false
+        },
+        {
+          "title": "L'avenir est flou",
+          "french": true
+        },
+        {
+          "title": "MÉDICAMENT",
+          "french": true
+        },
+        {
+          "title": "CAYMAN",
+          "french": false
+        },
+        {
+          "title": "FORMIDABLE",
+          "french": false
+        },
+        {
+          "title": "GELATO",
+          "french": false
+        },
+        {
+          "title": "Lettre d'un banlieusard",
+          "french": true
+        },
+        {
+          "title": "No System (GRM x Yard)",
+          "french": false
+        },
+        {
+          "title": "LES DÉMONS",
+          "french": true
+        },
+        {
+          "title": "SHAYO",
+          "french": false
+        },
+        {
+          "title": "KAMÉRA",
+          "french": true
+        },
+        {
+          "title": "CIAO",
+          "french": false
+        },
+        {
+          "title": "BOULOT",
+          "french": false
+        },
+        {
+          "title": "Beldia",
+          "french": false
+        },
+        {
+          "title": "6H du matin",
+          "french": true
+        },
+        {
+          "title": "PÉNAVE",
+          "french": true
+        },
+        {
+          "title": "BOÎTE À CHAUSSURES",
+          "french": true
+        },
+        {
+          "title": "Besoin de temps",
+          "french": true
+        },
+        {
+          "title": "PÉRIMÈTRE",
+          "french": true
+        },
+        {
+          "title": "Rentre dans le Cercle - Timar",
+          "french": true
+        },
+        {
+          "title": "BEC ÂNE",
+          "french": true
+        },
+        {
+          "title": "Araï",
+          "french": true
+        },
+        {
+          "title": "BOHÈME",
+          "french": true
+        },
+        {
+          "title": "CANADA",
+          "french": false
+        },
+        {
+          "title": "TEMPS DURS",
+          "french": false
+        },
+        {
+          "title": "ÉTOILE",
+          "french": true
+        },
+        {
+          "title": "PARANOÏAQUE",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "lyrics_confirmation",
+      "title_check": {
+        "analyzed_tracks": 37,
+        "french_tracks": 18,
+        "ratio": 0.486,
+        "tracks": [
+          {
+            "title": "SIERRA LEONE",
+            "french": false
+          },
+          {
+            "title": "Déluge",
+            "french": true
+          },
+          {
+            "title": "VENDETTA",
+            "french": false
+          },
+          {
+            "title": "FDT",
+            "french": false
+          },
+          {
+            "title": "BROSKI",
+            "french": false
+          },
+          {
+            "title": "J'SAIS PAS (feat. Timar)",
+            "french": false
+          },
+          {
+            "title": "BOHÈME",
+            "french": true
+          },
+          {
+            "title": "GROSEILLE",
+            "french": false
+          },
+          {
+            "title": "FINESSE",
+            "french": false
+          },
+          {
+            "title": "MAKING OFF",
+            "french": false
+          },
+          {
+            "title": "FAMILY",
+            "french": false
+          },
+          {
+            "title": "L'avenir est flou",
+            "french": true
+          },
+          {
+            "title": "MÉDICAMENT",
+            "french": true
+          },
+          {
+            "title": "CAYMAN",
+            "french": false
+          },
+          {
+            "title": "FORMIDABLE",
+            "french": false
+          },
+          {
+            "title": "GELATO",
+            "french": false
+          },
+          {
+            "title": "Lettre d'un banlieusard",
+            "french": true
+          },
+          {
+            "title": "No System (GRM x Yard)",
+            "french": false
+          },
+          {
+            "title": "LES DÉMONS",
+            "french": true
+          },
+          {
+            "title": "SHAYO",
+            "french": false
+          },
+          {
+            "title": "KAMÉRA",
+            "french": true
+          },
+          {
+            "title": "CIAO",
+            "french": false
+          },
+          {
+            "title": "BOULOT",
+            "french": false
+          },
+          {
+            "title": "Beldia",
+            "french": false
+          },
+          {
+            "title": "6H du matin",
+            "french": true
+          },
+          {
+            "title": "PÉNAVE",
+            "french": true
+          },
+          {
+            "title": "BOÎTE À CHAUSSURES",
+            "french": true
+          },
+          {
+            "title": "Besoin de temps",
+            "french": true
+          },
+          {
+            "title": "PÉRIMÈTRE",
+            "french": true
+          },
+          {
+            "title": "Rentre dans le Cercle - Timar",
+            "french": true
+          },
+          {
+            "title": "BEC ÂNE",
+            "french": true
+          },
+          {
+            "title": "Araï",
+            "french": true
+          },
+          {
+            "title": "BOHÈME",
+            "french": true
+          },
+          {
+            "title": "CANADA",
+            "french": false
+          },
+          {
+            "title": "TEMPS DURS",
+            "french": false
+          },
+          {
+            "title": "ÉTOILE",
+            "french": true
+          },
+          {
+            "title": "PARANOÏAQUE",
+            "french": true
+          }
+        ]
+      },
+      "checked_tracks": [
+        {
+          "title": "FRENCH CONNEXION, Pt.3",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 62,
+            "common_words": 58,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "SIERRA LEONE",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 70,
+            "common_words": 131,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "VENDETTA",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 60,
+            "common_words": 69,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "CHE GUEVARA",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 82,
+            "common_words": 90,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "YAMAL",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 48,
+            "common_words": 128,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "IA",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 79,
+            "common_words": 109,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "FINESSE",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 45,
+            "common_words": 66,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "ADDICT",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 57,
+            "common_words": 83,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "C’EST BON ?",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 65,
+            "common_words": 102,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "BOÎTE À CHAUSSURES",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 48,
+            "common_words": 75,
+            "source": "LRCLIB"
+          }
+        }
+      ],
+      "analyzed_lyrics": 10,
+      "french_lyrics": 10,
+      "ratio": 1.0
+    }
+  },
+  "3Mnkcd1wEkxUUKyiRwzvKY": {
+    "id": "3Mnkcd1wEkxUUKyiRwzvKY",
+    "name": "La Honda 19",
+    "url": "https://open.spotify.com/intl-fr/artist/3Mnkcd1wEkxUUKyiRwzvKY",
+    "uri": "spotify:artist:3Mnkcd1wEkxUUKyiRwzvKY",
+    "monthly_listeners": 1992214,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/3Mnkcd1wEkxUUKyiRwzvKY"
+    },
+    "first_seen": "2026-09-08T16:52:20",
+    "last_seen": "2026-09-08T16:52:20",
+    "deezer_id": 156649982,
+    "deezer_name": "La Honda 19",
+    "releases_2026": [
+      {
+        "name": "En Crime",
+        "type": "album",
+        "release_date": "2026-06-06",
+        "url": "https://www.deezer.com/album/1069083951"
+      },
+      {
+        "name": "BIENTOT (Rue de Bercy)",
+        "type": "album",
+        "release_date": "2026-06-12",
+        "url": "https://www.deezer.com/album/1003517931"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 8,
+      "french_tracks": 7,
+      "ratio": 0.875,
+      "tracks": [
+        {
+          "title": "La Cartouche",
+          "french": true
+        },
+        {
+          "title": "Réel 3",
+          "french": true
+        },
+        {
+          "title": "Réel 5",
+          "french": true
+        },
+        {
+          "title": "Réel 2",
+          "french": true
+        },
+        {
+          "title": "Juste en crime",
+          "french": false
+        },
+        {
+          "title": "Réel 4",
+          "french": true
+        },
+        {
+          "title": "Train de vie",
+          "french": true
+        },
+        {
+          "title": "Réel 1",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 8,
+      "french_tracks": 7,
+      "ratio": 0.875,
+      "tracks": [
+        {
+          "title": "La Cartouche",
+          "french": true
+        },
+        {
+          "title": "Réel 3",
+          "french": true
+        },
+        {
+          "title": "Réel 5",
+          "french": true
+        },
+        {
+          "title": "Réel 2",
+          "french": true
+        },
+        {
+          "title": "Juste en crime",
+          "french": false
+        },
+        {
+          "title": "Réel 4",
+          "french": true
+        },
+        {
+          "title": "Train de vie",
+          "french": true
+        },
+        {
+          "title": "Réel 1",
+          "french": true
+        }
+      ]
+    }
+  },
+  "78Die3Gb8yaElTmGCa7m7N": {
+    "id": "78Die3Gb8yaElTmGCa7m7N",
+    "name": "Kore",
+    "url": "https://open.spotify.com/intl-fr/artist/78Die3Gb8yaElTmGCa7m7N",
+    "uri": "spotify:artist:78Die3Gb8yaElTmGCa7m7N",
+    "monthly_listeners": 1975846,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/78Die3Gb8yaElTmGCa7m7N"
+    },
+    "first_seen": "2026-10-02T05:22:54+00:00",
+    "last_seen": "2026-10-02T05:22:54+00:00",
+    "deezer_id": 259455,
+    "deezer_name": "Kore",
+    "releases_2026": [
+      {
+        "name": "Coupe x2 (feat. 63OG) (Remix)",
+        "type": "album",
+        "release_date": "2026-07-24",
+        "url": "https://www.deezer.com/album/1024068461"
+      },
+      {
+        "name": "Coupe x2",
+        "type": "album",
+        "release_date": "2026-06-25",
+        "url": "https://www.deezer.com/album/1008110611"
+      },
+      {
+        "name": "Antwerpen",
+        "type": "album",
+        "release_date": "2026-06-09",
+        "url": "https://www.deezer.com/album/991489631"
+      },
+      {
+        "name": "404 problem",
+        "type": "album",
+        "release_date": "2026-05-28",
+        "url": "https://www.deezer.com/album/989697281"
+      },
+      {
+        "name": "TAKU TA",
+        "type": "album",
+        "release_date": "2026-02-19",
+        "url": "https://www.deezer.com/album/905465632"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 29,
+      "french_tracks": 15,
+      "ratio": 0.517,
+      "tracks": [
+        {
+          "title": "Même pas fatigué !!!",
+          "french": true
+        },
+        {
+          "title": "Sobri (Notre destin)",
+          "french": false
+        },
+        {
+          "title": "Lalla (feat. Hamza)",
+          "french": false
+        },
+        {
+          "title": "Un gaou à Oran (Radio Edit)",
+          "french": true
+        },
+        {
+          "title": "Tucibi (Extrait de la BO de « En Passant Pécho »)",
+          "french": false
+        },
+        {
+          "title": "D'où je viens",
+          "french": true
+        },
+        {
+          "title": "Just Married",
+          "french": false
+        },
+        {
+          "title": "Cinéma (feat. Sofiane, Djam & TiMoh)",
+          "french": true
+        },
+        {
+          "title": "Adelanto (Extrait de la BO de « En Passant Pécho »)",
+          "french": false
+        },
+        {
+          "title": "Célébration 2 (Extrait de la BO de « En Passant Pécho »)",
+          "french": true
+        },
+        {
+          "title": "Brrr (feat. Alonzo & ElGrandeToto)",
+          "french": false
+        },
+        {
+          "title": "Süle",
+          "french": true
+        },
+        {
+          "title": "Dans les veines (feat. Franglish & Leslie)",
+          "french": true
+        },
+        {
+          "title": "Kindir (feat. Danyl & DJ Moulay)",
+          "french": false
+        },
+        {
+          "title": "Lewandowski (Extrait de la BO de « En Passant Pécho »)",
+          "french": false
+        },
+        {
+          "title": "Rimitti Ridim 2",
+          "french": false
+        },
+        {
+          "title": "Coupe x2",
+          "french": true
+        },
+        {
+          "title": "C chô, ça brûle !!! (feat. Akil, Cheb Bilal & Big Ali)",
+          "french": true
+        },
+        {
+          "title": "Mañana (Extrait de la BO de « En Passant Pécho »)",
+          "french": false
+        },
+        {
+          "title": "Bad Boy Records (Extrait de la BO de « En Passant Pécho »)",
+          "french": false
+        },
+        {
+          "title": "Amitiés sacrées",
+          "french": true
+        },
+        {
+          "title": "Message groupé (Extrait de la BO de « En Passant Pécho »)",
+          "french": true
+        },
+        {
+          "title": "Coupe x2 (feat. 63OG) (Remix)",
+          "french": true
+        },
+        {
+          "title": "Vas-y molo",
+          "french": false
+        },
+        {
+          "title": "Tu mérites mieux",
+          "french": true
+        },
+        {
+          "title": "Nouvelle séquence (Extrait de la BO de « En Passant Pécho »)",
+          "french": true
+        },
+        {
+          "title": "Antwerpen",
+          "french": false
+        },
+        {
+          "title": "Heya",
+          "french": false
+        },
+        {
+          "title": "Évasion",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "lyrics_confirmation",
+      "title_check": {
+        "analyzed_tracks": 29,
+        "french_tracks": 15,
+        "ratio": 0.517,
+        "tracks": [
+          {
+            "title": "Même pas fatigué !!!",
+            "french": true
+          },
+          {
+            "title": "Sobri (Notre destin)",
+            "french": false
+          },
+          {
+            "title": "Lalla (feat. Hamza)",
+            "french": false
+          },
+          {
+            "title": "Un gaou à Oran (Radio Edit)",
+            "french": true
+          },
+          {
+            "title": "Tucibi (Extrait de la BO de « En Passant Pécho »)",
+            "french": false
+          },
+          {
+            "title": "D'où je viens",
+            "french": true
+          },
+          {
+            "title": "Just Married",
+            "french": false
+          },
+          {
+            "title": "Cinéma (feat. Sofiane, Djam & TiMoh)",
+            "french": true
+          },
+          {
+            "title": "Adelanto (Extrait de la BO de « En Passant Pécho »)",
+            "french": false
+          },
+          {
+            "title": "Célébration 2 (Extrait de la BO de « En Passant Pécho »)",
+            "french": true
+          },
+          {
+            "title": "Brrr (feat. Alonzo & ElGrandeToto)",
+            "french": false
+          },
+          {
+            "title": "Süle",
+            "french": true
+          },
+          {
+            "title": "Dans les veines (feat. Franglish & Leslie)",
+            "french": true
+          },
+          {
+            "title": "Kindir (feat. Danyl & DJ Moulay)",
+            "french": false
+          },
+          {
+            "title": "Lewandowski (Extrait de la BO de « En Passant Pécho »)",
+            "french": false
+          },
+          {
+            "title": "Rimitti Ridim 2",
+            "french": false
+          },
+          {
+            "title": "Coupe x2",
+            "french": true
+          },
+          {
+            "title": "C chô, ça brûle !!! (feat. Akil, Cheb Bilal & Big Ali)",
+            "french": true
+          },
+          {
+            "title": "Mañana (Extrait de la BO de « En Passant Pécho »)",
+            "french": false
+          },
+          {
+            "title": "Bad Boy Records (Extrait de la BO de « En Passant Pécho »)",
+            "french": false
+          },
+          {
+            "title": "Amitiés sacrées",
+            "french": true
+          },
+          {
+            "title": "Message groupé (Extrait de la BO de « En Passant Pécho »)",
+            "french": true
+          },
+          {
+            "title": "Coupe x2 (feat. 63OG) (Remix)",
+            "french": true
+          },
+          {
+            "title": "Vas-y molo",
+            "french": false
+          },
+          {
+            "title": "Tu mérites mieux",
+            "french": true
+          },
+          {
+            "title": "Nouvelle séquence (Extrait de la BO de « En Passant Pécho »)",
+            "french": true
+          },
+          {
+            "title": "Antwerpen",
+            "french": false
+          },
+          {
+            "title": "Heya",
+            "french": false
+          },
+          {
+            "title": "Évasion",
+            "french": true
+          }
+        ]
+      },
+      "checked_tracks": [
+        {
+          "title": "Mon poto (Extrait de la BO de « En Passant Pécho »)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 32,
+            "common_words": 93,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Même pas fatigué !!!",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 53,
+            "common_words": 86,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Lalla (feat. Hamza)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 78,
+            "common_words": 96,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Mango (Extrait de la BO de « En Passant Pécho »)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 57,
+            "common_words": 102,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Ma voie",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 61,
+            "common_words": 114,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "C chô, ça brûle !!! (feat. Akil, Cheb Bilal & Big Ali)",
+          "verdict": "french",
+          "details": {
+            "language": "en",
+            "french_markers": 37,
+            "common_words": 49,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "La frappe (Extrait de la BO de « En Passant Pécho »)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 49,
+            "common_words": 123,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Alabina Beach",
+          "verdict": "not_french",
+          "details": {
+            "language": "en",
+            "french_markers": 0,
+            "common_words": 1,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Nouvelle séquence (Extrait de la BO de « En Passant Pécho »)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 60,
+            "common_words": 139,
+            "source": "LRCLIB"
+          }
+        }
+      ],
+      "analyzed_lyrics": 9,
+      "french_lyrics": 8,
+      "ratio": 0.889
+    }
+  },
+  "1NB6QyaNXhrDd82y0WyG3I": {
+    "id": "1NB6QyaNXhrDd82y0WyG3I",
+    "name": "Bilouki",
+    "url": "https://open.spotify.com/intl-fr/artist/1NB6QyaNXhrDd82y0WyG3I",
+    "uri": "spotify:artist:1NB6QyaNXhrDd82y0WyG3I",
+    "monthly_listeners": 1926715,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/1NB6QyaNXhrDd82y0WyG3I"
+    },
+    "first_seen": "2026-10-04T23:57:00+00:00",
+    "last_seen": "2026-10-04T23:57:00+00:00",
+    "deezer_id": 79257132,
+    "deezer_name": "Bilouki",
+    "releases_2026": [
+      {
+        "name": "24 KARA",
+        "type": "album",
+        "release_date": "2026-04-03",
+        "url": "https://www.deezer.com/album/948138371"
+      },
+      {
+        "name": "18 KARA",
+        "type": "album",
+        "release_date": "2026-01-30",
+        "url": "https://www.deezer.com/album/901964662"
+      },
+      {
+        "name": "Malaise",
+        "type": "album",
+        "release_date": "2026-08-28",
+        "url": "https://www.deezer.com/album/1057182612"
+      },
+      {
+        "name": "Okay",
+        "type": "album",
+        "release_date": "2026-08-27",
+        "url": "https://www.deezer.com/album/1057000022"
+      },
+      {
+        "name": "Champagne",
+        "type": "album",
+        "release_date": "2026-08-14",
+        "url": "https://www.deezer.com/album/1042259822"
+      },
+      {
+        "name": "GG",
+        "type": "album",
+        "release_date": "2026-07-31",
+        "url": "https://www.deezer.com/album/1030297132"
+      },
+      {
+        "name": "JUSQU'AU MATIN (feat. Bilouki)",
+        "type": "album",
+        "release_date": "2026-07-10",
+        "url": "https://www.deezer.com/album/997038001"
+      },
+      {
+        "name": "ODB",
+        "type": "album",
+        "release_date": "2026-06-25",
+        "url": "https://www.deezer.com/album/1012452321"
+      },
+      {
+        "name": "K.O",
+        "type": "album",
+        "release_date": "2026-06-19",
+        "url": "https://www.deezer.com/album/998608361"
+      },
+      {
+        "name": "CANADA",
+        "type": "album",
+        "release_date": "2026-05-21",
+        "url": "https://www.deezer.com/album/966264061"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 33,
+      "french_tracks": 8,
+      "ratio": 0.242,
+      "tracks": [
+        {
+          "title": "Full",
+          "french": false
+        },
+        {
+          "title": "Tchébé 2x",
+          "french": true
+        },
+        {
+          "title": "Willy Wonka",
+          "french": false
+        },
+        {
+          "title": "TYPE SHIT (feat. La Mano 1.9)",
+          "french": false
+        },
+        {
+          "title": "Olivia Pope",
+          "french": false
+        },
+        {
+          "title": "C'est la vie",
+          "french": true
+        },
+        {
+          "title": "À la mode (feat. Konieur)",
+          "french": true
+        },
+        {
+          "title": "Remontada 4",
+          "french": false
+        },
+        {
+          "title": "Pinocchio",
+          "french": false
+        },
+        {
+          "title": "BALAOU",
+          "french": false
+        },
+        {
+          "title": "CYPHER",
+          "french": false
+        },
+        {
+          "title": "Remontada",
+          "french": false
+        },
+        {
+          "title": "mario",
+          "french": false
+        },
+        {
+          "title": "Willy Wonka II (feat. Bobbyezz)",
+          "french": false
+        },
+        {
+          "title": "Do It",
+          "french": false
+        },
+        {
+          "title": "FOCUS ON ME (feat. Bilouki)",
+          "french": false
+        },
+        {
+          "title": "Remontada 3",
+          "french": false
+        },
+        {
+          "title": "Bagatelle",
+          "french": false
+        },
+        {
+          "title": "Champagne",
+          "french": true
+        },
+        {
+          "title": "On my block",
+          "french": false
+        },
+        {
+          "title": "RAPLEADER 21 - BILOUKI",
+          "french": false
+        },
+        {
+          "title": "Paire Assortie",
+          "french": true
+        },
+        {
+          "title": "Identité",
+          "french": true
+        },
+        {
+          "title": "Remontada 5",
+          "french": false
+        },
+        {
+          "title": "Peur bleue",
+          "french": true
+        },
+        {
+          "title": "FRANKLIN SAINT",
+          "french": false
+        },
+        {
+          "title": "Remontada 6",
+          "french": false
+        },
+        {
+          "title": "Fais beleck 3",
+          "french": false
+        },
+        {
+          "title": "SSS",
+          "french": false
+        },
+        {
+          "title": "BILOUKI FREESTYLE SPONGE",
+          "french": false
+        },
+        {
+          "title": "CANADA",
+          "french": false
+        },
+        {
+          "title": "SANS TOI",
+          "french": true
+        },
+        {
+          "title": "Welcome to the party",
+          "french": false
+        }
+      ]
+    },
+    "french_check": {
+      "method": "lyrics_confirmation",
+      "title_check": {
+        "analyzed_tracks": 33,
+        "french_tracks": 8,
+        "ratio": 0.242,
+        "tracks": [
+          {
+            "title": "Full",
+            "french": false
+          },
+          {
+            "title": "Tchébé 2x",
+            "french": true
+          },
+          {
+            "title": "Willy Wonka",
+            "french": false
+          },
+          {
+            "title": "TYPE SHIT (feat. La Mano 1.9)",
+            "french": false
+          },
+          {
+            "title": "Olivia Pope",
+            "french": false
+          },
+          {
+            "title": "C'est la vie",
+            "french": true
+          },
+          {
+            "title": "À la mode (feat. Konieur)",
+            "french": true
+          },
+          {
+            "title": "Remontada 4",
+            "french": false
+          },
+          {
+            "title": "Pinocchio",
+            "french": false
+          },
+          {
+            "title": "BALAOU",
+            "french": false
+          },
+          {
+            "title": "CYPHER",
+            "french": false
+          },
+          {
+            "title": "Remontada",
+            "french": false
+          },
+          {
+            "title": "mario",
+            "french": false
+          },
+          {
+            "title": "Willy Wonka II (feat. Bobbyezz)",
+            "french": false
+          },
+          {
+            "title": "Do It",
+            "french": false
+          },
+          {
+            "title": "FOCUS ON ME (feat. Bilouki)",
+            "french": false
+          },
+          {
+            "title": "Remontada 3",
+            "french": false
+          },
+          {
+            "title": "Bagatelle",
+            "french": false
+          },
+          {
+            "title": "Champagne",
+            "french": true
+          },
+          {
+            "title": "On my block",
+            "french": false
+          },
+          {
+            "title": "RAPLEADER 21 - BILOUKI",
+            "french": false
+          },
+          {
+            "title": "Paire Assortie",
+            "french": true
+          },
+          {
+            "title": "Identité",
+            "french": true
+          },
+          {
+            "title": "Remontada 5",
+            "french": false
+          },
+          {
+            "title": "Peur bleue",
+            "french": true
+          },
+          {
+            "title": "FRANKLIN SAINT",
+            "french": false
+          },
+          {
+            "title": "Remontada 6",
+            "french": false
+          },
+          {
+            "title": "Fais beleck 3",
+            "french": false
+          },
+          {
+            "title": "SSS",
+            "french": false
+          },
+          {
+            "title": "BILOUKI FREESTYLE SPONGE",
+            "french": false
+          },
+          {
+            "title": "CANADA",
+            "french": false
+          },
+          {
+            "title": "SANS TOI",
+            "french": true
+          },
+          {
+            "title": "Welcome to the party",
+            "french": false
+          }
+        ]
+      },
+      "checked_tracks": [
+        {
+          "title": "Full",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 68,
+            "common_words": 73,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Tchébé 2x",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 52,
+            "common_words": 93,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "K.O",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 47,
+            "common_words": 66,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "TYPE SHIT (feat. La Mano 1.9)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 41,
+            "common_words": 101,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "USA (feat. Guy2Bezbar)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 61,
+            "common_words": 98,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Gang Shit",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 79,
+            "common_words": 116,
+            "source": "LRCLIB"
+          }
+        }
+      ],
+      "analyzed_lyrics": 6,
+      "french_lyrics": 6,
+      "ratio": 1.0
+    }
+  },
+  "081t7kkrq7re69pk4vTurz": {
+    "id": "081t7kkrq7re69pk4vTurz",
+    "name": "JRK 19",
+    "url": "https://open.spotify.com/intl-fr/artist/081t7kkrq7re69pk4vTurz",
+    "uri": "spotify:artist:081t7kkrq7re69pk4vTurz",
+    "monthly_listeners": 1843846,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/081t7kkrq7re69pk4vTurz"
+    },
+    "first_seen": "2026-10-02T09:33:26+00:00",
+    "last_seen": "2026-10-02T09:33:26+00:00",
+    "deezer_id": 115427322,
+    "deezer_name": "JRK 19",
+    "releases_2026": [
+      {
+        "name": "Paparazzi",
+        "type": "album",
+        "release_date": "2026-07-10",
+        "url": "https://www.deezer.com/album/1019045921"
+      },
+      {
+        "name": "Devin Booker",
+        "type": "album",
+        "release_date": "2026-06-12",
+        "url": "https://www.deezer.com/album/997037951"
+      },
+      {
+        "name": "CLAP 3X",
+        "type": "album",
+        "release_date": "2026-05-22",
+        "url": "https://www.deezer.com/album/980513221"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 31,
+      "french_tracks": 15,
+      "ratio": 0.484,
+      "tracks": [
+        {
+          "title": "BLING BLING (feat. HD La Relève & JRK 19)",
+          "french": false
+        },
+        {
+          "title": "Devin Booker",
+          "french": false
+        },
+        {
+          "title": "DANS LA VILLE",
+          "french": true
+        },
+        {
+          "title": "Paparazzi",
+          "french": false
+        },
+        {
+          "title": "Astrid",
+          "french": false
+        },
+        {
+          "title": "BOOYAKASHA",
+          "french": false
+        },
+        {
+          "title": "C’EST COMMENT ?",
+          "french": true
+        },
+        {
+          "title": "BELLINGHAM",
+          "french": false
+        },
+        {
+          "title": "Train de vie",
+          "french": true
+        },
+        {
+          "title": "Avenue Porte Brunet 2",
+          "french": true
+        },
+        {
+          "title": "MAUDIT À VIE",
+          "french": true
+        },
+        {
+          "title": "BONNE SOIRÉE",
+          "french": true
+        },
+        {
+          "title": "14 mois",
+          "french": true
+        },
+        {
+          "title": "CP COMPANY",
+          "french": false
+        },
+        {
+          "title": "BREAK",
+          "french": false
+        },
+        {
+          "title": "GSO",
+          "french": false
+        },
+        {
+          "title": "Avenue Porte Brunet 6",
+          "french": true
+        },
+        {
+          "title": "TÉLÉ",
+          "french": true
+        },
+        {
+          "title": "GENARO",
+          "french": false
+        },
+        {
+          "title": "GÉCHAR",
+          "french": true
+        },
+        {
+          "title": "AVENUE PORTE BRUNET 7",
+          "french": false
+        },
+        {
+          "title": "BALADE",
+          "french": false
+        },
+        {
+          "title": "B.S.C",
+          "french": false
+        },
+        {
+          "title": "TARPÉ DANS L’APPART",
+          "french": true
+        },
+        {
+          "title": "Avenue Porte Brunet",
+          "french": true
+        },
+        {
+          "title": "COHIBA",
+          "french": false
+        },
+        {
+          "title": "PARAMÈTRES",
+          "french": true
+        },
+        {
+          "title": "Uber Eats",
+          "french": false
+        },
+        {
+          "title": "PETIT FRÈRE",
+          "french": true
+        },
+        {
+          "title": "Avenue Porte Brunet 3",
+          "french": true
+        },
+        {
+          "title": "SUBMVRINER",
+          "french": false
+        }
+      ]
+    },
+    "french_check": {
+      "method": "lyrics_confirmation",
+      "title_check": {
+        "analyzed_tracks": 31,
+        "french_tracks": 15,
+        "ratio": 0.484,
+        "tracks": [
+          {
+            "title": "BLING BLING (feat. HD La Relève & JRK 19)",
+            "french": false
+          },
+          {
+            "title": "Devin Booker",
+            "french": false
+          },
+          {
+            "title": "DANS LA VILLE",
+            "french": true
+          },
+          {
+            "title": "Paparazzi",
+            "french": false
+          },
+          {
+            "title": "Astrid",
+            "french": false
+          },
+          {
+            "title": "BOOYAKASHA",
+            "french": false
+          },
+          {
+            "title": "C’EST COMMENT ?",
+            "french": true
+          },
+          {
+            "title": "BELLINGHAM",
+            "french": false
+          },
+          {
+            "title": "Train de vie",
+            "french": true
+          },
+          {
+            "title": "Avenue Porte Brunet 2",
+            "french": true
+          },
+          {
+            "title": "MAUDIT À VIE",
+            "french": true
+          },
+          {
+            "title": "BONNE SOIRÉE",
+            "french": true
+          },
+          {
+            "title": "14 mois",
+            "french": true
+          },
+          {
+            "title": "CP COMPANY",
+            "french": false
+          },
+          {
+            "title": "BREAK",
+            "french": false
+          },
+          {
+            "title": "GSO",
+            "french": false
+          },
+          {
+            "title": "Avenue Porte Brunet 6",
+            "french": true
+          },
+          {
+            "title": "TÉLÉ",
+            "french": true
+          },
+          {
+            "title": "GENARO",
+            "french": false
+          },
+          {
+            "title": "GÉCHAR",
+            "french": true
+          },
+          {
+            "title": "AVENUE PORTE BRUNET 7",
+            "french": false
+          },
+          {
+            "title": "BALADE",
+            "french": false
+          },
+          {
+            "title": "B.S.C",
+            "french": false
+          },
+          {
+            "title": "TARPÉ DANS L’APPART",
+            "french": true
+          },
+          {
+            "title": "Avenue Porte Brunet",
+            "french": true
+          },
+          {
+            "title": "COHIBA",
+            "french": false
+          },
+          {
+            "title": "PARAMÈTRES",
+            "french": true
+          },
+          {
+            "title": "Uber Eats",
+            "french": false
+          },
+          {
+            "title": "PETIT FRÈRE",
+            "french": true
+          },
+          {
+            "title": "Avenue Porte Brunet 3",
+            "french": true
+          },
+          {
+            "title": "SUBMVRINER",
+            "french": false
+          }
+        ]
+      },
+      "checked_tracks": [
+        {
+          "title": "Mec 2 Panam (has to be you)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 75,
+            "common_words": 106,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "BLING BLING (feat. HD La Relève & JRK 19)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 12,
+            "common_words": 43,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Devin Booker",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 62,
+            "common_words": 99,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "LE PLAN",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 56,
+            "common_words": 85,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "BELLINGHAM",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 54,
+            "common_words": 85,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "14 mois",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 35,
+            "common_words": 57,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "BREAK",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 68,
+            "common_words": 75,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "HAKIMI",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 59,
+            "common_words": 68,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "B.S.C",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 39,
+            "common_words": 69,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Empire Brunet",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 46,
+            "common_words": 49,
+            "source": "LRCLIB"
+          }
+        }
+      ],
+      "analyzed_lyrics": 10,
+      "french_lyrics": 10,
+      "ratio": 1.0
+    }
+  },
+  "3xEJ7cDz5rdg6VM8E6Mqhf": {
+    "id": "3xEJ7cDz5rdg6VM8E6Mqhf",
+    "name": "DA Uzi",
+    "url": "https://open.spotify.com/intl-fr/artist/3xEJ7cDz5rdg6VM8E6Mqhf",
+    "uri": "spotify:artist:3xEJ7cDz5rdg6VM8E6Mqhf",
+    "monthly_listeners": 1838363,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/3xEJ7cDz5rdg6VM8E6Mqhf"
+    },
+    "first_seen": "2026-09-26T13:19:27+00:00",
+    "last_seen": "2026-09-26T13:19:27+00:00",
+    "deezer_id": 11884111,
+    "deezer_name": "DA Uzi",
+    "releases_2026": [
+      {
+        "name": "Papier & Famille",
+        "type": "album",
+        "release_date": "2026-10-16",
+        "url": "https://www.deezer.com/album/1114808942"
+      },
+      {
+        "name": "On dort pas",
+        "type": "album",
+        "release_date": "2026-09-04",
+        "url": "https://www.deezer.com/album/1057166542"
+      },
+      {
+        "name": "Bravo",
+        "type": "album",
+        "release_date": "2026-07-16",
+        "url": "https://www.deezer.com/album/1030732482"
+      },
+      {
+        "name": "AUTOUR DE MOI",
+        "type": "album",
+        "release_date": "2026-06-25",
+        "url": "https://www.deezer.com/album/1006949731"
+      },
+      {
+        "name": "Cette life",
+        "type": "album",
+        "release_date": "2026-06-18",
+        "url": "https://www.deezer.com/album/1004037341"
+      },
+      {
+        "name": "Baltimore - Demain c'est loin",
+        "type": "album",
+        "release_date": "2026-04-30",
+        "url": "https://www.deezer.com/album/967923131"
+      },
+      {
+        "name": "Libanais 2 (Aucun lien)",
+        "type": "album",
+        "release_date": "2026-04-24",
+        "url": "https://www.deezer.com/album/967426081"
+      },
+      {
+        "name": "Libanais 1 (Le One Piece)",
+        "type": "album",
+        "release_date": "2026-01-23",
+        "url": "https://www.deezer.com/album/897576462"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 64,
+      "french_tracks": 36,
+      "ratio": 0.562,
+      "tracks": [
+        {
+          "title": "On se reverra plus (feat. Gazo)",
+          "french": true
+        },
+        {
+          "title": "La vraie vie",
+          "french": true
+        },
+        {
+          "title": "C’est Noir",
+          "french": true
+        },
+        {
+          "title": "Soirées des cités",
+          "french": true
+        },
+        {
+          "title": "La vie du binks (feat. Hornet La Frappe, Leto, Sadek, Soprano)",
+          "french": true
+        },
+        {
+          "title": "Entre les murs (feat. Ninho)",
+          "french": true
+        },
+        {
+          "title": "On dort pas",
+          "french": false
+        },
+        {
+          "title": "Loi de la calle",
+          "french": true
+        },
+        {
+          "title": "Laisse tomber",
+          "french": true
+        },
+        {
+          "title": "La ruée vers l'or",
+          "french": true
+        },
+        {
+          "title": "Mâle Alpha",
+          "french": true
+        },
+        {
+          "title": "OTF",
+          "french": false
+        },
+        {
+          "title": "West Coast",
+          "french": false
+        },
+        {
+          "title": "Dinero",
+          "french": false
+        },
+        {
+          "title": "Tellement",
+          "french": true
+        },
+        {
+          "title": "Plus belle la vie",
+          "french": true
+        },
+        {
+          "title": "Autre part",
+          "french": true
+        },
+        {
+          "title": "LES TRANCHÉES",
+          "french": true
+        },
+        {
+          "title": "Du nord au sud (feat. Soso Maness et ZKR)",
+          "french": true
+        },
+        {
+          "title": "WeLaRue 10 (Casino Royale)",
+          "french": false
+        },
+        {
+          "title": "Ni amour ni amitié (feat. SCH)",
+          "french": true
+        },
+        {
+          "title": "Tommy Shelby",
+          "french": false
+        },
+        {
+          "title": "Crois-moi (feat. Ninho)",
+          "french": true
+        },
+        {
+          "title": "Architecte",
+          "french": false
+        },
+        {
+          "title": "Le dire (feat. Maes)",
+          "french": true
+        },
+        {
+          "title": "WeLaRue 6 (Piano)",
+          "french": false
+        },
+        {
+          "title": "J'ai pris la route (Bonus)",
+          "french": true
+        },
+        {
+          "title": "Moi-même",
+          "french": false
+        },
+        {
+          "title": "EN PÉTARD",
+          "french": true
+        },
+        {
+          "title": "Le dehors",
+          "french": true
+        },
+        {
+          "title": "Mexico",
+          "french": false
+        },
+        {
+          "title": "L’impasse",
+          "french": false
+        },
+        {
+          "title": "WeLaRue 5 (Freestyle)",
+          "french": false
+        },
+        {
+          "title": "Ça tombe bien",
+          "french": true
+        },
+        {
+          "title": "Coupette",
+          "french": true
+        },
+        {
+          "title": "D'une autre manière (feat. Kaaris)",
+          "french": true
+        },
+        {
+          "title": "Never Bodyguard",
+          "french": false
+        },
+        {
+          "title": "La vie de Bobby",
+          "french": true
+        },
+        {
+          "title": "Costa Rica (feat. Heuss L’Enfoiré)",
+          "french": false
+        },
+        {
+          "title": "Fuck Love",
+          "french": false
+        },
+        {
+          "title": "Gwenette Martha",
+          "french": false
+        },
+        {
+          "title": "Les traîtres (feat. Imen Es) (Bonus)",
+          "french": true
+        },
+        {
+          "title": "Jeune d'en bas (feat. Nekfeu)",
+          "french": true
+        },
+        {
+          "title": "WeLaRue 8",
+          "french": false
+        },
+        {
+          "title": "FARA (feat. DA Uzi)",
+          "french": false
+        },
+        {
+          "title": "Plus 20 ans",
+          "french": true
+        },
+        {
+          "title": "Maître Zadourian",
+          "french": true
+        },
+        {
+          "title": "Da Vinci",
+          "french": false
+        },
+        {
+          "title": "Culiacan (feat. Mister You)",
+          "french": false
+        },
+        {
+          "title": "Nounou (feat. Maes)",
+          "french": false
+        },
+        {
+          "title": "WeLaRue 7",
+          "french": false
+        },
+        {
+          "title": "Bonita",
+          "french": false
+        },
+        {
+          "title": "Snowfall",
+          "french": false
+        },
+        {
+          "title": "Génération 90",
+          "french": true
+        },
+        {
+          "title": "WeLaRue 1 (Gotham)",
+          "french": false
+        },
+        {
+          "title": "Outils (feat. DA Uzi)",
+          "french": true
+        },
+        {
+          "title": "WeLaRue 4 (Laisse)",
+          "french": false
+        },
+        {
+          "title": "La D en personne #3 (Ferragamo)",
+          "french": true
+        },
+        {
+          "title": "WeLaRue 3 (Vilain)",
+          "french": false
+        },
+        {
+          "title": "Vie là",
+          "french": true
+        },
+        {
+          "title": "Baltimore - Demain c'est loin",
+          "french": true
+        },
+        {
+          "title": "UFC 93",
+          "french": false
+        },
+        {
+          "title": "Coffre chargé",
+          "french": true
+        },
+        {
+          "title": "C'est le même thème (feat. 13 Block)",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "lyrics_confirmation",
+      "title_check": {
+        "analyzed_tracks": 64,
+        "french_tracks": 36,
+        "ratio": 0.562,
+        "tracks": [
+          {
+            "title": "On se reverra plus (feat. Gazo)",
+            "french": true
+          },
+          {
+            "title": "La vraie vie",
+            "french": true
+          },
+          {
+            "title": "C’est Noir",
+            "french": true
+          },
+          {
+            "title": "Soirées des cités",
+            "french": true
+          },
+          {
+            "title": "La vie du binks (feat. Hornet La Frappe, Leto, Sadek, Soprano)",
+            "french": true
+          },
+          {
+            "title": "Entre les murs (feat. Ninho)",
+            "french": true
+          },
+          {
+            "title": "On dort pas",
+            "french": false
+          },
+          {
+            "title": "Loi de la calle",
+            "french": true
+          },
+          {
+            "title": "Laisse tomber",
+            "french": true
+          },
+          {
+            "title": "La ruée vers l'or",
+            "french": true
+          },
+          {
+            "title": "Mâle Alpha",
+            "french": true
+          },
+          {
+            "title": "OTF",
+            "french": false
+          },
+          {
+            "title": "West Coast",
+            "french": false
+          },
+          {
+            "title": "Dinero",
+            "french": false
+          },
+          {
+            "title": "Tellement",
+            "french": true
+          },
+          {
+            "title": "Plus belle la vie",
+            "french": true
+          },
+          {
+            "title": "Autre part",
+            "french": true
+          },
+          {
+            "title": "LES TRANCHÉES",
+            "french": true
+          },
+          {
+            "title": "Du nord au sud (feat. Soso Maness et ZKR)",
+            "french": true
+          },
+          {
+            "title": "WeLaRue 10 (Casino Royale)",
+            "french": false
+          },
+          {
+            "title": "Ni amour ni amitié (feat. SCH)",
+            "french": true
+          },
+          {
+            "title": "Tommy Shelby",
+            "french": false
+          },
+          {
+            "title": "Crois-moi (feat. Ninho)",
+            "french": true
+          },
+          {
+            "title": "Architecte",
+            "french": false
+          },
+          {
+            "title": "Le dire (feat. Maes)",
+            "french": true
+          },
+          {
+            "title": "WeLaRue 6 (Piano)",
+            "french": false
+          },
+          {
+            "title": "J'ai pris la route (Bonus)",
+            "french": true
+          },
+          {
+            "title": "Moi-même",
+            "french": false
+          },
+          {
+            "title": "EN PÉTARD",
+            "french": true
+          },
+          {
+            "title": "Le dehors",
+            "french": true
+          },
+          {
+            "title": "Mexico",
+            "french": false
+          },
+          {
+            "title": "L’impasse",
+            "french": false
+          },
+          {
+            "title": "WeLaRue 5 (Freestyle)",
+            "french": false
+          },
+          {
+            "title": "Ça tombe bien",
+            "french": true
+          },
+          {
+            "title": "Coupette",
+            "french": true
+          },
+          {
+            "title": "D'une autre manière (feat. Kaaris)",
+            "french": true
+          },
+          {
+            "title": "Never Bodyguard",
+            "french": false
+          },
+          {
+            "title": "La vie de Bobby",
+            "french": true
+          },
+          {
+            "title": "Costa Rica (feat. Heuss L’Enfoiré)",
+            "french": false
+          },
+          {
+            "title": "Fuck Love",
+            "french": false
+          },
+          {
+            "title": "Gwenette Martha",
+            "french": false
+          },
+          {
+            "title": "Les traîtres (feat. Imen Es) (Bonus)",
+            "french": true
+          },
+          {
+            "title": "Jeune d'en bas (feat. Nekfeu)",
+            "french": true
+          },
+          {
+            "title": "WeLaRue 8",
+            "french": false
+          },
+          {
+            "title": "FARA (feat. DA Uzi)",
+            "french": false
+          },
+          {
+            "title": "Plus 20 ans",
+            "french": true
+          },
+          {
+            "title": "Maître Zadourian",
+            "french": true
+          },
+          {
+            "title": "Da Vinci",
+            "french": false
+          },
+          {
+            "title": "Culiacan (feat. Mister You)",
+            "french": false
+          },
+          {
+            "title": "Nounou (feat. Maes)",
+            "french": false
+          },
+          {
+            "title": "WeLaRue 7",
+            "french": false
+          },
+          {
+            "title": "Bonita",
+            "french": false
+          },
+          {
+            "title": "Snowfall",
+            "french": false
+          },
+          {
+            "title": "Génération 90",
+            "french": true
+          },
+          {
+            "title": "WeLaRue 1 (Gotham)",
+            "french": false
+          },
+          {
+            "title": "Outils (feat. DA Uzi)",
+            "french": true
+          },
+          {
+            "title": "WeLaRue 4 (Laisse)",
+            "french": false
+          },
+          {
+            "title": "La D en personne #3 (Ferragamo)",
+            "french": true
+          },
+          {
+            "title": "WeLaRue 3 (Vilain)",
+            "french": false
+          },
+          {
+            "title": "Vie là",
+            "french": true
+          },
+          {
+            "title": "Baltimore - Demain c'est loin",
+            "french": true
+          },
+          {
+            "title": "UFC 93",
+            "french": false
+          },
+          {
+            "title": "Coffre chargé",
+            "french": true
+          },
+          {
+            "title": "C'est le même thème (feat. 13 Block)",
+            "french": true
+          }
+        ]
+      },
+      "checked_tracks": [
+        {
+          "title": "Michael Jordan",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 63,
+            "common_words": 108,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "C’est Noir",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 45,
+            "common_words": 90,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Autre part",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 59,
+            "common_words": 91,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Vrai 2 vrai",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 58,
+            "common_words": 107,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Salute (feat. Lacrim)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 45,
+            "common_words": 101,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Architecte",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 46,
+            "common_words": 108,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "L’impasse",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 53,
+            "common_words": 94,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Ça tombe bien",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 69,
+            "common_words": 94,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "7 Vie",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 51,
+            "common_words": 96,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "Style Haussmannien",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 53,
+            "common_words": 101,
+            "source": "LRCLIB"
+          }
+        }
+      ],
+      "analyzed_lyrics": 10,
+      "french_lyrics": 10,
+      "ratio": 1.0
+    }
+  },
+  "6soPpJHlCtN6SY8pWlfbC6": {
+    "id": "6soPpJHlCtN6SY8pWlfbC6",
+    "name": "-M-",
+    "url": "https://open.spotify.com/intl-fr/artist/6soPpJHlCtN6SY8pWlfbC6",
+    "uri": "spotify:artist:6soPpJHlCtN6SY8pWlfbC6",
+    "monthly_listeners": 1832969,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/6soPpJHlCtN6SY8pWlfbC6"
+    },
+    "first_seen": "2026-10-06T13:46:13+00:00",
+    "last_seen": "2026-10-06T13:46:13+00:00",
+    "deezer_id": 867,
+    "deezer_name": "-M-",
+    "releases_2026": [
+      {
+        "name": "TotemiX",
+        "type": "album",
+        "release_date": "2026-04-28",
+        "url": "https://www.deezer.com/album/957007331"
+      },
+      {
+        "name": "TotemiX",
+        "type": "album",
+        "release_date": "2026-03-13",
+        "url": "https://www.deezer.com/album/926299631"
+      },
+      {
+        "name": "Secret Garden (Chambord Remix)",
+        "type": "album",
+        "release_date": "2026-04-27",
+        "url": "https://www.deezer.com/album/957006601"
+      },
+      {
+        "name": "Secret Garden (Boombass Remix)",
+        "type": "album",
+        "release_date": "2026-03-12",
+        "url": "https://www.deezer.com/album/933278201"
+      },
+      {
+        "name": "Ama kora (Synapson Remix)",
+        "type": "album",
+        "release_date": "2026-03-12",
+        "url": "https://www.deezer.com/album/933278581"
+      },
+      {
+        "name": "Je t'aime (Meloko & Konvex Remix)",
+        "type": "album",
+        "release_date": "2026-03-12",
+        "url": "https://www.deezer.com/album/936909241"
+      },
+      {
+        "name": "Ama kora (Demayä Remix)",
+        "type": "album",
+        "release_date": "2026-01-23",
+        "url": "https://www.deezer.com/album/875395762"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 72,
+      "french_tracks": 52,
+      "ratio": 0.722,
+      "tracks": [
+        {
+          "title": "Qui de nous deux",
+          "french": true
+        },
+        {
+          "title": "Cet Air",
+          "french": true
+        },
+        {
+          "title": "Matchistador",
+          "french": false
+        },
+        {
+          "title": "Parioca",
+          "french": false
+        },
+        {
+          "title": "Dans ta radio",
+          "french": true
+        },
+        {
+          "title": "Qui de nous deux",
+          "french": true
+        },
+        {
+          "title": "La bonne étoile (Live)",
+          "french": true
+        },
+        {
+          "title": "SOS d’un terrien en détresse",
+          "french": true
+        },
+        {
+          "title": "Je dis aime",
+          "french": true
+        },
+        {
+          "title": "Belleville rendez-vous (Version française)",
+          "french": true
+        },
+        {
+          "title": "La bonne étoile",
+          "french": true
+        },
+        {
+          "title": "Superchérie",
+          "french": true
+        },
+        {
+          "title": "Solidarité",
+          "french": true
+        },
+        {
+          "title": "Space Oddity",
+          "french": false
+        },
+        {
+          "title": "Paroles paroles",
+          "french": true
+        },
+        {
+          "title": "Totem",
+          "french": false
+        },
+        {
+          "title": "À tes souhaits",
+          "french": true
+        },
+        {
+          "title": "À toi",
+          "french": true
+        },
+        {
+          "title": "Grand petit con",
+          "french": false
+        },
+        {
+          "title": "Onde sensuelle",
+          "french": true
+        },
+        {
+          "title": "Les mots bleus (Live 2020)",
+          "french": true
+        },
+        {
+          "title": "Je suis Mali",
+          "french": true
+        },
+        {
+          "title": "La bonne étoile (Live 2020)",
+          "french": true
+        },
+        {
+          "title": "Moussow",
+          "french": false
+        },
+        {
+          "title": "Est-ce que tu aimes ?",
+          "french": true
+        },
+        {
+          "title": "Océan",
+          "french": true
+        },
+        {
+          "title": "Tour d'Ivoire",
+          "french": true
+        },
+        {
+          "title": "Je suis Mali (The Avener & Bovalon Rework)",
+          "french": true
+        },
+        {
+          "title": "Toop Toop (A Tribute to Zdar)",
+          "french": false
+        },
+        {
+          "title": "Une Âme",
+          "french": true
+        },
+        {
+          "title": "¡ Pura Vida Fenomenal !",
+          "french": false
+        },
+        {
+          "title": "Ma mélodie",
+          "french": true
+        },
+        {
+          "title": "La tendresse (Live 2020)",
+          "french": true
+        },
+        {
+          "title": "Je t'aime",
+          "french": true
+        },
+        {
+          "title": "Il neige à Bamako",
+          "french": true
+        },
+        {
+          "title": "We Will Rock You (Antivirus)",
+          "french": false
+        },
+        {
+          "title": "Mappemonde",
+          "french": false
+        },
+        {
+          "title": "L'Âme Au Mali",
+          "french": true
+        },
+        {
+          "title": "Je dis aime",
+          "french": true
+        },
+        {
+          "title": "Matchistador (Extended)",
+          "french": false
+        },
+        {
+          "title": "Le Bonheur",
+          "french": true
+        },
+        {
+          "title": "Cet air (Live)",
+          "french": true
+        },
+        {
+          "title": "Couleur Café",
+          "french": true
+        },
+        {
+          "title": "Secret Garden",
+          "french": false
+        },
+        {
+          "title": "Ils sont fous ces humains !",
+          "french": true
+        },
+        {
+          "title": "Billie",
+          "french": false
+        },
+        {
+          "title": "Billie (Live 2019)",
+          "french": false
+        },
+        {
+          "title": "Life on Mars (Live)",
+          "french": false
+        },
+        {
+          "title": "Le peuple qui danse",
+          "french": true
+        },
+        {
+          "title": "Au suivant (Live)",
+          "french": true
+        },
+        {
+          "title": "Les mots bleus",
+          "french": true
+        },
+        {
+          "title": "Le complexe du Corn Flakes",
+          "french": true
+        },
+        {
+          "title": "La bohème",
+          "french": true
+        },
+        {
+          "title": "Totem (Live 2025)",
+          "french": false
+        },
+        {
+          "title": "Le roi des ombres",
+          "french": true
+        },
+        {
+          "title": "J'ai dix ans",
+          "french": true
+        },
+        {
+          "title": "On ne pleure pas dans l'eau (feat. -M-)",
+          "french": true
+        },
+        {
+          "title": "Ne le dis à personne",
+          "french": true
+        },
+        {
+          "title": "Je dis aime (Live 2025)",
+          "french": true
+        },
+        {
+          "title": "Amssetou (Live 2025)",
+          "french": false
+        },
+        {
+          "title": "Machistador (Live)",
+          "french": false
+        },
+        {
+          "title": "Croîs au printemps",
+          "french": true
+        },
+        {
+          "title": "Lettre infinie",
+          "french": false
+        },
+        {
+          "title": "JE T'AI AIMÉ",
+          "french": true
+        },
+        {
+          "title": "Je suis Mali (Live 2025)",
+          "french": true
+        },
+        {
+          "title": "Les piles",
+          "french": true
+        },
+        {
+          "title": "L'autre paradis",
+          "french": true
+        },
+        {
+          "title": "En tête-à-tête (Live 2005)",
+          "french": true
+        },
+        {
+          "title": "Baïa",
+          "french": true
+        },
+        {
+          "title": "Massaï",
+          "french": true
+        },
+        {
+          "title": "Machistador (Live)",
+          "french": false
+        },
+        {
+          "title": "Le chanteur « Collégiale »",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 72,
+      "french_tracks": 52,
+      "ratio": 0.722,
+      "tracks": [
+        {
+          "title": "Qui de nous deux",
+          "french": true
+        },
+        {
+          "title": "Cet Air",
+          "french": true
+        },
+        {
+          "title": "Matchistador",
+          "french": false
+        },
+        {
+          "title": "Parioca",
+          "french": false
+        },
+        {
+          "title": "Dans ta radio",
+          "french": true
+        },
+        {
+          "title": "Qui de nous deux",
+          "french": true
+        },
+        {
+          "title": "La bonne étoile (Live)",
+          "french": true
+        },
+        {
+          "title": "SOS d’un terrien en détresse",
+          "french": true
+        },
+        {
+          "title": "Je dis aime",
+          "french": true
+        },
+        {
+          "title": "Belleville rendez-vous (Version française)",
+          "french": true
+        },
+        {
+          "title": "La bonne étoile",
+          "french": true
+        },
+        {
+          "title": "Superchérie",
+          "french": true
+        },
+        {
+          "title": "Solidarité",
+          "french": true
+        },
+        {
+          "title": "Space Oddity",
+          "french": false
+        },
+        {
+          "title": "Paroles paroles",
+          "french": true
+        },
+        {
+          "title": "Totem",
+          "french": false
+        },
+        {
+          "title": "À tes souhaits",
+          "french": true
+        },
+        {
+          "title": "À toi",
+          "french": true
+        },
+        {
+          "title": "Grand petit con",
+          "french": false
+        },
+        {
+          "title": "Onde sensuelle",
+          "french": true
+        },
+        {
+          "title": "Les mots bleus (Live 2020)",
+          "french": true
+        },
+        {
+          "title": "Je suis Mali",
+          "french": true
+        },
+        {
+          "title": "La bonne étoile (Live 2020)",
+          "french": true
+        },
+        {
+          "title": "Moussow",
+          "french": false
+        },
+        {
+          "title": "Est-ce que tu aimes ?",
+          "french": true
+        },
+        {
+          "title": "Océan",
+          "french": true
+        },
+        {
+          "title": "Tour d'Ivoire",
+          "french": true
+        },
+        {
+          "title": "Je suis Mali (The Avener & Bovalon Rework)",
+          "french": true
+        },
+        {
+          "title": "Toop Toop (A Tribute to Zdar)",
+          "french": false
+        },
+        {
+          "title": "Une Âme",
+          "french": true
+        },
+        {
+          "title": "¡ Pura Vida Fenomenal !",
+          "french": false
+        },
+        {
+          "title": "Ma mélodie",
+          "french": true
+        },
+        {
+          "title": "La tendresse (Live 2020)",
+          "french": true
+        },
+        {
+          "title": "Je t'aime",
+          "french": true
+        },
+        {
+          "title": "Il neige à Bamako",
+          "french": true
+        },
+        {
+          "title": "We Will Rock You (Antivirus)",
+          "french": false
+        },
+        {
+          "title": "Mappemonde",
+          "french": false
+        },
+        {
+          "title": "L'Âme Au Mali",
+          "french": true
+        },
+        {
+          "title": "Je dis aime",
+          "french": true
+        },
+        {
+          "title": "Matchistador (Extended)",
+          "french": false
+        },
+        {
+          "title": "Le Bonheur",
+          "french": true
+        },
+        {
+          "title": "Cet air (Live)",
+          "french": true
+        },
+        {
+          "title": "Couleur Café",
+          "french": true
+        },
+        {
+          "title": "Secret Garden",
+          "french": false
+        },
+        {
+          "title": "Ils sont fous ces humains !",
+          "french": true
+        },
+        {
+          "title": "Billie",
+          "french": false
+        },
+        {
+          "title": "Billie (Live 2019)",
+          "french": false
+        },
+        {
+          "title": "Life on Mars (Live)",
+          "french": false
+        },
+        {
+          "title": "Le peuple qui danse",
+          "french": true
+        },
+        {
+          "title": "Au suivant (Live)",
+          "french": true
+        },
+        {
+          "title": "Les mots bleus",
+          "french": true
+        },
+        {
+          "title": "Le complexe du Corn Flakes",
+          "french": true
+        },
+        {
+          "title": "La bohème",
+          "french": true
+        },
+        {
+          "title": "Totem (Live 2025)",
+          "french": false
+        },
+        {
+          "title": "Le roi des ombres",
+          "french": true
+        },
+        {
+          "title": "J'ai dix ans",
+          "french": true
+        },
+        {
+          "title": "On ne pleure pas dans l'eau (feat. -M-)",
+          "french": true
+        },
+        {
+          "title": "Ne le dis à personne",
+          "french": true
+        },
+        {
+          "title": "Je dis aime (Live 2025)",
+          "french": true
+        },
+        {
+          "title": "Amssetou (Live 2025)",
+          "french": false
+        },
+        {
+          "title": "Machistador (Live)",
+          "french": false
+        },
+        {
+          "title": "Croîs au printemps",
+          "french": true
+        },
+        {
+          "title": "Lettre infinie",
+          "french": false
+        },
+        {
+          "title": "JE T'AI AIMÉ",
+          "french": true
+        },
+        {
+          "title": "Je suis Mali (Live 2025)",
+          "french": true
+        },
+        {
+          "title": "Les piles",
+          "french": true
+        },
+        {
+          "title": "L'autre paradis",
+          "french": true
+        },
+        {
+          "title": "En tête-à-tête (Live 2005)",
+          "french": true
+        },
+        {
+          "title": "Baïa",
+          "french": true
+        },
+        {
+          "title": "Massaï",
+          "french": true
+        },
+        {
+          "title": "Machistador (Live)",
+          "french": false
+        },
+        {
+          "title": "Le chanteur « Collégiale »",
+          "french": true
+        }
+      ]
+    }
+  },
+  "1yHj3nTuMqofPhYqWcpWq2": {
+    "id": "1yHj3nTuMqofPhYqWcpWq2",
+    "name": "LATACHE1.7",
+    "url": "https://open.spotify.com/intl-fr/artist/1yHj3nTuMqofPhYqWcpWq2",
+    "uri": "spotify:artist:1yHj3nTuMqofPhYqWcpWq2",
+    "monthly_listeners": 1781140,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/1yHj3nTuMqofPhYqWcpWq2"
+    },
+    "first_seen": "2026-09-21T15:28:21+00:00",
+    "last_seen": "2026-09-21T15:28:21+00:00",
+    "deezer_id": 265647482,
+    "deezer_name": "LATACHE1.7",
+    "releases_2026": [
+      {
+        "name": "PESTE",
+        "type": "album",
+        "release_date": "2026-10-16",
+        "url": "https://www.deezer.com/album/1116982402"
+      },
+      {
+        "name": "CONFUSION",
+        "type": "album",
+        "release_date": "2026-09-11",
+        "url": "https://www.deezer.com/album/1068194731"
+      },
+      {
+        "name": "TROP LOIN",
+        "type": "album",
+        "release_date": "2026-07-31",
+        "url": "https://www.deezer.com/album/1029855052"
+      },
+      {
+        "name": "LA MORT OU LA CAGE",
+        "type": "album",
+        "release_date": "2026-03-13",
+        "url": "https://www.deezer.com/album/936531201"
+      },
+      {
+        "name": "ENCORE",
+        "type": "album",
+        "release_date": "2026-02-13",
+        "url": "https://www.deezer.com/album/921137751"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 6,
+      "french_tracks": 4,
+      "ratio": 0.667,
+      "tracks": [
+        {
+          "title": "CONFUSION",
+          "french": false
+        },
+        {
+          "title": "Détruit",
+          "french": true
+        },
+        {
+          "title": "OUBLIER",
+          "french": false
+        },
+        {
+          "title": "LA MORT OU LA CAGE",
+          "french": true
+        },
+        {
+          "title": "ENCORE",
+          "french": true
+        },
+        {
+          "title": "LIFE",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 6,
+      "french_tracks": 4,
+      "ratio": 0.667,
+      "tracks": [
+        {
+          "title": "CONFUSION",
+          "french": false
+        },
+        {
+          "title": "Détruit",
+          "french": true
+        },
+        {
+          "title": "OUBLIER",
+          "french": false
+        },
+        {
+          "title": "LA MORT OU LA CAGE",
+          "french": true
+        },
+        {
+          "title": "ENCORE",
+          "french": true
+        },
+        {
+          "title": "LIFE",
+          "french": true
+        }
+      ]
+    }
+  },
+  "0RRp1XbMoTmW8zSWC1synA": {
+    "id": "0RRp1XbMoTmW8zSWC1synA",
+    "name": "Rambo goyard",
+    "url": "https://open.spotify.com/intl-fr/artist/0RRp1XbMoTmW8zSWC1synA",
+    "uri": "spotify:artist:0RRp1XbMoTmW8zSWC1synA",
+    "monthly_listeners": 1775522,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/0RRp1XbMoTmW8zSWC1synA"
+    },
+    "first_seen": "2026-10-05T00:32:27+00:00",
+    "last_seen": "2026-10-05T00:32:27+00:00",
+    "deezer_id": 127192072,
+    "deezer_name": "Rambo goyard",
+    "releases_2026": [
+      {
+        "name": "S.O.S (Save Our Summer)",
+        "type": "album",
+        "release_date": "2026-08-13",
+        "url": "https://www.deezer.com/album/1036365312"
+      },
+      {
+        "name": "GOGOWINE",
+        "type": "album",
+        "release_date": "2026-07-16",
+        "url": "https://www.deezer.com/album/1028033942"
+      },
+      {
+        "name": "SOUVENIR",
+        "type": "album",
+        "release_date": "2026-06-25",
+        "url": "https://www.deezer.com/album/1008100331"
+      },
+      {
+        "name": "Tia Na Sé",
+        "type": "album",
+        "release_date": "2026-04-22",
+        "url": "https://www.deezer.com/album/962224701"
+      },
+      {
+        "name": "B.M.S (by my side)",
+        "type": "album",
+        "release_date": "2026-02-25",
+        "url": "https://www.deezer.com/album/923522481"
+      },
+      {
+        "name": "B.M.S (version acoustique)",
+        "type": "album",
+        "release_date": "2026-02-25",
+        "url": "https://www.deezer.com/album/923522461"
+      },
+      {
+        "name": "B.M.S (by my side)",
+        "type": "album",
+        "release_date": "2026-01-30",
+        "url": "https://www.deezer.com/album/907074822"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 12,
+      "french_tracks": 3,
+      "ratio": 0.25,
+      "tracks": [
+        {
+          "title": "B.M.S (by my side)",
+          "french": false
+        },
+        {
+          "title": "GOGOWINE",
+          "french": false
+        },
+        {
+          "title": "Iverson",
+          "french": false
+        },
+        {
+          "title": "CDG",
+          "french": false
+        },
+        {
+          "title": "Tia Na Sé",
+          "french": true
+        },
+        {
+          "title": "Soirée des 6T",
+          "french": true
+        },
+        {
+          "title": "MABÉ",
+          "french": true
+        },
+        {
+          "title": "Gaou",
+          "french": false
+        },
+        {
+          "title": "Night",
+          "french": false
+        },
+        {
+          "title": "SOUVENIR",
+          "french": false
+        },
+        {
+          "title": "B.M.S (version acoustique)",
+          "french": false
+        },
+        {
+          "title": "WE OUTSIDE",
+          "french": false
+        }
+      ]
+    },
+    "french_check": {
+      "method": "lyrics_confirmation",
+      "title_check": {
+        "analyzed_tracks": 12,
+        "french_tracks": 3,
+        "ratio": 0.25,
+        "tracks": [
+          {
+            "title": "B.M.S (by my side)",
+            "french": false
+          },
+          {
+            "title": "GOGOWINE",
+            "french": false
+          },
+          {
+            "title": "Iverson",
+            "french": false
+          },
+          {
+            "title": "CDG",
+            "french": false
+          },
+          {
+            "title": "Tia Na Sé",
+            "french": true
+          },
+          {
+            "title": "Soirée des 6T",
+            "french": true
+          },
+          {
+            "title": "MABÉ",
+            "french": true
+          },
+          {
+            "title": "Gaou",
+            "french": false
+          },
+          {
+            "title": "Night",
+            "french": false
+          },
+          {
+            "title": "SOUVENIR",
+            "french": false
+          },
+          {
+            "title": "B.M.S (version acoustique)",
+            "french": false
+          },
+          {
+            "title": "WE OUTSIDE",
+            "french": false
+          }
+        ]
+      },
+      "checked_tracks": [
+        {
+          "title": "B.M.S (by my side)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 41,
+            "common_words": 55,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "GOGOWINE",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 26,
+            "common_words": 60,
+            "source": "LRCLIB"
+          }
+        },
+        {
+          "title": "B.M.S (version acoustique)",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 29,
+            "common_words": 55,
+            "source": "LRCLIB"
+          }
+        }
+      ],
+      "analyzed_lyrics": 3,
+      "french_lyrics": 3,
+      "ratio": 1.0
+    }
+  },
+  "0gGcw3tA1fZoF23qa8KFb7": {
+    "id": "0gGcw3tA1fZoF23qa8KFb7",
+    "name": "Bolémvn",
+    "url": "https://open.spotify.com/intl-fr/artist/0gGcw3tA1fZoF23qa8KFb7",
+    "uri": "spotify:artist:0gGcw3tA1fZoF23qa8KFb7",
+    "monthly_listeners": 1770288,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/0gGcw3tA1fZoF23qa8KFb7"
+    },
+    "first_seen": "2026-09-26T13:17:58+00:00",
+    "last_seen": "2026-09-26T13:17:58+00:00",
+    "deezer_id": 13554009,
+    "deezer_name": "Bolémvn",
+    "releases_2026": [
+      {
+        "name": "Paris la nuit / Mélodie du ghetto",
+        "type": "album",
+        "release_date": "2026-07-31",
+        "url": "https://www.deezer.com/album/1033624382"
+      },
+      {
+        "name": "Sans forcer",
+        "type": "album",
+        "release_date": "2026-06-26",
+        "url": "https://www.deezer.com/album/1007134011"
+      },
+      {
+        "name": "Malaise",
+        "type": "album",
+        "release_date": "2026-08-28",
+        "url": "https://www.deezer.com/album/1057182612"
+      },
+      {
+        "name": "Tellement",
+        "type": "album",
+        "release_date": "2026-05-29",
+        "url": "https://www.deezer.com/album/992322251"
+      },
+      {
+        "name": "Tellement",
+        "type": "album",
+        "release_date": "2026-05-28",
+        "url": "https://www.deezer.com/album/987926201"
+      },
+      {
+        "name": "Airbnb",
+        "type": "album",
+        "release_date": "2026-05-05",
+        "url": "https://www.deezer.com/album/972309881"
+      },
+      {
+        "name": "10",
+        "type": "album",
+        "release_date": "2026-02-12",
+        "url": "https://www.deezer.com/album/912038111"
+      },
+      {
+        "name": "Zigi Zaga (feat. Bolémvn)",
+        "type": "album",
+        "release_date": "2026-01-22",
+        "url": "https://www.deezer.com/album/901088642"
+      },
+      {
+        "name": "Allô Morroossaaa",
+        "type": "album",
+        "release_date": "2026-01-28",
+        "url": "https://www.deezer.com/album/866224342"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 38,
+      "french_tracks": 26,
+      "ratio": 0.684,
+      "tracks": [
+        {
+          "title": "On y va",
+          "french": false
+        },
+        {
+          "title": "Ça canarde",
+          "french": true
+        },
+        {
+          "title": "J'achète",
+          "french": true
+        },
+        {
+          "title": "Tellement",
+          "french": true
+        },
+        {
+          "title": "Bleu (feat. Sasso)",
+          "french": true
+        },
+        {
+          "title": "Paris la nuit",
+          "french": true
+        },
+        {
+          "title": "Ghenda",
+          "french": false
+        },
+        {
+          "title": "C'est toi",
+          "french": true
+        },
+        {
+          "title": "Double appel",
+          "french": true
+        },
+        {
+          "title": "DDM",
+          "french": false
+        },
+        {
+          "title": "Salut les terriens 3",
+          "french": true
+        },
+        {
+          "title": "Mélodie du ghetto",
+          "french": true
+        },
+        {
+          "title": "COLIS",
+          "french": false
+        },
+        {
+          "title": "Sans forcer",
+          "french": true
+        },
+        {
+          "title": "Miroir",
+          "french": true
+        },
+        {
+          "title": "Prends ta monnaie",
+          "french": true
+        },
+        {
+          "title": "#LaVieDeLocksé",
+          "french": true
+        },
+        {
+          "title": "Gars du 7",
+          "french": true
+        },
+        {
+          "title": "L'homme",
+          "french": true
+        },
+        {
+          "title": "Frappe Atomique",
+          "french": true
+        },
+        {
+          "title": "Top Boy",
+          "french": false
+        },
+        {
+          "title": "L'amour du risque",
+          "french": true
+        },
+        {
+          "title": "La même",
+          "french": true
+        },
+        {
+          "title": "Dégâts",
+          "french": true
+        },
+        {
+          "title": "DJAI",
+          "french": false
+        },
+        {
+          "title": "Carrément gang (Bonus Track)",
+          "french": true
+        },
+        {
+          "title": "Diez",
+          "french": false
+        },
+        {
+          "title": "Boosk'Anarchiste",
+          "french": false
+        },
+        {
+          "title": "Jour de paye",
+          "french": true
+        },
+        {
+          "title": "J'ai Déjà",
+          "french": true
+        },
+        {
+          "title": "Sur Paname",
+          "french": true
+        },
+        {
+          "title": "Avant",
+          "french": false
+        },
+        {
+          "title": "LMEC",
+          "french": true
+        },
+        {
+          "title": "Amour et haine",
+          "french": true
+        },
+        {
+          "title": "3 Verres",
+          "french": false
+        },
+        {
+          "title": "Swipe up",
+          "french": false
+        },
+        {
+          "title": "DLC (feat. Bolémvn)",
+          "french": false
+        },
+        {
+          "title": "Niveau",
+          "french": true
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 38,
+      "french_tracks": 26,
+      "ratio": 0.684,
+      "tracks": [
+        {
+          "title": "On y va",
+          "french": false
+        },
+        {
+          "title": "Ça canarde",
+          "french": true
+        },
+        {
+          "title": "J'achète",
+          "french": true
+        },
+        {
+          "title": "Tellement",
+          "french": true
+        },
+        {
+          "title": "Bleu (feat. Sasso)",
+          "french": true
+        },
+        {
+          "title": "Paris la nuit",
+          "french": true
+        },
+        {
+          "title": "Ghenda",
+          "french": false
+        },
+        {
+          "title": "C'est toi",
+          "french": true
+        },
+        {
+          "title": "Double appel",
+          "french": true
+        },
+        {
+          "title": "DDM",
+          "french": false
+        },
+        {
+          "title": "Salut les terriens 3",
+          "french": true
+        },
+        {
+          "title": "Mélodie du ghetto",
+          "french": true
+        },
+        {
+          "title": "COLIS",
+          "french": false
+        },
+        {
+          "title": "Sans forcer",
+          "french": true
+        },
+        {
+          "title": "Miroir",
+          "french": true
+        },
+        {
+          "title": "Prends ta monnaie",
+          "french": true
+        },
+        {
+          "title": "#LaVieDeLocksé",
+          "french": true
+        },
+        {
+          "title": "Gars du 7",
+          "french": true
+        },
+        {
+          "title": "L'homme",
+          "french": true
+        },
+        {
+          "title": "Frappe Atomique",
+          "french": true
+        },
+        {
+          "title": "Top Boy",
+          "french": false
+        },
+        {
+          "title": "L'amour du risque",
+          "french": true
+        },
+        {
+          "title": "La même",
+          "french": true
+        },
+        {
+          "title": "Dégâts",
+          "french": true
+        },
+        {
+          "title": "DJAI",
+          "french": false
+        },
+        {
+          "title": "Carrément gang (Bonus Track)",
+          "french": true
+        },
+        {
+          "title": "Diez",
+          "french": false
+        },
+        {
+          "title": "Boosk'Anarchiste",
+          "french": false
+        },
+        {
+          "title": "Jour de paye",
+          "french": true
+        },
+        {
+          "title": "J'ai Déjà",
+          "french": true
+        },
+        {
+          "title": "Sur Paname",
+          "french": true
+        },
+        {
+          "title": "Avant",
+          "french": false
+        },
+        {
+          "title": "LMEC",
+          "french": true
+        },
+        {
+          "title": "Amour et haine",
+          "french": true
+        },
+        {
+          "title": "3 Verres",
+          "french": false
+        },
+        {
+          "title": "Swipe up",
+          "french": false
+        },
+        {
+          "title": "DLC (feat. Bolémvn)",
+          "french": false
+        },
+        {
+          "title": "Niveau",
+          "french": true
+        }
+      ]
+    }
+  },
+  "2at2r1DSadG6vg6giCKakg": {
+    "id": "2at2r1DSadG6vg6giCKakg",
+    "name": "ZVdu17",
+    "url": "https://open.spotify.com/intl-fr/artist/2at2r1DSadG6vg6giCKakg",
+    "uri": "spotify:artist:2at2r1DSadG6vg6giCKakg",
+    "monthly_listeners": 1737481,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/2at2r1DSadG6vg6giCKakg"
+    },
+    "first_seen": "2026-09-08T16:32:40",
+    "last_seen": "2026-09-08T18:51:55",
+    "deezer_id": 132493952,
+    "deezer_name": "ZVdu17",
+    "releases_2026": [
+      {
+        "name": "Rentre dans le Cercle - ZVdu17",
+        "type": "album",
+        "release_date": "2026-09-22",
+        "url": "https://www.deezer.com/album/1100297412"
+      },
+      {
+        "name": "Patek",
+        "type": "album",
+        "release_date": "2026-09-04",
+        "url": "https://www.deezer.com/album/1056053622"
+      },
+      {
+        "name": "GSM",
+        "type": "album",
+        "release_date": "2026-02-13",
+        "url": "https://www.deezer.com/album/909246642"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 2,
+      "french_tracks": 0,
+      "ratio": 0.0,
+      "tracks": [
+        {
+          "title": "No stress",
+          "french": false
+        },
+        {
+          "title": "Hakim Ziyech",
+          "french": false
+        }
+      ]
+    },
+    "french_check": {
+      "method": "lyrics_confirmation",
+      "title_check": {
+        "analyzed_tracks": 2,
+        "french_tracks": 0,
+        "ratio": 0.0,
+        "tracks": [
+          {
+            "title": "No stress",
+            "french": false
+          },
+          {
+            "title": "Hakim Ziyech",
+            "french": false
+          }
+        ]
+      },
+      "checked_tracks": [
+        {
+          "title": "De Vlaemynck",
+          "verdict": "french",
+          "details": {
+            "language": "fr",
+            "french_markers": 68,
+            "common_words": 132,
+            "source": "LRCLIB"
+          }
+        }
+      ],
+      "analyzed_lyrics": 1,
+      "french_lyrics": 1,
+      "ratio": 1.0
+    }
+  },
+  "1bbr3P3o6BGIdvTWKb6rxL": {
+    "id": "1bbr3P3o6BGIdvTWKb6rxL",
+    "name": "Saïf",
+    "url": "https://open.spotify.com/intl-fr/artist/1bbr3P3o6BGIdvTWKb6rxL",
+    "uri": "spotify:artist:1bbr3P3o6BGIdvTWKb6rxL",
+    "monthly_listeners": 1735456,
+    "genres": [],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/intl-fr/artist/1bbr3P3o6BGIdvTWKb6rxL"
+    },
+    "first_seen": "2026-10-02T05:47:08+00:00",
+    "last_seen": "2026-10-02T05:47:08+00:00",
+    "deezer_id": 252768072,
+    "deezer_name": "Saïf",
+    "releases_2026": [
+      {
+        "name": "Si vous saviez",
+        "type": "album",
+        "release_date": "2026-06-05",
+        "url": "https://www.deezer.com/album/993096711"
+      },
+      {
+        "name": "La soeur de la vie (feat. Khali)",
+        "type": "album",
+        "release_date": "2026-06-03",
+        "url": "https://www.deezer.com/album/993096321"
+      },
+      {
+        "name": "Hier encore (feat. Pato)",
+        "type": "album",
+        "release_date": "2026-06-03",
+        "url": "https://www.deezer.com/album/993096341"
+      },
+      {
+        "name": "RAP d’arabe",
+        "type": "album",
+        "release_date": "2026-05-22",
+        "url": "https://www.deezer.com/album/947408531"
+      },
+      {
+        "name": "Les clés en main",
+        "type": "album",
+        "release_date": "2026-01-22",
+        "url": "https://www.deezer.com/album/897516992"
+      }
+    ],
+    "title_check": {
+      "analyzed_tracks": 24,
+      "french_tracks": 18,
+      "ratio": 0.75,
+      "tracks": [
+        {
+          "title": "Le taf du loup",
+          "french": true
+        },
+        {
+          "title": "Les clés en main",
+          "french": true
+        },
+        {
+          "title": "L'avalanche II",
+          "french": false
+        },
+        {
+          "title": "8426City",
+          "french": false
+        },
+        {
+          "title": "L'hiver",
+          "french": false
+        },
+        {
+          "title": "Ainsi va la rue",
+          "french": true
+        },
+        {
+          "title": "Si vous saviez",
+          "french": true
+        },
+        {
+          "title": "3arbi Connection",
+          "french": true
+        },
+        {
+          "title": "Les yeux ouverts",
+          "french": true
+        },
+        {
+          "title": "Le contrat",
+          "french": true
+        },
+        {
+          "title": "La vie est belle",
+          "french": true
+        },
+        {
+          "title": "La bohème.",
+          "french": true
+        },
+        {
+          "title": "L'avalanche",
+          "french": false
+        },
+        {
+          "title": "La méthode",
+          "french": true
+        },
+        {
+          "title": "Le malheur est matinal",
+          "french": true
+        },
+        {
+          "title": "Le bonheur est triste",
+          "french": true
+        },
+        {
+          "title": "Vengeance personnelle",
+          "french": false
+        },
+        {
+          "title": "La soeur de la vie (feat. Khali)",
+          "french": true
+        },
+        {
+          "title": "Il pleut demain",
+          "french": true
+        },
+        {
+          "title": "Marche ou crève",
+          "french": true
+        },
+        {
+          "title": "La tempête",
+          "french": true
+        },
+        {
+          "title": "Hier encore (feat. Pato)",
+          "french": true
+        },
+        {
+          "title": "Méchant loup",
+          "french": true
+        },
+        {
+          "title": "Jean Reno",
+          "french": false
+        }
+      ]
+    },
+    "french_check": {
+      "method": "track_titles",
+      "analyzed_tracks": 24,
+      "french_tracks": 18,
+      "ratio": 0.75,
+      "tracks": [
+        {
+          "title": "Le taf du loup",
+          "french": true
+        },
+        {
+          "title": "Les clés en main",
+          "french": true
+        },
+        {
+          "title": "L'avalanche II",
+          "french": false
+        },
+        {
+          "title": "8426City",
+          "french": false
+        },
+        {
+          "title": "L'hiver",
+          "french": false
+        },
+        {
+          "title": "Ainsi va la rue",
+          "french": true
+        },
+        {
+          "title": "Si vous saviez",
+          "french": true
+        },
+        {
+          "title": "3arbi Connection",
+          "french": true
+        },
+        {
+          "title": "Les yeux ouverts",
+          "french": true
+        },
+        {
+          "title": "Le contrat",
+          "french": true
+        },
+        {
+          "title": "La vie est belle",
+          "french": true
+        },
+        {
+          "title": "La bohème.",
+          "french": true
+        },
+        {
+          "title": "L'avalanche",
+          "french": false
+        },
+        {
+          "title": "La méthode",
+          "french": true
+        },
+        {
+          "title": "Le malheur est matinal",
+          "french": true
+        },
+        {
+          "title": "Le bonheur est triste",
+          "french": true
+        },
+        {
+          "title": "Vengeance personnelle",
+          "french": false
+        },
+        {
+          "title": "La soeur de la vie (feat. Khali)",
+          "french": true
+        },
+        {
+          "title": "Il pleut demain",
+          "french": true
+        },
+        {
+          "title": "Marche ou crève",
+          "french": true
+        },
+        {
+          "title": "La tempête",
+          "french": true
+        },
+        {
+          "title": "Hier encore (feat. Pato)",
+          "french": true
+        },
+        {
+          "title": "Méchant loup",
+          "french": true
+        },
+        {
+          "title": "Jean Reno",
+          "french": false
+        }
+      ]
+    }
   }
 }

@@ -3,6 +3,10 @@
     "4EdmQkIvJ7QFseyc1wdgpz": {
       "name": "60065",
       "reason": "Artiste introuvable sur Deezer"
+    },
+    "7qiV5NUgtNw1Y8xOC7jWus": {
+      "name": "ayako21307",
+      "reason": "Artiste introuvable sur Deezer"
     }
   },
   "inactive_2026": {
@@ -226,6 +230,54 @@
       "name": "Duck Sauce",
       "deezer_name": "Duck Sauce",
       "deezer_id": 305579,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "0ReFHXuLVc44gJZ5ZlYSuL": {
+      "name": "23.558x23.558",
+      "deezer_name": "23.558x23.558",
+      "deezer_id": 303618641,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "3WtrH1zNpzoPSz6XpwCh6y": {
+      "name": "Delilah Montagu",
+      "deezer_name": "Delilah Montagu",
+      "deezer_id": 248277632,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "0lkpMgbWhSJEnh3cKV9qSV": {
+      "name": "2032",
+      "deezer_name": "2032",
+      "deezer_id": 6991993,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "6r20qOqY7qDWI0PPTxVMlC": {
+      "name": "DJ Fresh",
+      "deezer_name": "Dj Fresh",
+      "deezer_id": 299429431,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "2Akxom97GUYsqdHoLee0Wz": {
+      "name": "EMI.20010",
+      "deezer_name": "EMI.20010",
+      "deezer_id": 225974755,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "4lASmlLH88uIXcj74MFTm9": {
+      "name": "CAPOS1.9",
+      "deezer_name": "CAPOS1.9",
+      "deezer_id": 336813801,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "7zYj9S9SdIunYCfSm7vzAR": {
+      "name": "JEON SOMI",
+      "deezer_name": "JEON SOMI",
+      "deezer_id": 504381,
+      "reason": "Aucune sortie album ou single en 2026"
+    },
+    "3OrE1UskwJB5ssimZgTT1M": {
+      "name": "Ntopaz 18120",
+      "deezer_name": "Ntopaz 18120",
+      "deezer_id": 87416822,
       "reason": "Aucune sortie album ou single en 2026"
     }
   },
@@ -4294,6 +4346,3013 @@
         "tracks": []
       },
       "lyrics_check": null
+    },
+    "2AZSValD5AJR2fASKiRd3U": {
+      "name": "MKY 233",
+      "deezer_name": "MKY 233",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 2,
+          "french_tracks": 1,
+          "ratio": 0.5,
+          "tracks": [
+            {
+              "title": "Big Mentalité",
+              "french": true
+            },
+            {
+              "title": "DOGGYZ",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "6dfsR6eQeWFBa8i4f8qLxq": {
+      "name": "Jey2302",
+      "deezer_name": "Jey2302",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 6,
+          "french_tracks": 1,
+          "ratio": 0.167,
+          "tracks": [
+            {
+              "title": "Mas Mala Que Tu",
+              "french": true
+            },
+            {
+              "title": "Modo Elite",
+              "french": false
+            },
+            {
+              "title": "Trolo",
+              "french": false
+            },
+            {
+              "title": "2 Cuero",
+              "french": false
+            },
+            {
+              "title": "Diache Mah",
+              "french": false
+            },
+            {
+              "title": "Exótico",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "6Se1y4vDcu9fVHLqdj1N3q": {
+      "name": "Wuki",
+      "deezer_name": "Wuki",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 42,
+          "french_tracks": 1,
+          "ratio": 0.024,
+          "tracks": [
+            {
+              "title": "Sunshine (My Girl) (Galantis Reshine)",
+              "french": false
+            },
+            {
+              "title": "Sunshine (My Girl)",
+              "french": false
+            },
+            {
+              "title": "Edge of Seventeen",
+              "french": false
+            },
+            {
+              "title": "As the World Caves In (Wuki Remix)",
+              "french": false
+            },
+            {
+              "title": "Sunshine (My Girl) (Sofi Tukker Remix)",
+              "french": false
+            },
+            {
+              "title": "Whip It",
+              "french": false
+            },
+            {
+              "title": "Chicken Wang",
+              "french": false
+            },
+            {
+              "title": "Better",
+              "french": false
+            },
+            {
+              "title": "We Don't Stop",
+              "french": false
+            },
+            {
+              "title": "Ain't It Fun",
+              "french": false
+            },
+            {
+              "title": "Rainbow",
+              "french": false
+            },
+            {
+              "title": "Shake It",
+              "french": false
+            },
+            {
+              "title": "Chop It (Blvk Sheep Remix)",
+              "french": false
+            },
+            {
+              "title": "Eye of the Tiger (Rising Up)",
+              "french": false
+            },
+            {
+              "title": "BIGGY BAP",
+              "french": false
+            },
+            {
+              "title": "Coming In Hot - Wuki Remix",
+              "french": false
+            },
+            {
+              "title": "To Be Real",
+              "french": false
+            },
+            {
+              "title": "Pump The Bass",
+              "french": false
+            },
+            {
+              "title": "Throw It",
+              "french": false
+            },
+            {
+              "title": "Old School Sound",
+              "french": false
+            },
+            {
+              "title": "I'm High",
+              "french": false
+            },
+            {
+              "title": "Sunshine (My Girl) (Extended Mix)",
+              "french": false
+            },
+            {
+              "title": "Front2Back (feat. DJ Funk)",
+              "french": false
+            },
+            {
+              "title": "Mother's Daughter (Wuki Remix)",
+              "french": false
+            },
+            {
+              "title": "Bullseye",
+              "french": false
+            },
+            {
+              "title": "Bed Squeak",
+              "french": false
+            },
+            {
+              "title": "Family",
+              "french": false
+            },
+            {
+              "title": "Ro Sham Bo",
+              "french": false
+            },
+            {
+              "title": "Rave Day (Happy)",
+              "french": false
+            },
+            {
+              "title": "What You Need",
+              "french": false
+            },
+            {
+              "title": "Rock Them Bells",
+              "french": false
+            },
+            {
+              "title": "Sunshine (My Girl) (Slowed + Reverb)",
+              "french": false
+            },
+            {
+              "title": "Better (Ibranovski Remix)",
+              "french": false
+            },
+            {
+              "title": "Tell The World About Me",
+              "french": false
+            },
+            {
+              "title": "Let Me Go (feat. PRXZM) (Radio Edit)",
+              "french": true
+            },
+            {
+              "title": "Chop It",
+              "french": false
+            },
+            {
+              "title": "Make it Clap (feat. Dances With White Girls) (Herobust Remix)",
+              "french": false
+            },
+            {
+              "title": "Rave Day (Happy) (Slowed + Reverb)",
+              "french": false
+            },
+            {
+              "title": "Go Deep (feat. Nicky Da B)",
+              "french": false
+            },
+            {
+              "title": "Rave Day (Happy) (Extended Mix)",
+              "french": false
+            },
+            {
+              "title": "Make It Clap (feat. Dances With White Girls) (Lambo Remix)",
+              "french": false
+            },
+            {
+              "title": "She Got Some",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "Sunshine (My Girl) (Galantis Reshine)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Sunshine (My Girl)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Edge of Seventeen",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "As the World Caves In (Wuki Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Sunshine (My Girl) (Sofi Tukker Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "BIGGY BAP",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Sunshine (My Girl) (Extended Mix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Let Me Go (feat. PRXZM) (Radio Edit)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 8,
+        "french_lyrics": 0,
+        "ratio": 0.0
+      }
+    },
+    "15Ext7lUi8n3VxRiDMkDet": {
+      "name": "SK 22",
+      "deezer_name": "SK 22",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 1,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "J'AVAIS RAISON",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "3D2TVeexyIXOtc8F4qEZ6P": {
+      "name": "GIRLSET",
+      "deezer_name": "GIRLSET",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 16,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "Little Miss",
+              "french": false
+            },
+            {
+              "title": "CHAT",
+              "french": false
+            },
+            {
+              "title": "CHAT",
+              "french": false
+            },
+            {
+              "title": "Commas",
+              "french": false
+            },
+            {
+              "title": "Little Miss (Misdemeanor)",
+              "french": false
+            },
+            {
+              "title": "Little Miss (TCTS Remix)",
+              "french": false
+            },
+            {
+              "title": "CHAT (_login_ok niko)",
+              "french": false
+            },
+            {
+              "title": "CHAT (_fast)",
+              "french": false
+            },
+            {
+              "title": "CHAT (_slow)",
+              "french": false
+            },
+            {
+              "title": "CHAT (_game_grey)",
+              "french": false
+            },
+            {
+              "title": "CHAT (_inst)",
+              "french": false
+            },
+            {
+              "title": "CHAT (_aca)",
+              "french": false
+            },
+            {
+              "title": "Little Miss (Stephen Jusko & DJ Blacklow Remix)",
+              "french": false
+            },
+            {
+              "title": "Little Miss (Paolo Cortez Remix)",
+              "french": false
+            },
+            {
+              "title": "CHAT (_aca)",
+              "french": false
+            },
+            {
+              "title": "CHAT (_fast)",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "Little Miss",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "CHAT",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "CHAT",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Little Miss (Misdemeanor)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Little Miss (TCTS Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "CHAT (_fast)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "CHAT (_game_grey)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "CHAT (_aca)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Tweak (Acapella)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "CHAT (_aca)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 10,
+        "french_lyrics": 0,
+        "ratio": 0.0
+      }
+    },
+    "1TrfxjXu8quyDw05p2bacX": {
+      "name": "Kenny Dope",
+      "deezer_name": "Kenny Dope",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 45,
+          "french_tracks": 2,
+          "ratio": 0.044,
+          "tracks": [
+            {
+              "title": "Deep Down (feat. Never Dull)",
+              "french": false
+            },
+            {
+              "title": "Deep Down (Never Dull's In My Mind Edit)",
+              "french": false
+            },
+            {
+              "title": "Winter in America (12\" Version)",
+              "french": false
+            },
+            {
+              "title": "MAW Hop",
+              "french": false
+            },
+            {
+              "title": "The Bottle",
+              "french": false
+            },
+            {
+              "title": "We Almost Lost Detroit",
+              "french": false
+            },
+            {
+              "title": "Gimme Some More (KenLou Mix)",
+              "french": false
+            },
+            {
+              "title": "Now More Than Ever",
+              "french": false
+            },
+            {
+              "title": "Light My Fire (Kenny Dope Remix)",
+              "french": false
+            },
+            {
+              "title": "Be Your Freak (Kenny Dope O'Gutta Mix)",
+              "french": false
+            },
+            {
+              "title": "The Bottle (12\" Version)",
+              "french": false
+            },
+            {
+              "title": "Gene's First Bass Dub",
+              "french": false
+            },
+            {
+              "title": "It's Your World (Extended Version)",
+              "french": false
+            },
+            {
+              "title": "Poetic Sands (Interlude)",
+              "french": false
+            },
+            {
+              "title": "The Bottle (MAW Bass Hit Dub)",
+              "french": false
+            },
+            {
+              "title": "The Revolution Will Not Be Televised",
+              "french": false
+            },
+            {
+              "title": "Light Up",
+              "french": false
+            },
+            {
+              "title": "Bump That Whistle",
+              "french": false
+            },
+            {
+              "title": "What A Sensation (Demo Mix)",
+              "french": false
+            },
+            {
+              "title": "Nightmovin' Track",
+              "french": false
+            },
+            {
+              "title": "Deep Down (feat. Never Dull) (Club Mix)",
+              "french": false
+            },
+            {
+              "title": "Saved",
+              "french": false
+            },
+            {
+              "title": "Home is Where The Hatred Is (Main)",
+              "french": false
+            },
+            {
+              "title": "Prospect Park",
+              "french": false
+            },
+            {
+              "title": "Our Darkness",
+              "french": false
+            },
+            {
+              "title": "Deep Down (feat. Never Dull) (Nathan Dawe Remix)",
+              "french": false
+            },
+            {
+              "title": "Lady Day & John Coltrane (12\" Version)",
+              "french": false
+            },
+            {
+              "title": "Born Under Punches (The Heat Goes On)",
+              "french": false
+            },
+            {
+              "title": "Talk Dirty (Kenny Dope O’Gutta Mix)",
+              "french": false
+            },
+            {
+              "title": "The Revolution Will Not Be Televised (Radio Edit)",
+              "french": false
+            },
+            {
+              "title": "SEM (MAW Beats)",
+              "french": false
+            },
+            {
+              "title": "Deep Down (feat. Never Dull) (Paul Mayson Remix)",
+              "french": false
+            },
+            {
+              "title": "Talkin' Bout The Spirit (MAW Lost Tape Mix)",
+              "french": false
+            },
+            {
+              "title": "Deep Down (Acoustic Version) (feat. Never Dull)",
+              "french": false
+            },
+            {
+              "title": "Don't Send Nobody Else (A Magnus Frykberg & Kenny Dope Joint)",
+              "french": false
+            },
+            {
+              "title": "Snare Bouncin'",
+              "french": false
+            },
+            {
+              "title": "NYC Kickin' With The Masters At Work (2020 Dub)",
+              "french": false
+            },
+            {
+              "title": "Dance Last",
+              "french": true
+            },
+            {
+              "title": "Racetrack in France (12\" Version)",
+              "french": false
+            },
+            {
+              "title": "New York City",
+              "french": false
+            },
+            {
+              "title": "Peace Go With You, Brother",
+              "french": false
+            },
+            {
+              "title": "Moonshine (MAW Live Mix)",
+              "french": false
+            },
+            {
+              "title": "More Than Ever (Interlude)",
+              "french": false
+            },
+            {
+              "title": "Madison Avenue",
+              "french": true
+            },
+            {
+              "title": "Now More Than Ever (Extended Version)",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "Deep Down (Never Dull's In My Mind Edit)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 1,
+        "french_lyrics": 0,
+        "ratio": 0.0
+      }
+    },
+    "7CLsFRcEkn0Amc9VlVOFwR": {
+      "name": "LUNAX",
+      "deezer_name": "LUNAX",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 67,
+          "french_tracks": 3,
+          "ratio": 0.045,
+          "tracks": [
+            {
+              "title": "ALLES EGAL",
+              "french": false
+            },
+            {
+              "title": "The Chase (Swan Lake)",
+              "french": false
+            },
+            {
+              "title": "Can't Hold Us",
+              "french": false
+            },
+            {
+              "title": "Bye Bye Bye",
+              "french": false
+            },
+            {
+              "title": "Drunk in Love",
+              "french": false
+            },
+            {
+              "title": "Safe & Sound",
+              "french": false
+            },
+            {
+              "title": "RADIOACTIVE",
+              "french": false
+            },
+            {
+              "title": "Nicht Nach Hause (Teknoclash X Lost Identity Remix)",
+              "french": false
+            },
+            {
+              "title": "Wicked Game",
+              "french": false
+            },
+            {
+              "title": "I Like",
+              "french": false
+            },
+            {
+              "title": "Break My Rules",
+              "french": false
+            },
+            {
+              "title": "We Found Love",
+              "french": false
+            },
+            {
+              "title": "Nicht Nach Hause",
+              "french": false
+            },
+            {
+              "title": "Stuck in a Dream",
+              "french": false
+            },
+            {
+              "title": "OMG",
+              "french": false
+            },
+            {
+              "title": "Anders Ist Gut",
+              "french": false
+            },
+            {
+              "title": "Mein Herz (Schalldämpfer)",
+              "french": false
+            },
+            {
+              "title": "Going Down",
+              "french": false
+            },
+            {
+              "title": "Where Do We Go",
+              "french": false
+            },
+            {
+              "title": "Fire",
+              "french": false
+            },
+            {
+              "title": "Safe & Sound (ESH Remix)",
+              "french": false
+            },
+            {
+              "title": "Rave Eternally",
+              "french": false
+            },
+            {
+              "title": "French Kiss (Yozé Remix)",
+              "french": false
+            },
+            {
+              "title": "Drunk in Love (Influencerz X TMW Remix)",
+              "french": false
+            },
+            {
+              "title": "Darkness",
+              "french": false
+            },
+            {
+              "title": "French Kiss",
+              "french": false
+            },
+            {
+              "title": "Love U So",
+              "french": false
+            },
+            {
+              "title": "Rabbit Hole",
+              "french": false
+            },
+            {
+              "title": "Hold You",
+              "french": false
+            },
+            {
+              "title": "Find Your Colors",
+              "french": false
+            },
+            {
+              "title": "Million Years (Jerome Edit)",
+              "french": false
+            },
+            {
+              "title": "Last One Standing",
+              "french": false
+            },
+            {
+              "title": "Superhero",
+              "french": false
+            },
+            {
+              "title": "Find Your Colors (Video Edit)",
+              "french": false
+            },
+            {
+              "title": "Blaues Eis",
+              "french": false
+            },
+            {
+              "title": "Fire in Our Hands (Official Between the Seas Anthem 2026)",
+              "french": false
+            },
+            {
+              "title": "When She Was Your Soldier",
+              "french": false
+            },
+            {
+              "title": "No Heroes (Refuzion Remix)",
+              "french": false
+            },
+            {
+              "title": "Let's Call It Love",
+              "french": false
+            },
+            {
+              "title": "Summer Nights",
+              "french": false
+            },
+            {
+              "title": "Satellites",
+              "french": false
+            },
+            {
+              "title": "Rooftop",
+              "french": false
+            },
+            {
+              "title": "I Can Hear the Drums",
+              "french": false
+            },
+            {
+              "title": "Still Waiting",
+              "french": false
+            },
+            {
+              "title": "What Friends Are For",
+              "french": false
+            },
+            {
+              "title": "Avalanche",
+              "french": false
+            },
+            {
+              "title": "Dollar Bills",
+              "french": false
+            },
+            {
+              "title": "No Heroes",
+              "french": false
+            },
+            {
+              "title": "Forever Fighting",
+              "french": false
+            },
+            {
+              "title": "Rooftop (Jordiz Remix)",
+              "french": false
+            },
+            {
+              "title": "Million Miles",
+              "french": true
+            },
+            {
+              "title": "Bring the Heat",
+              "french": false
+            },
+            {
+              "title": "Close Your Eyes",
+              "french": true
+            },
+            {
+              "title": "Rebel Heart",
+              "french": false
+            },
+            {
+              "title": "Back to You",
+              "french": false
+            },
+            {
+              "title": "Dreams",
+              "french": false
+            },
+            {
+              "title": "I Still Can't Breathe",
+              "french": false
+            },
+            {
+              "title": "No Heroes (Bertus.. Remix)",
+              "french": false
+            },
+            {
+              "title": "Blödsinn",
+              "french": true
+            },
+            {
+              "title": "Wicked Lullaby",
+              "french": false
+            },
+            {
+              "title": "Gone Tomorrow",
+              "french": false
+            },
+            {
+              "title": "Blind vor Liebe",
+              "french": false
+            },
+            {
+              "title": "Cold As Ice",
+              "french": false
+            },
+            {
+              "title": "Out Of Orbit",
+              "french": false
+            },
+            {
+              "title": "No Heroes (Luca Schreiner VIP Mix)",
+              "french": false
+            },
+            {
+              "title": "We Don't Even Talk Anymore",
+              "french": false
+            },
+            {
+              "title": "Breathe Me To Life (Ayahuasca)",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "I Like",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Break My Rules",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "ABC",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "OMG",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Mein Herz (Schalldämpfer)",
+            "verdict": "french",
+            "details": {
+              "language": "de",
+              "french_markers": 0,
+              "common_words": 11,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Where Do We Go",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Safe & Sound (ESH Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Rave Eternally",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Bam Bam Bam",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Love U So",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 10,
+        "french_lyrics": 1,
+        "ratio": 0.1
+      }
+    },
+    "5KLU9jDwtBJnsIuoV5C7c0": {
+      "name": "soarexx21010",
+      "deezer_name": "soarexx21010",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 2,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "Media Luna",
+              "french": false
+            },
+            {
+              "title": "BELLAKA",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "26tkyd9uKwCZEiFbE4ORU0": {
+      "name": "SANTO 2092",
+      "deezer_name": "SANTO 2092",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 3,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "THE TERROR IS BACK",
+              "french": false
+            },
+            {
+              "title": "BLACK EYES",
+              "french": false
+            },
+            {
+              "title": "EKSARXHS",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "54kCbQZaZWHnwwj9VP2hn4": {
+      "name": "Zola",
+      "deezer_name": "Zola",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 0,
+          "french_tracks": 0,
+          "ratio": 0,
+          "tracks": []
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "5t6aPtdWabV732uBkN1ceL": {
+      "name": "S20505",
+      "deezer_name": "S20505",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 9,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "SAME FREQUENCY",
+              "french": false
+            },
+            {
+              "title": "RIGHT TIMELINE",
+              "french": false
+            },
+            {
+              "title": "Your new summer (새 여름)",
+              "french": false
+            },
+            {
+              "title": "no frame (heart drum ver.)",
+              "french": false
+            },
+            {
+              "title": "no frame",
+              "french": false
+            },
+            {
+              "title": "Cherrybloom",
+              "french": false
+            },
+            {
+              "title": "Stay before I learn to let you go",
+              "french": false
+            },
+            {
+              "title": "Don't Say It Yet",
+              "french": false
+            },
+            {
+              "title": "thinking sweet",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "6zlQfBvgeOVTjootwzBTZq": {
+      "name": "Lp2.0",
+      "deezer_name": "Lp2.0",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 6,
+          "french_tracks": 1,
+          "ratio": 0.167,
+          "tracks": [
+            {
+              "title": "Mentale 2 Batard #4",
+              "french": false
+            },
+            {
+              "title": "Mentale 2 Batard #1",
+              "french": false
+            },
+            {
+              "title": "Mentale 2 Batard #2",
+              "french": false
+            },
+            {
+              "title": "Vestiaire",
+              "french": true
+            },
+            {
+              "title": "Pfff",
+              "french": false
+            },
+            {
+              "title": "Kichta",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "1FbcRnUDx2ovwWVMzwfosA": {
+      "name": "ide203",
+      "deezer_name": "ide203",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 9,
+          "french_tracks": 4,
+          "ratio": 0.444,
+          "tracks": [
+            {
+              "title": "DAYTONA",
+              "french": false
+            },
+            {
+              "title": "FEU",
+              "french": false
+            },
+            {
+              "title": "OUTILLÉ",
+              "french": true
+            },
+            {
+              "title": "FREDDY KRUEGER",
+              "french": false
+            },
+            {
+              "title": "FREDDY KRUEGER",
+              "french": false
+            },
+            {
+              "title": "les abysses",
+              "french": true
+            },
+            {
+              "title": "à vide",
+              "french": true
+            },
+            {
+              "title": "DAYTONA",
+              "french": false
+            },
+            {
+              "title": "la vie d'avant",
+              "french": true
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "1HT9k1ZSUL9IczSstOAgWJ": {
+      "name": "Roger Sanchez",
+      "deezer_name": "Roger Sanchez",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 33,
+          "french_tracks": 1,
+          "ratio": 0.03,
+          "tracks": [
+            {
+              "title": "Another Chance (Radio Edit)",
+              "french": false
+            },
+            {
+              "title": "Dream On Me (Roger Sanchez Remix)",
+              "french": false
+            },
+            {
+              "title": "Dream On Me",
+              "french": false
+            },
+            {
+              "title": "Another Chance",
+              "french": false
+            },
+            {
+              "title": "Another Chance (Afterlife Mix)",
+              "french": false
+            },
+            {
+              "title": "Lost (UK Radio Edit)",
+              "french": false
+            },
+            {
+              "title": "Turn on the Music",
+              "french": false
+            },
+            {
+              "title": "Time 2 Stop (A-Trak Remix)",
+              "french": false
+            },
+            {
+              "title": "Another Chance",
+              "french": false
+            },
+            {
+              "title": "Hold On (Radio Mix)",
+              "french": false
+            },
+            {
+              "title": "Another Chance",
+              "french": false
+            },
+            {
+              "title": "Scorpion (The Ghetto)",
+              "french": false
+            },
+            {
+              "title": "This Feeling (Low Steppa Remix)",
+              "french": false
+            },
+            {
+              "title": "Temptation",
+              "french": false
+            },
+            {
+              "title": "Work 4 It",
+              "french": false
+            },
+            {
+              "title": "Midas Touch",
+              "french": false
+            },
+            {
+              "title": "Love Like This",
+              "french": false
+            },
+            {
+              "title": "Another Chance (PAAX Tulum Full Moon Extended Remix)",
+              "french": false
+            },
+            {
+              "title": "Save Me Now",
+              "french": false
+            },
+            {
+              "title": "Come My Way",
+              "french": false
+            },
+            {
+              "title": "Canto Al Amor",
+              "french": false
+            },
+            {
+              "title": "Caught Feelings",
+              "french": false
+            },
+            {
+              "title": "You Can't Change Me (Radio Edit)",
+              "french": false
+            },
+            {
+              "title": "Dream On Me (Paul Woolford Remix)",
+              "french": false
+            },
+            {
+              "title": "Lost (Majestic Remix)",
+              "french": false
+            },
+            {
+              "title": "2Gether (Extended Mix)",
+              "french": false
+            },
+            {
+              "title": "I Never Knew",
+              "french": false
+            },
+            {
+              "title": "Falling",
+              "french": false
+            },
+            {
+              "title": "I Don't Wanna Know",
+              "french": false
+            },
+            {
+              "title": "Lost (Roger’s 12” Mix)",
+              "french": false
+            },
+            {
+              "title": "Take a Chance",
+              "french": false
+            },
+            {
+              "title": "Troubleman",
+              "french": true
+            },
+            {
+              "title": "Not Enough",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "Another Chance (Radio Edit)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Dream On Me (Roger Sanchez Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Go Again",
+            "verdict": "not_french",
+            "details": {
+              "language": "cy",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Dream On Me",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Another Chance",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Turn on the Music",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Another Chance",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Another Chance",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Lost (Majestic Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Not Enough",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 10,
+        "french_lyrics": 0,
+        "ratio": 0.0
+      }
+    },
+    "3YiFVUColvEK1dQAqDKYzU": {
+      "name": "Black Cat",
+      "deezer_name": "Black Cat",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 2,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "Disturbia",
+              "french": false
+            },
+            {
+              "title": "Say It Right",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "3RBqLTttwN1orqQozYfmJo": {
+      "name": "Emily Roberts",
+      "deezer_name": "Emily Roberts",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 6,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "LOVE YOU FOR LIFE.",
+              "french": false
+            },
+            {
+              "title": "KIDS (feat. Emily Roberts) - Single Edit",
+              "french": false
+            },
+            {
+              "title": "Little Bit of Love",
+              "french": false
+            },
+            {
+              "title": "Relationshit",
+              "french": false
+            },
+            {
+              "title": "Watching Over Me",
+              "french": false
+            },
+            {
+              "title": "Emily",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "LOVE YOU FOR LIFE.",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "KIDS (feat. Emily Roberts) - Single Edit",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 2,
+        "french_lyrics": 0,
+        "ratio": 0.0
+      }
+    },
+    "5WeqQQmxiP18UaZiB3Stq8": {
+      "name": "Toneo1923",
+      "deezer_name": "Toneo1923",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 48,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "This Aint Easy",
+              "french": false
+            },
+            {
+              "title": "Chain Reaction",
+              "french": false
+            },
+            {
+              "title": "Chitter Chat",
+              "french": false
+            },
+            {
+              "title": "Dynamic Trio",
+              "french": false
+            },
+            {
+              "title": "Change Gon Come",
+              "french": false
+            },
+            {
+              "title": "Time Will Tell",
+              "french": false
+            },
+            {
+              "title": "B3Gotti, Pt. 1",
+              "french": false
+            },
+            {
+              "title": "B3Gotti, Pt. 2",
+              "french": false
+            },
+            {
+              "title": "Sub Flow",
+              "french": false
+            },
+            {
+              "title": "Rule Of Thumb",
+              "french": false
+            },
+            {
+              "title": "Lash Bros, Pt. 2",
+              "french": false
+            },
+            {
+              "title": "Think Bout Bro",
+              "french": false
+            },
+            {
+              "title": "Put In Work",
+              "french": false
+            },
+            {
+              "title": "Make Me Feel",
+              "french": false
+            },
+            {
+              "title": "Skitzo",
+              "french": false
+            },
+            {
+              "title": "Next To You",
+              "french": false
+            },
+            {
+              "title": "Lonely Road",
+              "french": false
+            },
+            {
+              "title": "Fully Play",
+              "french": false
+            },
+            {
+              "title": "All For Me",
+              "french": false
+            },
+            {
+              "title": "Whatchu Did To Me",
+              "french": false
+            },
+            {
+              "title": "1923 Flow",
+              "french": false
+            },
+            {
+              "title": "Fullio",
+              "french": false
+            },
+            {
+              "title": "Dangerously Tamed",
+              "french": false
+            },
+            {
+              "title": "Where Would I Be",
+              "french": false
+            },
+            {
+              "title": "2300 Degrees",
+              "french": false
+            },
+            {
+              "title": "Caught Up",
+              "french": false
+            },
+            {
+              "title": "Game Over",
+              "french": false
+            },
+            {
+              "title": "Pole Down",
+              "french": false
+            },
+            {
+              "title": "Peace Of Mind",
+              "french": false
+            },
+            {
+              "title": "Shoulda Cheated",
+              "french": false
+            },
+            {
+              "title": "I Want Murder",
+              "french": false
+            },
+            {
+              "title": "My top 5",
+              "french": false
+            },
+            {
+              "title": "Hop out flow",
+              "french": false
+            },
+            {
+              "title": "Gifted",
+              "french": false
+            },
+            {
+              "title": "Dont blame me",
+              "french": false
+            },
+            {
+              "title": "Money baby",
+              "french": false
+            },
+            {
+              "title": "Skrilla flow",
+              "french": false
+            },
+            {
+              "title": "Candy man",
+              "french": false
+            },
+            {
+              "title": "Throw it",
+              "french": false
+            },
+            {
+              "title": "Hurt Like Me",
+              "french": false
+            },
+            {
+              "title": "Face Shot",
+              "french": false
+            },
+            {
+              "title": "Free LilToneo1923",
+              "french": false
+            },
+            {
+              "title": "Thinkin Bout Bro, Pt. 2",
+              "french": false
+            },
+            {
+              "title": "Do It Right",
+              "french": false
+            },
+            {
+              "title": "2Steppin",
+              "french": false
+            },
+            {
+              "title": "Rider",
+              "french": false
+            },
+            {
+              "title": "Lonely Road",
+              "french": false
+            },
+            {
+              "title": "B3Gotti, Pt. 1",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "7pIOriRR55so8DWKq8s7lr": {
+      "name": "Topman 1905",
+      "deezer_name": "Topman 1905",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 17,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "Reality",
+              "french": false
+            },
+            {
+              "title": "Go Harder (feat. Dapop)",
+              "french": false
+            },
+            {
+              "title": "Cindarella",
+              "french": false
+            },
+            {
+              "title": "Trap Intro",
+              "french": false
+            },
+            {
+              "title": "Reason",
+              "french": false
+            },
+            {
+              "title": "Wonder",
+              "french": false
+            },
+            {
+              "title": "Money Matter",
+              "french": false
+            },
+            {
+              "title": "Hope",
+              "french": false
+            },
+            {
+              "title": "Prayer",
+              "french": false
+            },
+            {
+              "title": "Bad-Belle (feat. BOLDNEX)",
+              "french": false
+            },
+            {
+              "title": "Another Level",
+              "french": false
+            },
+            {
+              "title": "T.K.C (Thy Kingdom Come)",
+              "french": false
+            },
+            {
+              "title": "Bless Me (feat. Rybeena)",
+              "french": false
+            },
+            {
+              "title": "DUPE",
+              "french": false
+            },
+            {
+              "title": "ORO (Talk)",
+              "french": false
+            },
+            {
+              "title": "M.T.S (Message to the street)",
+              "french": false
+            },
+            {
+              "title": "ORI",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "70fL7XxXl5nMIKAuSCKwgA": {
+      "name": "Kimo Sounds",
+      "deezer_name": "Kimo Sounds",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 2,
+          "french_tracks": 1,
+          "ratio": 0.5,
+          "tracks": [
+            {
+              "title": "Dont Let Me Go",
+              "french": true
+            },
+            {
+              "title": "Take Control",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "53cQZtWDwDJwVCNZlfJ6Qk": {
+      "name": "Laidback Luke",
+      "deezer_name": "Laidback Luke",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 42,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "Show Me Love",
+              "french": false
+            },
+            {
+              "title": "Blow (Radio Edit)",
+              "french": false
+            },
+            {
+              "title": "Lost In The Crowd",
+              "french": false
+            },
+            {
+              "title": "Todo Mucho",
+              "french": false
+            },
+            {
+              "title": "Don't Look Back",
+              "french": false
+            },
+            {
+              "title": "It's Time (feat. Bruce Buffer)",
+              "french": false
+            },
+            {
+              "title": "Leave The World Behind",
+              "french": false
+            },
+            {
+              "title": "Rocking With The Best",
+              "french": false
+            },
+            {
+              "title": "Show Me Love (feat. Robin S) (Dubdogz Remix)",
+              "french": false
+            },
+            {
+              "title": "Late Night Talk",
+              "french": false
+            },
+            {
+              "title": "State of Euphoria",
+              "french": false
+            },
+            {
+              "title": "Show Me Love (feat. Robin S) (Extended Mix)",
+              "french": false
+            },
+            {
+              "title": "One On One",
+              "french": false
+            },
+            {
+              "title": "Whistle (feat. Bertie Scott)",
+              "french": false
+            },
+            {
+              "title": "1000 BPM",
+              "french": false
+            },
+            {
+              "title": "Snap That Neck",
+              "french": false
+            },
+            {
+              "title": "Praise To The Bass",
+              "french": false
+            },
+            {
+              "title": "Move To The Sound",
+              "french": false
+            },
+            {
+              "title": "Front 2 the Back",
+              "french": false
+            },
+            {
+              "title": "Break The House Down",
+              "french": false
+            },
+            {
+              "title": "Mic",
+              "french": false
+            },
+            {
+              "title": "Move To The Sound (Mix Cut)",
+              "french": false
+            },
+            {
+              "title": "I Took A Pill In Ibiza",
+              "french": false
+            },
+            {
+              "title": "Heart On My Sleeve (feat. Sarah Reeves)",
+              "french": false
+            },
+            {
+              "title": "Home Alone (with Dubdogz)",
+              "french": false
+            },
+            {
+              "title": "Show Me Love (feat. Robin S) (Vintage Culture Remix)",
+              "french": false
+            },
+            {
+              "title": "Cielo",
+              "french": false
+            },
+            {
+              "title": "It Clicked",
+              "french": false
+            },
+            {
+              "title": "Beltram",
+              "french": false
+            },
+            {
+              "title": "Party Starter",
+              "french": false
+            },
+            {
+              "title": "Now That We Found Love",
+              "french": false
+            },
+            {
+              "title": "I Got Soul (Super Bad)",
+              "french": false
+            },
+            {
+              "title": "Luck Potion",
+              "french": false
+            },
+            {
+              "title": "Rocking With The Best",
+              "french": false
+            },
+            {
+              "title": "Could You Be the One",
+              "french": false
+            },
+            {
+              "title": "Hit It Back",
+              "french": false
+            },
+            {
+              "title": "Bad Love",
+              "french": false
+            },
+            {
+              "title": "Break The House Down",
+              "french": false
+            },
+            {
+              "title": "Over & Over",
+              "french": false
+            },
+            {
+              "title": "Lost In The Crowd (Extended Mix)",
+              "french": false
+            },
+            {
+              "title": "Mills",
+              "french": false
+            },
+            {
+              "title": "Call It House",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "Show Me Love",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Weekend On A Tuesday",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Lost In The Crowd",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Rocking With The Best",
+            "verdict": "not_french",
+            "details": {
+              "language": "pt",
+              "french_markers": 1,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Gasoline",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Home Alone (with Dubdogz)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Show Me Love (feat. Robin S) (Vintage Culture Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Be (D.O.D Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Mufasa (Extended Mix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "sw",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Weekend On A Tuesday (Gian Varela Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 10,
+        "french_lyrics": 0,
+        "ratio": 0.0
+      }
+    },
+    "3K5qBiy5EHwb270817Cy6e": {
+      "name": "L.P. Rhythm",
+      "deezer_name": "L.P. Rhythm",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 14,
+          "french_tracks": 1,
+          "ratio": 0.071,
+          "tracks": [
+            {
+              "title": "Versatile (Super Slowed)",
+              "french": false
+            },
+            {
+              "title": "Versatile",
+              "french": false
+            },
+            {
+              "title": "How Ya Feelin’",
+              "french": false
+            },
+            {
+              "title": "Versatile (Gorgon City Remix)",
+              "french": false
+            },
+            {
+              "title": "Versatile (Slowed)",
+              "french": false
+            },
+            {
+              "title": "Dance With Me",
+              "french": true
+            },
+            {
+              "title": "Set Me Free",
+              "french": false
+            },
+            {
+              "title": "Want Somebody",
+              "french": false
+            },
+            {
+              "title": "Like That",
+              "french": false
+            },
+            {
+              "title": "Feelin'",
+              "french": false
+            },
+            {
+              "title": "Changes",
+              "french": false
+            },
+            {
+              "title": "In The House",
+              "french": false
+            },
+            {
+              "title": "Street Knowledge",
+              "french": false
+            },
+            {
+              "title": "People Dancin'",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "Versatile (Super Slowed)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Versatile",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 2,
+        "french_lyrics": 0,
+        "ratio": 0.0
+      }
+    },
+    "5UUdxfBMwm0hLlLgnZtBFv": {
+      "name": "Madism",
+      "deezer_name": "Madism",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 47,
+          "french_tracks": 1,
+          "ratio": 0.021,
+          "tracks": [
+            {
+              "title": "Pumped Up Kicks",
+              "french": false
+            },
+            {
+              "title": "Hutia",
+              "french": false
+            },
+            {
+              "title": "How Bizarre (Madism Remix)",
+              "french": false
+            },
+            {
+              "title": "Used To You",
+              "french": false
+            },
+            {
+              "title": "If The World Was Ending (feat. Julia Michaels) (Madism Remix)",
+              "french": false
+            },
+            {
+              "title": "People Help the People",
+              "french": false
+            },
+            {
+              "title": "Moonlight Shadow (feat. Tess Burrstone)",
+              "french": false
+            },
+            {
+              "title": "Over You",
+              "french": false
+            },
+            {
+              "title": "Need You Around",
+              "french": false
+            },
+            {
+              "title": "Before We Say Goodbye",
+              "french": false
+            },
+            {
+              "title": "What You Do To Me",
+              "french": false
+            },
+            {
+              "title": "Obsesión (feat. Sofía Martín)",
+              "french": false
+            },
+            {
+              "title": "Fire (with Yves V)",
+              "french": false
+            },
+            {
+              "title": "Call on Me",
+              "french": false
+            },
+            {
+              "title": "Running To You (feat. Caden)",
+              "french": false
+            },
+            {
+              "title": "Hold This Memory",
+              "french": false
+            },
+            {
+              "title": "It's Not Me",
+              "french": false
+            },
+            {
+              "title": "Tell Me",
+              "french": false
+            },
+            {
+              "title": "Ride",
+              "french": false
+            },
+            {
+              "title": "Like A Prayer (feat. Tess Burrstone)",
+              "french": false
+            },
+            {
+              "title": "You",
+              "french": false
+            },
+            {
+              "title": "Leave Me Or Love Me Alone",
+              "french": true
+            },
+            {
+              "title": "Without Your Loving (FIXL Remix)",
+              "french": false
+            },
+            {
+              "title": "Pointless (Madism Remix)",
+              "french": false
+            },
+            {
+              "title": "Stay a Little Longer (HÜMAN Remix)",
+              "french": false
+            },
+            {
+              "title": "Don't Call Me Up (LA Vision Remix)",
+              "french": false
+            },
+            {
+              "title": "Breakfast In America",
+              "french": false
+            },
+            {
+              "title": "Don't You Worry Child",
+              "french": false
+            },
+            {
+              "title": "Forever In My Mind",
+              "french": false
+            },
+            {
+              "title": "RIP (Future Class VIP Radio Edit)",
+              "french": false
+            },
+            {
+              "title": "Waste My Time",
+              "french": false
+            },
+            {
+              "title": "You've Got the Love",
+              "french": false
+            },
+            {
+              "title": "Last Days of Summer",
+              "french": false
+            },
+            {
+              "title": "Chicago (Madism, YORK & NEIMY Re-Work)",
+              "french": false
+            },
+            {
+              "title": "BTL",
+              "french": false
+            },
+            {
+              "title": "Hey There Delilah (Madism Remix)",
+              "french": false
+            },
+            {
+              "title": "Make It Happen",
+              "french": false
+            },
+            {
+              "title": "Have It All",
+              "french": false
+            },
+            {
+              "title": "Quit Before It Hurts",
+              "french": false
+            },
+            {
+              "title": "Solar Flares",
+              "french": false
+            },
+            {
+              "title": "Fall Back Down Again",
+              "french": false
+            },
+            {
+              "title": "Crossfire",
+              "french": false
+            },
+            {
+              "title": "Stay A Little Longer",
+              "french": false
+            },
+            {
+              "title": "Like Home",
+              "french": false
+            },
+            {
+              "title": "Higher Power",
+              "french": false
+            },
+            {
+              "title": "Siren",
+              "french": false
+            },
+            {
+              "title": "Alive Tonight",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "Taboo",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "If The World Was Ending (feat. Julia Michaels) (Madism Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Need You Around",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Obsesión (feat. Sofía Martín)",
+            "verdict": "french",
+            "details": {
+              "language": "es",
+              "french_markers": 4,
+              "common_words": 20,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Hold This Memory",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "It's Not Me",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Stay a Little Longer (HÜMAN Remix)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "RIP (Future Class VIP Radio Edit)",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Have It All",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 9,
+        "french_lyrics": 1,
+        "ratio": 0.111
+      }
+    },
+    "1flQvlqCq8tRtcnyA97P0R": {
+      "name": "Trappagangmusic1804",
+      "deezer_name": "Trappagangmusic1804",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 0,
+          "french_tracks": 0,
+          "ratio": 0,
+          "tracks": []
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "3W6bC6nH6HIJiwJMwyoIyJ": {
+      "name": "LaBritney",
+      "deezer_name": "LaBritney",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 2,
+          "french_tracks": 0,
+          "ratio": 0.0,
+          "tracks": [
+            {
+              "title": "The Smoke",
+              "french": false
+            },
+            {
+              "title": "Forget About Me",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [],
+        "analyzed_lyrics": 0,
+        "french_lyrics": 0,
+        "ratio": 0
+      }
+    },
+    "2PSJ6YriU7JsFucxACpU7Y": {
+      "name": "CHUNG HA",
+      "deezer_name": "CHUNG HA",
+      "reason": "Francophonie non confirmée",
+      "french_check": {
+        "method": "lyrics_confirmation",
+        "title_check": {
+          "analyzed_tracks": 30,
+          "french_tracks": 2,
+          "ratio": 0.067,
+          "tracks": [
+            {
+              "title": "Killing Me",
+              "french": false
+            },
+            {
+              "title": "I’m Ready",
+              "french": false
+            },
+            {
+              "title": "Dream of You (with R3hab)",
+              "french": false
+            },
+            {
+              "title": "EENIE MEENIE (Feat. HONGJOONG of ATEEZ)",
+              "french": false
+            },
+            {
+              "title": "STRESS",
+              "french": false
+            },
+            {
+              "title": "Stay Tonight",
+              "french": false
+            },
+            {
+              "title": "México",
+              "french": true
+            },
+            {
+              "title": "Wow Thing",
+              "french": false
+            },
+            {
+              "title": "Bicycle",
+              "french": false
+            },
+            {
+              "title": "Beat of My Heart",
+              "french": false
+            },
+            {
+              "title": "Even Steven (Happy Ending)",
+              "french": false
+            },
+            {
+              "title": "When I Get Old",
+              "french": false
+            },
+            {
+              "title": "Creepin’",
+              "french": false
+            },
+            {
+              "title": "México (Versión Español)",
+              "french": true
+            },
+            {
+              "title": "Thanks for the Memories",
+              "french": false
+            },
+            {
+              "title": "Still a Rose",
+              "french": false
+            },
+            {
+              "title": "California Dream",
+              "french": false
+            },
+            {
+              "title": "My Lips Like Warm Coffee",
+              "french": false
+            },
+            {
+              "title": "These Nights",
+              "french": false
+            },
+            {
+              "title": "Demente (Spanish Version)",
+              "french": false
+            },
+            {
+              "title": "Mexico (English Version)",
+              "french": false
+            },
+            {
+              "title": "Whatcha Doin'",
+              "french": false
+            },
+            {
+              "title": "RUN",
+              "french": false
+            },
+            {
+              "title": "Find Love",
+              "french": false
+            },
+            {
+              "title": "It's That Time of Year",
+              "french": false
+            },
+            {
+              "title": "Christmas Again",
+              "french": false
+            },
+            {
+              "title": "You're In My Soul",
+              "french": false
+            },
+            {
+              "title": "There Goes Santa Claus!",
+              "french": false
+            },
+            {
+              "title": "Wow Thing (Instrumental)",
+              "french": false
+            },
+            {
+              "title": "FAST",
+              "french": false
+            }
+          ]
+        },
+        "checked_tracks": [
+          {
+            "title": "I’m Ready",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "México",
+            "verdict": "french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 6,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Wow Thing",
+            "verdict": "not_french",
+            "details": {
+              "language": "ko",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Beat of My Heart",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "These Nights",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Demente (Spanish Version)",
+            "verdict": "french",
+            "details": {
+              "language": "es",
+              "french_markers": 8,
+              "common_words": 23,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Mexico (English Version)",
+            "verdict": "french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 6,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "You're In My Soul",
+            "verdict": "not_french",
+            "details": {
+              "language": "en",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "꽃, 바람 그리고 너",
+            "verdict": "not_french",
+            "details": {
+              "language": "id",
+              "french_markers": 1,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          },
+          {
+            "title": "Wow Thing (Instrumental)",
+            "verdict": "not_french",
+            "details": {
+              "language": "ko",
+              "french_markers": 0,
+              "common_words": 0,
+              "source": "LRCLIB"
+            }
+          }
+        ],
+        "analyzed_lyrics": 10,
+        "french_lyrics": 3,
+        "ratio": 0.3
+      }
     }
   },
   "undetermined": {
