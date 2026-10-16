@@ -1,4 +1,3 @@
-import base64
 import json
 import os
 import re
@@ -24,13 +23,12 @@ SOURCE_FILES = [
     DATA_DIR / "artistes_2.json",
 ]
 
-SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
-SPOTIFY_API = "https://api.spotify.com/v1"
+DEEZER_API = "https://api.deezer.com"
 LRCLIB_API = "https://lrclib.net/api/search"
 
 RELEASE_YEAR = 2026
 MIN_LISTENERS = int(os.getenv("MIN_MONTHLY_LISTENERS", "0"))
-MAX_ARTISTS = 25 #int(os.getenv("MAX_ARTISTS", "500"))
+MAX_ARTISTS = int(os.getenv("MAX_ARTISTS", "500"))
 
 FRENCH_MARKERS = re.compile(
     r"\b(je|tu|il|elle|nous|vous|ils|elles|mais|donc|alors|avec|sans|pour|dans|sur|"
@@ -47,8 +45,8 @@ def load_artists():
             print(f"Fichier absent, ignoré : {path}")
             continue
 
-        with path.open(encoding="utf-8") as f:
-            content = json.load(f)
+        with path.open(encoding="utf-8") as file:
+            content = json.load(file)
 
         for artist_id, artist in content.get("artists", {}).items():
             artist["id"] = artist.get("id", artist_id)
@@ -60,67 +58,24 @@ def load_artists():
 
 def load_json(path, default):
     if path.exists():
-        with path.open(encoding="utf-8") as f:
-            return json.load(f)
+        with path.open(encoding="utf-8") as file:
+            return json.load(file)
     return default
 
 
 def save_json(path, data):
-    with path.open("w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    with path.open("w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=2)
 
 
-class SpotifyClient:
-    def __init__(self):
-        client_id = os.getenv("SPOTIFY_CLIENT_ID")
-        client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
-
-        if not client_id or not client_secret:
-            raise SystemExit(
-                "Ajoute les secrets GitHub SPOTIFY_CLIENT_ID et SPOTIFY_CLIENT_SECRET."
-            )
-
-        self.token = None
-        self.token_expires_at = 0
-
-    def get_token(self):
-        now = time.time()
-
-        if self.token and now < self.token_expires_at - 60:
-            return self.token
-
-        credentials = base64.b64encode(
-            f"{os.getenv('SPOTIFY_CLIENT_ID')}:{os.getenv('SPOTIFY_CLIENT_SECRET')}".encode()
-        ).decode()
-
-        response = requests.post(
-            SPOTIFY_TOKEN_URL,
-            headers={
-                "Authorization": f"Basic {credentials}",
-                "Content-Type": "application/x-www-form-urlencoded",
-            },
-            data={"grant_type": "client_credentials"},
-            timeout=30,
-        )
-        response.raise_for_status()
-        payload = response.json()
-
-        self.token = payload["access_token"]
-        self.token_expires_at = now + payload["expires_in"]
-        return self.token
-
-    def get(self, url, params=None):
-        for attempt in range(5):
-            response = requests.get(
-                url,
-                headers={"Authorization": f"Bearer {self.get_token()}"},
-                params=params,
-                timeout=30,
-            )
+def deezer_get(url, params=None):
+    for attempt in range(5):
+        try:
+            response = requests.get(url, params=params, timeout=30)
 
             if response.status_code == 429:
                 wait = int(response.headers.get("Retry-After", "5"))
-                print(f"Rate limit Spotify : attente de {wait} secondes")
+                print(f"Rate limit Deezer : attente de {wait} secondes")
                 time.sleep(wait)
                 continue
 
@@ -131,55 +86,77 @@ class SpotifyClient:
             response.raise_for_status()
             return response.json()
 
-        raise RuntimeError(f"Échec Spotify après plusieurs tentatives : {url}")
+        except requests.RequestException as error:
+            print(f"Erreur réseau Deezer : {error}")
+            time.sleep(2 ** attempt)
+
+    raise RuntimeError(f"Échec Deezer après plusieurs tentatives : {url}")
 
 
-def has_release_in_2026(spotify, artist_id):
-    url = f"{SPOTIFY_API}/artists/{artist_id}/albums"
-    params = {
-        "include_groups": "album,single",
-        "market": "FR",
-        "limit": 50,
-    }
+def normalize_name(value):
+    return re.sub(r"\s+", " ", value or "").strip().lower()
 
+
+def find_deezer_artist(artist_name):
+    data = deezer_get(
+        f"{DEEZER_API}/search/artist",
+        params={"q": artist_name, "limit": 5},
+    )
+
+    results = data.get("data", [])
+
+    if not results:
+        return None
+
+    wanted = normalize_name(artist_name)
+
+    exact = [
+        result
+        for result in results
+        if normalize_name(result.get("name")) == wanted
+    ]
+
+    if exact:
+        return exact[0]
+
+    return results[0]
+
+
+def has_release_in_2026(deezer_artist_id):
+    url = f"{DEEZER_API}/artist/{deezer_artist_id}/albums"
     releases = []
+    index = 0
 
     while True:
-        data = spotify.get(url, params=params)
+        data = deezer_get(url, params={"limit": 100, "index": index})
+        items = data.get("data", [])
 
-        for item in data.get("items", []):
-            release_date = item.get("release_date", "")
+        for album in items:
+            release_date = album.get("release_date", "")
+
             if release_date.startswith(str(RELEASE_YEAR)):
                 releases.append(
                     {
-                        "name": item.get("name"),
-                        "type": item.get("album_type"),
+                        "name": album.get("title"),
+                        "type": album.get("album_type") or album.get("type"),
                         "release_date": release_date,
-                        "url": item.get("external_urls", {}).get("spotify"),
+                        "url": album.get("link"),
                     }
                 )
 
         if releases:
-            break
+            return releases
 
-        next_url = data.get("next")
-        if not next_url:
-            break
+        index += len(items)
 
-        url = next_url
-        params = None
-
-    return releases
+        if not items or index >= data.get("total", 0):
+            return []
 
 
-def get_top_track_name(spotify, artist_id):
-    data = spotify.get(
-        f"{SPOTIFY_API}/artists/{artist_id}/top-tracks",
-        params={"market": "FR"},
-    )
-
-    tracks = data.get("tracks", [])
-    return tracks[0]["name"] if tracks else None
+def get_popular_track(deezer_artist_id):
+    data = deezer_get(f"{DEEZER_API}/artist/{deezer_artist_id}/top", params={"limit": 1})
+    tracks = data.get("data", [])
+    return tracks[0] if tracks else None
 
 
 def detect_french_from_lyrics(track_name, artist_name):
@@ -238,12 +215,16 @@ def main():
 
     active_artists = load_json(ACTIVE_FILE, {})
     french_artists = load_json(FRENCH_FILE, {})
+
     report = load_json(
         REPORT_FILE,
-        {"inactive_2026": {}, "not_french": {}, "undetermined": {}},
+        {
+            "artist_not_found": {},
+            "inactive_2026": {},
+            "not_french": {},
+            "undetermined": {},
+        },
     )
-
-    spotify = SpotifyClient()
 
     candidates = [
         artist
@@ -269,28 +250,50 @@ def main():
         print(f"[{index}/{len(candidates)}] {name}")
 
         try:
-            releases = has_release_in_2026(spotify, artist_id)
+            deezer_artist = find_deezer_artist(name)
         except Exception as error:
-            print(f"Erreur Spotify pour {name} : {error}")
+            print(f"Erreur Deezer pour {name} : {error}")
+            state["processed"][artist_id] = "error"
+            continue
+
+        if not deezer_artist:
+            report["artist_not_found"][artist_id] = {
+                "name": name,
+                "reason": "Artiste introuvable sur Deezer",
+            }
+            state["processed"][artist_id] = "artist_not_found"
+            continue
+
+        deezer_id = deezer_artist["id"]
+        deezer_name = deezer_artist.get("name", name)
+
+        try:
+            releases = has_release_in_2026(deezer_id)
+        except Exception as error:
+            print(f"Erreur albums pour {name} : {error}")
             state["processed"][artist_id] = "error"
             continue
 
         if not releases:
             report["inactive_2026"][artist_id] = {
                 "name": name,
+                "deezer_name": deezer_name,
+                "deezer_id": deezer_id,
                 "reason": "Aucune sortie album ou single en 2026",
             }
             state["processed"][artist_id] = "inactive_2026"
             continue
 
         artist_copy = dict(artist)
+        artist_copy["deezer_id"] = deezer_id
+        artist_copy["deezer_name"] = deezer_name
         artist_copy["releases_2026"] = releases[:10]
         active_artists[artist_id] = artist_copy
         state["active"][artist_id] = True
 
-        track_name = get_top_track_name(spotify, artist_id)
+        track = get_popular_track(deezer_id)
 
-        if not track_name:
+        if not track:
             report["undetermined"][artist_id] = {
                 "name": name,
                 "reason": "Aucun titre populaire trouvé pour vérifier la langue",
@@ -298,16 +301,20 @@ def main():
             state["processed"][artist_id] = "undetermined"
             continue
 
-        verdict, details = detect_french_from_lyrics(track_name, name)
+        track_name = track.get("title")
+        verdict, details = detect_french_from_lyrics(track_name, deezer_name)
 
         if verdict == "french":
             artist_copy["french_check"] = details
+            artist_copy["checked_track"] = track_name
             french_artists[artist_id] = artist_copy
             state["french"][artist_id] = True
             state["processed"][artist_id] = "french"
         elif verdict == "not_french":
             report["not_french"][artist_id] = {
                 "name": name,
+                "deezer_name": deezer_name,
+                "checked_track": track_name,
                 "reason": "Paroles principales non détectées comme françaises",
                 "details": details,
             }
@@ -315,6 +322,8 @@ def main():
         else:
             report["undetermined"][artist_id] = {
                 "name": name,
+                "deezer_name": deezer_name,
+                "checked_track": track_name,
                 "reason": "Langue non confirmée",
                 "details": details,
             }
@@ -326,7 +335,7 @@ def main():
             save_json(FRENCH_FILE, french_artists)
             save_json(REPORT_FILE, report)
 
-        time.sleep(0.3)
+        time.sleep(0.4)
 
     save_json(STATE_FILE, state)
     save_json(ACTIVE_FILE, active_artists)
@@ -336,6 +345,7 @@ def main():
     print("Traitement terminé.")
     print(f"Artistes actifs en 2026 : {len(active_artists)}")
     print(f"Artistes francophones conservés : {len(french_artists)}")
+    print(f"Artistes introuvables : {len(report['artist_not_found'])}")
     print(f"Exclusions pour inactivité 2026 : {len(report['inactive_2026'])}")
     print(f"Exclusions pour non-francophonie : {len(report['not_french'])}")
     print(f"Cas indéterminés : {len(report['undetermined'])}")
