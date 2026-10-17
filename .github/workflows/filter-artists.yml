@@ -6,11 +6,14 @@ on:
       max_artists:
         description: "Nombre maximum d'artistes à traiter (0 = tous)"
         required: false
-        default: "25"
+        default: "0"
       min_monthly_listeners:
         description: "Auditeurs mensuels minimum (0 = aucun filtre)"
         required: false
         default: "0"
+
+  schedule:
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: write
@@ -18,25 +21,31 @@ permissions:
 jobs:
   filter:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Installer Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
 
       - name: Filtrer les artistes
         env:
-          MAX_ARTISTS: ${{ github.event.inputs.max_artists || '25' }}
+          MAX_ARTISTS: ${{ github.event.inputs.max_artists || '0' }}
           MIN_MONTHLY_LISTENERS: ${{ github.event.inputs.min_monthly_listeners || '0' }}
         run: python scripts/filter_artists.py
 
-      - uses: actions/upload-artifact@v4
+      - name: Sauvegarder les résultats
+        uses: actions/upload-artifact@v4
         with:
           name: artistes-filtres
           path: output/
@@ -46,6 +55,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add output/
-          git diff --cached --quiet || git commit -m "Mise à jour du filtrage des artistes"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "Aucun changement à committer."
+          else
+            git commit -m "Progression du filtrage des artistes"
+            git pull --rebase
+            git push
+          fi
