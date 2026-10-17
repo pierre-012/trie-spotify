@@ -1,7 +1,9 @@
+import functools
 import json
 import os
 import re
 import time
+from datetime import datetime
 from pathlib import Path
 
 import requests
@@ -36,7 +38,10 @@ STRONG_FRENCH_RATIO = 0.6
 LYRICS_FRENCH_RATIO = 0.5
 
 MIN_LISTENERS = int(os.getenv("MIN_MONTHLY_LISTENERS", "0"))
-MAX_ARTISTS = int(os.getenv("MAX_ARTISTS", "100"))
+MAX_ARTISTS = int(os.getenv("MAX_ARTISTS", "0"))
+
+MAX_RUN_SECONDS = int(os.getenv("MAX_RUN_SECONDS", "17100"))
+SAFETY_MARGIN_SECONDS = 300
 
 FRENCH_MARKERS = re.compile(
     r"\b(je|tu|il|elle|nous|vous|ils|elles|mais|donc|alors|avec|sans|pour|dans|sur|"
@@ -57,12 +62,17 @@ NON_FRENCH_LANGUAGES = {
 }
 
 
+def log(*values):
+    timestamp = datetime.now().strftime("%H:%M:%S")
+    print(f"[{timestamp}]", *values, flush=True)
+
+
 def load_artists():
     artists = {}
 
     for path in SOURCE_FILES:
         if not path.exists():
-            print(f"Fichier absent, ignoré : {path}")
+            log(f"Fichier absent, ignoré : {path}")
             continue
 
         with path.open(encoding="utf-8") as file:
@@ -72,7 +82,7 @@ def load_artists():
             artist["id"] = artist.get("id", artist_id)
             artists[artist_id] = artist
 
-    print(f"Artistes uniques chargés : {len(artists)}")
+    log(f"Artistes uniques chargés : {len(artists)}")
     return artists
 
 
@@ -84,8 +94,19 @@ def load_json(path, default):
 
 
 def save_json(path, data):
-    with path.open("w", encoding="utf-8") as file:
+    temp_path = path.with_suffix(".tmp")
+
+    with temp_path.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
+
+    temp_path.replace(path)
+
+
+def save_all(state, active_artists, french_artists, report):
+    save_json(STATE_FILE, state)
+    save_json(ACTIVE_FILE, active_artists)
+    save_json(FRENCH_FILE, french_artists)
+    save_json(REPORT_FILE, report)
 
 
 def deezer_get(url, params=None):
@@ -97,7 +118,7 @@ def deezer_get(url, params=None):
 
             if response.status_code == 429:
                 wait = int(response.headers.get("Retry-After", "5"))
-                print(f"Rate limit Deezer : attente de {wait} secondes")
+                log(f"Rate limit Deezer : attente de {wait} secondes")
                 time.sleep(wait)
                 continue
 
@@ -172,6 +193,7 @@ def has_release_in_2026(deezer_artist_id):
                 )
 
         if releases:
+            log(f"    Sortie 2026 trouvée : {releases[0]['name']} ({releases[0]['release_date']})")
             return releases
 
         index += len(items)
@@ -189,10 +211,10 @@ def get_artist_tracks(deezer_artist_id):
     tracks = data.get("data", [])
 
     if tracks:
-        print(f"    Titres populaires récupérés : {len(tracks)}")
+        log(f"    Titres populaires récupérés : {len(tracks)}")
         return tracks
 
-    print("    Aucun titre populaire : fallback sur les albums")
+    log("    Aucun titre populaire : fallback sur les albums")
 
     albums_data = deezer_get(
         f"{DEEZER_API}/artist/{deezer_artist_id}/albums",
@@ -226,7 +248,7 @@ def get_artist_tracks(deezer_artist_id):
 
     tracks = tracks[:TRACK_LIMIT]
 
-    print(f"    Titres récupérés via albums : {len(tracks)}")
+    log(f"    Titres récupérés via albums : {len(tracks)}")
     return tracks
 
 
@@ -293,7 +315,7 @@ def analyze_titles(tracks):
         "tracks": analyzed_titles,
     }
 
-    print(
+    log(
         f"    Titres analysés : {analyzed_count} | "
         f"français : {french_count} | ratio : {ratio:.2f}"
     )
@@ -367,6 +389,8 @@ def confirm_french_with_lyrics(tracks, artist_name):
     french_count = 0
     analyzed_count = 0
 
+    log("    Vérification des paroles via LRCLIB")
+
     for track in tracks:
         if analyzed_count >= LYRICS_CHECK_LIMIT:
             break
@@ -379,6 +403,7 @@ def confirm_french_with_lyrics(tracks, artist_name):
         lyrics = get_lyrics(title, artist_name)
 
         if not lyrics:
+            log(f"    Paroles introuvables : {title}")
             continue
 
         verdict, details = analyze_lyrics(lyrics)
@@ -390,6 +415,11 @@ def confirm_french_with_lyrics(tracks, artist_name):
                 "verdict": verdict,
                 "details": details,
             }
+        )
+
+        log(
+            f"    Paroles analysées : {title} | "
+            f"verdict : {verdict} | langue : {details['language']}"
         )
 
         if verdict == "french":
@@ -407,9 +437,9 @@ def confirm_french_with_lyrics(tracks, artist_name):
         "ratio": round(ratio, 3),
     }
 
-    print(
-        f"    Paroles analysées : {analyzed_count} | "
-        f"français : {french_count} | ratio : {ratio:.2f}"
+    log(
+        f"    Bilan paroles : {analyzed_count} analysées | "
+        f"{french_count} françaises | ratio : {ratio:.2f}"
     )
 
     if analyzed_count == 0:
@@ -421,7 +451,114 @@ def confirm_french_with_lyrics(tracks, artist_name):
     return "not_french", details
 
 
+def process_artist(artist, state, active_artists, french_artists, report):
+    artist_id = artist["id"]
+    name = artist.get("name", "Artiste inconnu")
+
+    deezer_artist = find_deezer_artist(name)
+
+    if not deezer_artist:
+        log("    Artiste introuvable sur Deezer")
+
+        report["artist_not_found"][artist_id] = {
+            "name": name,
+            "reason": "Artiste introuvable sur Deezer",
+        }
+        state["processed"][artist_id] = "artist_not_found"
+        return
+
+    deezer_id = deezer_artist["id"]
+    deezer_name = deezer_artist.get("name", name)
+
+    log(f"    Correspondance Deezer : {deezer_name} (ID {deezer_id})")
+
+    releases = has_release_in_2026(deezer_id)
+
+    if not releases:
+        log("    Aucune sortie album ou single en 2026 : exclu")
+
+        report["inactive_2026"][artist_id] = {
+            "name": name,
+            "deezer_name": deezer_name,
+            "deezer_id": deezer_id,
+            "reason": "Aucune sortie album ou single en 2026",
+        }
+        state["processed"][artist_id] = "inactive_2026"
+        return
+
+    artist_copy = dict(artist)
+    artist_copy["deezer_id"] = deezer_id
+    artist_copy["deezer_name"] = deezer_name
+    artist_copy["releases_2026"] = releases[:10]
+
+    active_artists[artist_id] = artist_copy
+    state["active"][artist_id] = True
+
+    tracks = get_artist_tracks(deezer_id)
+
+    if not tracks:
+        log("    Aucun titre récupérable, même via les albums : exclu")
+
+        report["not_french"][artist_id] = {
+            "name": name,
+            "deezer_name": deezer_name,
+            "deezer_id": deezer_id,
+            "reason": "Aucun titre trouvé sur Deezer",
+        }
+        state["processed"][artist_id] = "not_french"
+        return
+
+    title_details = analyze_titles(tracks)
+    artist_copy["title_check"] = title_details
+
+    title_ratio = title_details["ratio"]
+
+    if title_ratio > STRONG_FRENCH_RATIO:
+        verdict = "french"
+        log("    Ratio de titres suffisant : conservé")
+
+        artist_copy["french_check"] = {
+            "method": "track_titles",
+            **title_details,
+        }
+
+    else:
+        log("    Ratio insuffisant : vérification des paroles")
+
+        verdict, lyrics_details = confirm_french_with_lyrics(
+            tracks,
+            deezer_name,
+        )
+
+        artist_copy["french_check"] = {
+            "method": "lyrics_confirmation",
+            "title_check": title_details,
+            **lyrics_details,
+        }
+
+    if verdict == "french":
+        french_artists[artist_id] = artist_copy
+        state["french"][artist_id] = True
+        state["processed"][artist_id] = "french"
+
+        log("    Résultat : FRANCOPHONE ET ACTIF, conservé")
+
+    else:
+        report["not_french"][artist_id] = {
+            "name": name,
+            "deezer_name": deezer_name,
+            "reason": "Francophonie non confirmée",
+            "french_check": artist_copy.get("french_check"),
+        }
+        state["processed"][artist_id] = "not_french"
+
+        log("    Résultat : non conservé")
+
+
 def main():
+    started_at = time.time()
+    deadline = started_at + MAX_RUN_SECONDS - SAFETY_MARGIN_SECONDS
+
     artists = load_artists()
 
     state = load_json(
@@ -460,136 +597,50 @@ def main():
     if MAX_ARTISTS > 0:
         candidates = candidates[:MAX_ARTISTS]
 
-    print(f"Artistes à traiter dans cette exécution : {len(candidates)}")
+    log(f"Artistes à traiter dans cette exécution : {len(candidates)}")
+    log(
+        f"Arrêt prévu après {MAX_RUN_SECONDS // 60} minutes, "
+        f"avec {SAFETY_MARGIN_SECONDS // 60} minutes de marge"
+    )
+
+    processed_in_run = 0
 
     for index, artist in enumerate(candidates, start=1):
+        if time.time() >= deadline:
+            log("Limite de temps atteinte : arrêt propre du traitement.")
+            break
+
         artist_id = artist["id"]
         name = artist.get("name", "Artiste inconnu")
 
-        print(f"[{index}/{len(candidates)}] {name}")
+        log(f"[{index}/{len(candidates)}] {name}")
 
         try:
-            deezer_artist = find_deezer_artist(name)
+            process_artist(artist, state, active_artists, french_artists, report)
+            processed_in_run += 1
+
         except Exception as error:
-            print(f"Erreur Deezer pour {name} : {error}")
+            log(f"Erreur non bloquante pour {name} : {error}")
             state["processed"][artist_id] = "error"
-            continue
 
-        if not deezer_artist:
-            report["artist_not_found"][artist_id] = {
-                "name": name,
-                "reason": "Artiste introuvable sur Deezer",
-            }
-            state["processed"][artist_id] = "artist_not_found"
-            continue
+        save_all(state, active_artists, french_artists, report)
 
-        deezer_id = deezer_artist["id"]
-        deezer_name = deezer_artist.get("name", name)
+        time.sleep(0.25)
 
-        try:
-            releases = has_release_in_2026(deezer_id)
-        except Exception as error:
-            print(f"Erreur albums pour {name} : {error}")
-            state["processed"][artist_id] = "error"
-            continue
+    save_all(state, active_artists, french_artists, report)
 
-        if not releases:
-            report["inactive_2026"][artist_id] = {
-                "name": name,
-                "deezer_name": deezer_name,
-                "deezer_id": deezer_id,
-                "reason": "Aucune sortie album ou single en 2026",
-            }
-            state["processed"][artist_id] = "inactive_2026"
-            continue
+    elapsed = int(time.time() - started_at)
+    remaining = len(artists) - len(state["processed"])
 
-        artist_copy = dict(artist)
-        artist_copy["deezer_id"] = deezer_id
-        artist_copy["deezer_name"] = deezer_name
-        artist_copy["releases_2026"] = releases[:10]
-
-        active_artists[artist_id] = artist_copy
-        state["active"][artist_id] = True
-
-        try:
-            tracks = get_artist_tracks(deezer_id)
-        except Exception as error:
-            print(f"Erreur titres pour {name} : {error}")
-            state["processed"][artist_id] = "error"
-            continue
-
-        if not tracks:
-            print("    Aucun titre récupérable, même via les albums")
-
-            report["not_french"][artist_id] = {
-                "name": name,
-                "deezer_name": deezer_name,
-                "deezer_id": deezer_id,
-                "reason": "Aucun titre trouvé sur Deezer",
-            }
-            state["processed"][artist_id] = "not_french"
-            continue
-
-        title_details = analyze_titles(tracks)
-        artist_copy["title_check"] = title_details
-
-        title_ratio = title_details["ratio"]
-
-        if title_ratio > STRONG_FRENCH_RATIO:
-            verdict = "french"
-
-            artist_copy["french_check"] = {
-                "method": "track_titles",
-                **title_details,
-            }
-
-        else:
-            print("    Ratio insuffisant : vérification des paroles")
-
-            verdict, lyrics_details = confirm_french_with_lyrics(
-                tracks,
-                deezer_name,
-            )
-
-            artist_copy["french_check"] = {
-                "method": "lyrics_confirmation",
-                "title_check": title_details,
-                **lyrics_details,
-            }
-
-        if verdict == "french":
-            french_artists[artist_id] = artist_copy
-            state["french"][artist_id] = True
-            state["processed"][artist_id] = "french"
-
-        else:
-            report["not_french"][artist_id] = {
-                "name": name,
-                "deezer_name": deezer_name,
-                "reason": "Francophonie non confirmée",
-                "french_check": artist_copy.get("french_check"),
-            }
-            state["processed"][artist_id] = "not_french"
-
-        if index % 25 == 0:
-            save_json(STATE_FILE, state)
-            save_json(ACTIVE_FILE, active_artists)
-            save_json(FRENCH_FILE, french_artists)
-            save_json(REPORT_FILE, report)
-
-        time.sleep(0.4)
-
-    save_json(STATE_FILE, state)
-    save_json(ACTIVE_FILE, active_artists)
-    save_json(FRENCH_FILE, french_artists)
-    save_json(REPORT_FILE, report)
-
-    print("Traitement terminé.")
-    print(f"Artistes actifs en 2026 : {len(active_artists)}")
-    print(f"Artistes francophones conservés : {len(french_artists)}")
-    print(f"Artistes introuvables : {len(report['artist_not_found'])}")
-    print(f"Exclusions pour inactivité 2026 : {len(report['inactive_2026'])}")
-    print(f"Exclusions pour non-francophonie : {len(report['not_french'])}")
+    log("Traitement terminé pour cette exécution.")
+    log(f"Artistes traités dans ce run : {processed_in_run}")
+    log(f"Durée : {elapsed // 60} minutes")
+    log(f"Artistes restants : {remaining}")
+    log(f"Artistes actifs en 2026 : {len(active_artists)}")
+    log(f"Artistes francophones conservés : {len(french_artists)}")
+    log(f"Artistes introuvables : {len(report['artist_not_found'])}")
+    log(f"Exclusions pour inactivité 2026 : {len(report['inactive_2026'])}")
+    log(f"Exclusions pour non-francophonie : {len(report['not_french'])}")
 
 
 if __name__ == "__main__":
