@@ -93,19 +93,57 @@ def load_json(path, default):
     return default
 
 
-def save_json(path, data):
+# Champs conservés dans les fichiers finaux d'artistes.
+# Les données Deezer et les résultats d'analyse restent utilisables en mémoire,
+# mais ne sont pas enregistrés dans artistes_actifs_2026.json ou
+# artistes_francophones_2026.json.
+ARTIST_FIELDS = {
+    "id",
+    "name",
+    "url",
+    "uri",
+    "monthly_listeners",
+    "genres",
+    "external_urls",
+}
+
+
+def clean_artist_data(artists):
+    """Ne conserve que les champs utiles dans les fichiers d'artistes."""
+    cleaned = {}
+
+    for artist_id, artist in artists.items():
+        cleaned[artist_id] = {
+            key: value
+            for key, value in artist.items()
+            if key in ARTIST_FIELDS
+        }
+
+    return cleaned
+
+
+def save_json(path, data, compact=False):
+    """Sauvegarde un JSON de façon atomique, avec option de compression."""
     temp_path = path.with_suffix(".tmp")
 
     with temp_path.open("w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=2)
+        if compact:
+            json.dump(
+                data,
+                file,
+                ensure_ascii=False,
+                separators=(",", ":"),
+            )
+        else:
+            json.dump(data, file, ensure_ascii=False, indent=2)
 
     temp_path.replace(path)
 
 
 def save_all(state, active_artists, french_artists, report):
     save_json(STATE_FILE, state)
-    save_json(ACTIVE_FILE, active_artists)
-    save_json(FRENCH_FILE, french_artists)
+    save_json(ACTIVE_FILE, clean_artist_data(active_artists), compact=True)
+    save_json(FRENCH_FILE, clean_artist_data(french_artists), compact=True)
     save_json(REPORT_FILE, report)
 
 
