@@ -87,12 +87,58 @@ def load_artists():
 
 
 def load_json(path, default):
-    if path.exists():
-        with path.open(encoding="utf-8") as file:
-            return json.load(file)
-    return default
+    """
+    Charge un fichier JSON de manière sécurisée.
 
+    - Fichier absent ou vide : utilise la valeur par défaut.
+    - JSON invalide : signale le problème et utilise la valeur par défaut.
+    - Structure inattendue : utilise la valeur par défaut.
+    """
+    if not path.exists():
+        log(f"Fichier absent, initialisation : {path.name}")
+        return default
 
+    try:
+        with path.open("r", encoding="utf-8") as file:
+            content = file.read().strip()
+
+        if not content:
+            log(f"Fichier vide, initialisation : {path.name}")
+            return default
+
+        data = json.loads(content)
+
+        # Vérifie que le JSON possède le type attendu.
+        if not isinstance(data, type(default)):
+            log(f"Format invalide, réinitialisation : {path.name}")
+            return default
+
+        # Vérifie la structure du fichier de progression.
+        if path == STATE_FILE:
+            required_keys = {"processed", "active", "french"}
+
+            if not required_keys.issubset(data.keys()):
+                log(f"Structure de progression invalide : {path.name}")
+                return default
+
+            if not all(
+                isinstance(data[key], dict)
+                for key in required_keys
+            ):
+                log(f"Données de progression invalides : {path.name}")
+                return default
+
+        return data
+
+    except (json.JSONDecodeError, UnicodeDecodeError) as error:
+        log(f"JSON illisible : {path.name} ({error})")
+        log("Utilisation des valeurs par défaut.")
+        return default
+
+    except OSError as error:
+        log(f"Impossible de lire {path.name} : {error}")
+        raise
+        
 # Champs conservés dans les fichiers finaux d'artistes.
 # Les données Deezer et les résultats d'analyse restent utilisables en mémoire,
 # mais ne sont pas enregistrés dans artistes_actifs_2026.json ou
